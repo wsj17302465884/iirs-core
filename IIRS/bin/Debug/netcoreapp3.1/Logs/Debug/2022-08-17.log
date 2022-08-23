@@ -1,0 +1,21 @@
+时　间：2022/08/17 09:57:02.563         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:294c80dd-5078-4763-8abf-583bb4ecfa68,异常消息:ORA-01745: 无效的主机/绑定变量名         
+源信息：IIRS.Controllers.YueController.GetTimeList         
+行　号：192         
+-----------------------------------------------------------
+时　间：2022/08/17 09:58:29.518         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:9ded8a22-c6cd-463a-b454-b95d170aedf8,异常消息:ORA-01745: 无效的主机/绑定变量名         
+源信息：IIRS.Controllers.YueController.GetTimeList         
+行　号：190         
+-----------------------------------------------------------
+时　间：2022/08/17 10:10:51.930         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:f0391283-7924-4875-aca0-4fccbc143cd9,异常消息:ORA-01745: 无效的主机/绑定变量名         
+源信息：IIRS.Controllers.YueController.GetTimeList         
+行　号：190         
+-----------------------------------------------------------

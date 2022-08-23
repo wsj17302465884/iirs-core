@@ -1,0 +1,44 @@
+时　间：2022/05/10 14:10:06.353         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:1f93ba2c-ed1b-417c-900a-c10bc8e10e60,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/10 14:12:02.639         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:66eadbbe-ebfd-4e33-8482-7345d09d85b5,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/10 14:12:12.915         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:70a06f8c-2f6e-4b53-bac6-30c084c1477a,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/10 14:12:16.206         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:e14623c9-09d8-4564-9867-4119996a6d7c,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/10 14:13:11.093         
+级　别：Debug         
+模　块：IIRS.Controllers.CommonController         
+消　息：CommonController.BizJsonDataQueryByXID:【错误代码：b68f775539304fafa7d80180ac99a0ee,原因:English Message : Connection open error . ORA-01017: invalid username/password; logon denied
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-01017: invalid username/password; logon denied.】         
+源信息：IIRS.Controllers.CommonController.BizJsonDataQueryByXID         
+行　号：325         
+-----------------------------------------------------------
+时　间：2022/05/10 14:15:10.466         
+级　别：Debug         
+模　块：IIRS.Controllers.CommonController         
+消　息：CommonController.BizJsonDataQueryByXID:【错误代码：a5aedbfab3724efcbdb70180ac9b7362,原因:English Message : Connection open error . ORA-01017: invalid username/password; logon denied
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-01017: invalid username/password; logon denied.】         
+源信息：IIRS.Controllers.CommonController.BizJsonDataQueryByXID         
+行　号：325         
+-----------------------------------------------------------

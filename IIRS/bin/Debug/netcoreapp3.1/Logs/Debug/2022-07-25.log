@@ -1,0 +1,35 @@
+时　间：2022/07/25 15:39:56.711         
+级　别：Debug         
+模　块：IIRS.Controllers.ProvidentFundController         
+消　息：错误码:0d832e57-38e5-4a39-8829-135406eaeb35,异常消息:ORA-00904: "SLBH": 标识符无效         
+源信息：IIRS.Controllers.ProvidentFundController.GetProvident         
+行　号：66         
+-----------------------------------------------------------
+时　间：2022/07/25 16:39:09.887         
+级　别：Debug         
+模　块：IIRS.Controllers.ProvidentFundController         
+消　息：错误码:e774e6f3-9417-4dbf-8e3f-5d56854c2260,异常消息:Index and length must refer to a location within the string. (Parameter 'length')         
+源信息：IIRS.Controllers.ProvidentFundController.GetProvident         
+行　号：66         
+-----------------------------------------------------------
+时　间：2022/07/25 16:39:27.518         
+级　别：Debug         
+模　块：IIRS.Controllers.ProvidentFundController         
+消　息：错误码:54c376a4-5393-42bc-ab40-227fcaa582e0,异常消息:Index and length must refer to a location within the string. (Parameter 'length')         
+源信息：IIRS.Controllers.ProvidentFundController.GetProvident         
+行　号：66         
+-----------------------------------------------------------
+时　间：2022/07/25 16:40:24.568         
+级　别：Debug         
+模　块：IIRS.Controllers.ProvidentFundController         
+消　息：错误码:7574b9a3-56ab-4fae-8654-f7ed9e66542c,异常消息:Index and length must refer to a location within the string. (Parameter 'length')         
+源信息：IIRS.Controllers.ProvidentFundController.GetProvident         
+行　号：66         
+-----------------------------------------------------------
+时　间：2022/07/25 16:40:49.165         
+级　别：Debug         
+模　块：IIRS.Controllers.ProvidentFundController         
+消　息：错误码:bd121e3d-22ba-47a4-ad7f-99e6f38a7bb5,异常消息:Index and length must refer to a location within the string. (Parameter 'length')         
+源信息：IIRS.Controllers.ProvidentFundController.GetProvident         
+行　号：66         
+-----------------------------------------------------------

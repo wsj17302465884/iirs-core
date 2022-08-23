@@ -1,0 +1,21 @@
+时　间：2021/02/04 11:18:17.468         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:f45e8d38-b0cc-4eca-95ae-24ae92279b07,异常消息:Index and length must refer to a location within the string. (Parameter 'length')         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetBusinessJudgment3         
+行　号：153         
+-----------------------------------------------------------
+时　间：2021/02/04 11:18:47.422         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:c414fb7a-f9cb-42b3-8417-292c3700bbaa,异常消息:Index and length must refer to a location within the string. (Parameter 'length')         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetBusinessJudgment3         
+行　号：153         
+-----------------------------------------------------------
+时　间：2021/02/04 11:20:22.731         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:66d3c301-0555-44c3-a3fa-fe34ccb372e0,异常消息:Index and length must refer to a location within the string. (Parameter 'length')         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetBusinessJudgment3         
+行　号：153         
+-----------------------------------------------------------

@@ -1,0 +1,8 @@
+时　间：2021/09/24 16:13:32.475         
+级　别：Debug         
+模　块：IIRS.Controllers.LSTController         
+消　息：错误码:6234001b-db3a-464e-a60f-3d66c49cd19c,异常消息:English Message : Connection open error . Network Transport: TCP transport address connect failure
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Network Transport: TCP transport address connect failure.         
+源信息：IIRS.Controllers.LSTController.GetFileInfoList         
+行　号：212         
+-----------------------------------------------------------

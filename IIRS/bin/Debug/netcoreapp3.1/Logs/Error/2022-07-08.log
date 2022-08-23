@@ -1,0 +1,14 @@
+时　间：2022/07/08 12:38:34.733         
+级　别：Error         
+模　块：IIRS.Services.ChangeMrgeServices         
+消　息：ORA-01438: 值大于为此列指定的允许精度         
+源信息：IIRS.Services.ChangeMrgeServices.ChangeMrgesSave         
+行　号：97         
+-----------------------------------------------------------
+时　间：2022/07/08 12:42:11.886         
+级　别：Error         
+模　块：IIRS.Services.ChangeMrgeServices         
+消　息：ORA-01438: 值大于为此列指定的允许精度         
+源信息：IIRS.Services.ChangeMrgeServices.ChangeMrgesSave         
+行　号：97         
+-----------------------------------------------------------

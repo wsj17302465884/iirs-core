@@ -1,0 +1,70 @@
+时　间：2021/05/27 10:58:07.622         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：7bb981e3d942453f8bcc0179abc1fc83,原因:The added or subtracted value results in an un-representable DateTime. (Parameter 'months')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/27 11:02:30.174         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：95d35a77fce449e0810c0179abc5fe1a,原因:The added or subtracted value results in an un-representable DateTime. (Parameter 'months')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/27 11:05:11.694         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：6aaabfc6762642e091920179abc8750a,原因:The added or subtracted value results in an un-representable DateTime. (Parameter 'months')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/27 11:05:56.018         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：67d7c23daa46426e86520179abc92232,原因:Object reference not set to an instance of an object.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/27 14:10:42.118         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：bb5ec6f43f964b9bb3710179ac724b45,原因:Object reference not set to an instance of an object.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/27 15:14:08.846         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：a4e309aae59f4d90b2da0179acac614a,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/27 15:15:01.319         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：2cd58140307e4f0eaf700179acad2e44,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/27 15:16:20.770         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：de763de68b3e457eafb70179acae64a2,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/27 15:16:38.430         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：b2228426a3b1497794e10179acaea99e,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/27 15:16:40.708         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：dcfcd1e07368431f8e090179acaeb284,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------

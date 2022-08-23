@@ -1,0 +1,7 @@
+时　间：2021/03/15 13:34:53.574         
+级　别：Error         
+模　块：IIRS.Services.BdcGeneralMrgeServices         
+消　息：ORA-00001: 违反唯一约束条件 (IIRS.PK_SFD_INFO)         
+源信息：IIRS.Services.BdcGeneralMrgeServices.Mortgage         
+行　号：303         
+-----------------------------------------------------------

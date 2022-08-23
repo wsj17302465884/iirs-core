@@ -1,0 +1,147 @@
+时　间：2021/02/01 16:23:46.455         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:eb4c82b2-5969-4d12-a413-de26715eadfd,异常消息:ORA-00937: 不是单组分组函数         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：273         
+-----------------------------------------------------------
+时　间：2021/02/01 16:34:05.654         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , SUM("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "BUS_PK" = :BUS_PK0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 16:34:15.933         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:8add3255-bad8-47dc-91f7-389435e3b6f1,异常消息:ORA-01722: 无效数字         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：273         
+-----------------------------------------------------------
+时　间：2021/02/01 16:35:12.231         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , SUM("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "BUS_PK" = :BUS_PK0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 16:35:24.182         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:8ceeb16f-8971-4181-91e5-40cd0200b20d,异常消息:ORA-01722: 无效数字         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：273         
+-----------------------------------------------------------
+时　间：2021/02/01 16:40:56.603         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 16:52:54.004         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 16:56:09.134         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 16:57:43.653         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 16:57:44.066         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:da4f9175-8507-41ac-9d2e-2da1d592cd94,异常消息:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：273         
+-----------------------------------------------------------
+时　间：2021/02/01 16:58:01.660         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 16:59:45.922         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 17:24:00.648         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 17:24:59.381         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 17:29:32.003         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 17:30:14.687         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 17:33:16.551         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 17:37:25.943         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 17:38:51.868         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 17:40:48.594         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------
+时　间：2021/02/01 17:41:52.005         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass7_0.<TransferSjsjPrint>b__4         
+行　号：213         
+-----------------------------------------------------------

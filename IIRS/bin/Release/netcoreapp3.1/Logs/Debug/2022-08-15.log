@@ -1,0 +1,28 @@
+时　间：2022/08/15 17:00:07.046         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:ae627b60-abcd-4809-8432-30314d52cad9,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：0         
+-----------------------------------------------------------
+时　间：2022/08/15 17:01:20.319         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:e77c7d87-c182-458a-8dc4-5cceef7239af,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：0         
+-----------------------------------------------------------
+时　间：2022/08/15 17:02:21.135         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:6209c80f-6038-4de7-8aef-c0a3b427fbb0,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：0         
+-----------------------------------------------------------
+时　间：2022/08/15 17:07:28.745         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:bcdd6f60-6290-4683-9cf4-6506fecdd867,异常消息:One or more errors occurred. (ORA-00904: "CDATE": 标识符无效)         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：0         
+-----------------------------------------------------------

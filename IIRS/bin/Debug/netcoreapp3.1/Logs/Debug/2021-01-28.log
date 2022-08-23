@@ -1,0 +1,28 @@
+时　间：2021/01/28 10:07:24.543         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , "G"."QLQSSJ" AS "QSSJ" , "G"."QLJSSJ" AS "JSSJ" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/28 10:08:18.297         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , "G"."QLQSSJ" AS "QSSJ" , "G"."QLJSSJ" AS "JSSJ" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/28 10:27:52.665         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , "G"."QLQSSJ" AS "QSSJ" , "G"."QLJSSJ" AS "JSSJ" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/28 10:33:36.228         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , "G"."QLQSSJ" AS "QSSJ" , "G"."QLJSSJ" AS "JSSJ" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------

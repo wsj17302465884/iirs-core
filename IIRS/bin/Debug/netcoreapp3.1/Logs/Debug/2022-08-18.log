@@ -1,0 +1,46 @@
+时　间：2022/08/18 14:56:28.646         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:730eaa3c-19c9-42f6-be44-b79a40e7d5f8,异常消息:ORA-01400: 无法将 NULL 插入 ("LYSXK"."YUE_DATESCHEDULE"."SCHEDULEDATE")
+ORA-06512: 在 line 2         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：202         
+-----------------------------------------------------------
+时　间：2022/08/18 14:58:05.392         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:a876c58b-d4d0-4896-aa52-a01d8b8617ab,异常消息:ORA-01400: 无法将 NULL 插入 ("LYSXK"."YUE_DATESCHEDULE"."SCHEDULEDATE")
+ORA-06512: 在 line 2         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：202         
+-----------------------------------------------------------
+时　间：2022/08/18 15:01:46.474         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:e4f80ff9-bc22-4079-9c50-b7e6a7410bd0,异常消息:UpdateObjs is null         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：203         
+-----------------------------------------------------------
+时　间：2022/08/18 15:02:41.074         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:4214ba64-999a-4840-bf36-4e004d0c5815,异常消息:ORA-00001: 违反唯一约束条件 (LYSXK.SYS_C0041099)
+ORA-06512: 在 line 2         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：202         
+-----------------------------------------------------------
+时　间：2022/08/18 15:34:33.263         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:bc19defe-08b0-4386-aeff-d46fc9354819,异常消息:ORA-00001: 违反唯一约束条件 (LYSXK.SYS_C0041099)
+ORA-06512: 在 line 2         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：202         
+-----------------------------------------------------------
+时　间：2022/08/18 15:39:15.702         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:104fc706-7590-4ab0-a914-869992e31cbd,异常消息:InsertObjs is null         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：202         
+-----------------------------------------------------------

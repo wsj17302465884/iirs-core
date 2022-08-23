@@ -1,0 +1,504 @@
+时　间：2021/01/07 14:20:39.219         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/07 14:31:22.053         
+级　别：Debug         
+模　块：IIRS.Controllers.ProvidentFundController         
+消　息：错误码:e40f7ee2-7fbb-4aa1-bd44-77baa066c7f0,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.ProvidentFundController.GetProvident         
+行　号：65         
+-----------------------------------------------------------
+时　间：2021/01/07 14:43:00.344         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:43:00.445         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('TS-170810135942-IT35XLYO','TS-170810135654-2V475M3B','FHID918491#00470589','TS-170810135811-TPU74680','FHID915626#00473524','FHID808018#00365542'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:43:01.391         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:43:01.391         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('TS-170810135942-IT35XLYO','TS-170810135654-2V475M3B','FHID918491#00470589','TS-170810135811-TPU74680','FHID915626#00473524','FHID808018#00365542'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:43:05.786         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 14:48:36.993         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:48:37.007         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID947613#00424616'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:48:39.890         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:48:39.890         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID947613#00424616'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:48:40.655         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:48:40.655         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID686363#00168871'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:49:27.400         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:49:27.400         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID852826#00384666'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:49:28.136         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:49:28.141         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('HDC-170519094440-GHFJ2015X22E0C34J54'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:49:45.325         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:49:45.339         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID987031#00532997'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:49:46.044         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:49:46.051         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID966521#00520500'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:50:18.692         
+级　别：Debug         
+模　块：IIRS.Controllers.CertificationController         
+消　息：错误码:893ac674-9285-41df-959b-ff385e3ad367,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.CertificationController.GetCertificationListToPage         
+行　号：167         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:30.669         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:30.782         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID932722#00497126'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:31.580         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:31.580         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID990714#00509893'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:35.172         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:38.888         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:58.442         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:58.442         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID932722#00497126'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:58.770         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:54:58.770         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID990714#00509893'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:04.519         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:09.308         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:28.916         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:28.929         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID932023#00496448'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:29.614         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:29.614         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('HDC-190924092333-DJP7Y8W263J54WH3362'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:44.377         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:44.377         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('HDC-181221100452-LF5OO574Y338R120Y06'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:45.105         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:45.111         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('TSH-160903153122-4Q4OV7A3'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:58.069         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:58.082         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID941476#00504416'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:58.741         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:55:58.749         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID979577#00526875'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:14.874         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:14.874         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID889248#00434794'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:15.567         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:15.567         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID855483#00403550'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:34.938         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:34.952         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID900471#00484690'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:35.697         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:35.702         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID965256#00531261'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:49.731         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:49.737         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID877241#00422955'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass4_0.<GetHouseSatausList>b__0         
+行　号：56         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:50.474         
+级　别：Debug         
+模　块：IIRS.Repository.TsglRepository         
+消　息：SELECT "GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","GLMS","CSSJ","LIFECYCLE","ZJZH","ZDSLBH","BDCDYH1","ZDZL","XSQSRQ","XSJZRQ","YBDCDYH","GJBH_ZHH","FDGJLX","ZJFJ","FTJZMJ" FROM "DJ_TSGL"  WHERE ( "SLBH" = :SLBH0 )         
+源信息：IIRS.Repository.TsglRepository+<>c__DisplayClass3_0.<GetTstybmBySlbh>b__0         
+行　号：33         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:50.474         
+级　别：Debug         
+模　块：IIRS.Repository.HouseStatusRepository         
+消　息：SELECT "TSTYBM","BDCLX","BDCDYH","DJBZSLX","SLBH","BDCZH","ZL","JZMJ","GYFS","QLLX","QLXZ","GHYT","FWXG_JZMJ","TDQLLX","TDQLXZ","TDYT","TDSYQX","TDQSRQ","TDZZRQ","JZZDMJ","DYTDMJ","GYTDMJ","DJBQT","DJBDJRQ","DJBFZRQ","DJBZSXLH","DJBFJ","DJBFZJG","BDCZMH","DYMJ","DYMJ2","BDBZZQSE","DYFS","DYQX","DYQT","DYDJRQ","DYQSSJ","DYJSSJ","DYFZRQ","DYZSXLH","DYFZJG","DYHTH","DYFJ","CFWH","CFJG","CFQX","CFRQ","CFQSSJ","CFJSSJ","CFFJ","YG_SLBH","YGSQRQ","YGSPDW","YGSPRQ","YGBDCZMH","YGDJRQ","YGFZJG","YGFZRQ","YGZSXLH","YGQT","DJZL","DYR","DYR_ZJLB","DYR_ZJHM","DYQR","DYQR_ZJLB","DYQR_ZJHM","QLRMC","ZJLB","ZJHM","YWR","YWR_ZJLB","YWR_ZJHM","YG_QLRMC","YG_ZJLB","YG_ZJHM","YG_YWR","YG_YWR_ZJLB","YG_YWR_ZJHM","YY_QLRMC","YY_ZJLB","YY_ZJHM","YY_YWR","YY_YWR_ZJLB","YY_YWR_ZJHM" FROM "V_HOUSE_QUERY"  WHERE  ("TSTYBM" IN ('FHID715454#00277422'))          
+源信息：IIRS.Repository.HouseStatusRepository+<>c__DisplayClass5_0.<GetHouseSatausList_New>b__0         
+行　号：86         
+-----------------------------------------------------------
+时　间：2021/01/07 14:56:58.298         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 14:57:03.244         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 14:57:18.956         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 14:57:31.480         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 14:57:37.148         
+级　别：Debug         
+模　块：IIRS.Repository.HouseBdczhRepository         
+消　息：SELECT "BDCZMH","BDCZH","ZL","DYMJ","DYR" FROM "V_HOUSE_XGZH_QUERY"  WHERE  ("BDCZMH" like '%'||:MethodConst0||'%')          
+源信息：IIRS.Repository.HouseBdczhRepository+<>c__DisplayClass2_0.<GetBdczhByBdczmh>b__0         
+行　号：25         
+-----------------------------------------------------------
+时　间：2021/01/07 16:03:05.780         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/07 16:04:30.157         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/07 16:05:55.045         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/07 16:12:54.171         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/07 16:15:59.725         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/07 16:17:10.636         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/07 16:19:45.853         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/07 16:20:39.852         
+级　别：Debug         
+模　块：IIRS.Services.ProvidentFundServices         
+消　息：SELECT  "B"."QLRMC" AS "QLRMC" , "B"."ZJHM" AS "ZJHM" , "C"."BDCZH" AS "BDCZH" , "D"."ZL" AS "ZL" , "C"."DJRQ" AS "DJRQ" , "E"."JZMJ" AS "JZMJ" , "G"."BDBZZQSE" AS "DYJE" , (SELECT "QLRMC" FROM "V_DJ_QLRGL" WHERE (( "SLBH" = "G"."SLBH" ) AND ( "QLRLX" = :QLRLX5 )) AND ROWNUM=1) AS "DYQR"  FROM "DJ_QLRGL" A Inner JOIN "DJ_QLR" B ON ( "A"."QLRID" = "B"."QLRID" )  Inner JOIN "DJ_DJB" C ON ( "A"."SLBH" = "C"."SLBH" )  Inner JOIN "DJ_SJD" D ON ( "C"."SLBH" = "D"."SLBH" )  Inner JOIN "QL_FWXG" E ON ( "D"."SLBH" = "E"."SLBH" )  Left JOIN "DJ_XGDJGL" F ON ( "E"."SLBH" = "F"."FSLBH" )  Left JOIN "DJ_DY" G ON ( "F"."ZSLBH" = "G"."SLBH" )   WHERE (((( "B"."ZJHM" = (LOWER(:MethodConst0)) ) OR ( "B"."ZJHM" = :ZJHM1 )) AND (( "C"."LIFECYCLE" = :Const2 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."QLRLX" = :QLRLX4 ))         
+源信息：IIRS.Services.ProvidentFundServices+<>c__DisplayClass4_0.<FundModels1>b__0         
+行　号：156         
+-----------------------------------------------------------
+时　间：2021/01/07 19:14:17.521         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.QueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------

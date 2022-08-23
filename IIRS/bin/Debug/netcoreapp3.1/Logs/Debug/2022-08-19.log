@@ -1,0 +1,35 @@
+时　间：2022/08/19 08:59:43.715         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:7fd4f79f-340e-43cc-8f86-aaff1319dbad,异常消息:InsertObjs is null         
+源信息：IIRS.Controllers.YueController.PostDateList         
+行　号：200         
+-----------------------------------------------------------
+时　间：2022/08/19 08:59:57.895         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:e0e41117-f09e-41fb-84de-8ffbd645aa8e,异常消息:ORA-00923: 未找到要求的 FROM 关键字         
+源信息：IIRS.Controllers.YueController.GetTimeList         
+行　号：319         
+-----------------------------------------------------------
+时　间：2022/08/19 09:00:22.177         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:355d983f-362e-46b3-9314-d74bcf0bcd77,异常消息:ORA-00923: 未找到要求的 FROM 关键字         
+源信息：IIRS.Controllers.YueController.GetTimeList         
+行　号：319         
+-----------------------------------------------------------
+时　间：2022/08/19 10:20:22.084         
+级　别：Debug         
+模　块：IIRS.Gov.Services.Law.YUEServices         
+消　息：SELECT  "C"."NAME" AS "TYPENAME" , "A"."SCHEDULEAMOUNT" AS "COUNT" , "D"."STARTTIME" AS "STARTTIME" , "A"."ID" AS "ID"  FROM "YUE_DATESCHEDULE" A  ,"YUE_PERIODTYPEAMOUNT"  B ,"YUE_TYPE"  C ,"YUE_PERIOD"  D  WHERE ((((( "A"."AMOUNT_ID" = "B"."ID" ) AND ( "B"."TYPE_ID" = "C"."ID" )) AND ( "A"."SCHEDULEDATE" = :SCHEDULEDATE0 )) AND ( "D"."ID" = "B"."PERIOD_ID" )) AND ( "D"."STARTTIME" = :STARTTIME1 ))         
+源信息：IIRS.Gov.Services.Law.YUEServices.<ChangeTimeListAsync>b__6_0         
+行　号：42         
+-----------------------------------------------------------
+时　间：2022/08/19 10:20:23.438         
+级　别：Debug         
+模　块：IIRS.Gov.Services.Law.YUEServices         
+消　息：SELECT "ID","SCHEDULEDATE","AMOUNT_ID","SCHEDULEAMOUNT","USEDAMOUNT" FROM "YUE_DATESCHEDULE"  WHERE ( "SCHEDULEDATE" = :SCHEDULEDATE0 )         
+源信息：IIRS.Gov.Services.Law.YUEServices.<ChangeTimeListAsync>b__6_0         
+行　号：42         
+-----------------------------------------------------------

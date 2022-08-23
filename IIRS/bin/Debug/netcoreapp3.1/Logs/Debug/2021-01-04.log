@@ -1,0 +1,147 @@
+时　间：2021/01/04 16:13:49.830         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:13:59.537         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:13:59.745         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:14:57.950         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:14:57.950         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:15:00.683         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass6_0.<GetHouseInfo>b__0         
+行　号：100         
+-----------------------------------------------------------
+时　间：2021/01/04 16:15:00.687         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:15:02.559         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:15:02.578         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:15:02.578         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:15:20.285         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:15:20.365         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:15:20.365         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:15:31.573         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:16:24.494         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:16:24.718         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:16:26.536         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:16:26.604         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:16:26.604         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass6_0.<GetHouseInfo>b__0         
+行　号：100         
+-----------------------------------------------------------
+时　间：2021/01/04 16:16:26.608         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------
+时　间：2021/01/04 16:21:37.670         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass10_0.<UploadFileQuery>b__0         
+行　号：210         
+-----------------------------------------------------------

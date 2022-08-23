@@ -1,0 +1,7 @@
+时　间：2021/04/21 19:55:54.377         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:1cec8407-f6aa-4b08-b581-85b5836e718c,异常消息:One or more errors occurred. (ORA-00942: 表或视图不存在)         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticePost         
+行　号：141         
+-----------------------------------------------------------
