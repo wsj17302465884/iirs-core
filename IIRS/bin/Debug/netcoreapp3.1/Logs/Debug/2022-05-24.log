@@ -1,0 +1,8 @@
+时　间：2022/05/24 14:19:42.281         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:fcb0f8e4-1f02-40f6-bfc7-7ffed5c32021,异常消息:English Message : Connection open error . Network Transport: TCP transport address connect failure
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Network Transport: TCP transport address connect failure.         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------

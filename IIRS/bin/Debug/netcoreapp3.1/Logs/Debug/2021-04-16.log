@@ -1,0 +1,92 @@
+时　间：2021/04/16 09:53:19.820         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:49450d68-6e9a-423b-ba5f-dea3d73b8c56,异常消息:English Message : Connection open error . ORA-12545: Network Transport: Unable to resolve connect hostname
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12545: Network Transport: Unable to resolve connect hostname.         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：284         
+-----------------------------------------------------------
+时　间：2021/04/16 09:55:48.147         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:6bf4ca2e-f1cb-4cd7-b539-64bf3d5e3b81,异常消息:Value cannot be null. (Parameter 'text')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：302         
+-----------------------------------------------------------
+时　间：2021/04/16 09:56:41.103         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:3b6462d8-8df7-4923-9869-1bd66f45a272,异常消息:Value cannot be null. (Parameter 'text')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：302         
+-----------------------------------------------------------
+时　间：2021/04/16 09:56:59.635         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:66c3c283-66c0-48b0-8e0b-9aaad7387c47,异常消息:Value cannot be null. (Parameter 'text')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：302         
+-----------------------------------------------------------
+时　间：2021/04/16 09:58:42.822         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:a949450e-945f-4930-8150-8a56b4c12695,异常消息:Value cannot be null. (Parameter 'text')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：302         
+-----------------------------------------------------------
+时　间：2021/04/16 10:03:09.348         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "A"."BDCZH" AS "BDCZH" , "A"."BDCDYH" AS "BDCDYH" , NVL("G"."ZL","C"."ZL") AS "ZL" , NVL(NVL("D"."JZMJ","F"."SYQMJ"),"E"."GYTDMJ") AS "MJ" , "E"."FTTDMJ" AS "FTMJ" , "C"."GHYT" AS "YT" , "D"."QLXZ" AS "QLXZ" , "E"."QLXZ" AS "TDQLXZ" , "A"."FJ" AS "FJ" , WM_CONCAT(DISTINCT TO_CHAR(H.QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(H.ZJHM)) AS "ZJHM"  FROM "DJ_DJB" A Left JOIN "DJ_TSGL" B ON ( "A"."SLBH" = "B"."SLBH" )  Left JOIN "FC_H_QSDC" C ON ( "B"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "QL_FWXG" D ON ( "A"."SLBH" = "D"."SLBH" )  Left JOIN "QL_TDXG" E ON ( "A"."SLBH" = "E"."SLBH" )  Left JOIN "QL_SLXG" F ON ( "F"."SLBH" = "A"."SLBH" )  Left JOIN "DJ_SJD" G ON ( "A"."SLBH" = "G"."SLBH" )  Left JOIN "DJ_QLRGL" H ON ( "A"."SLBH" = "H"."SLBH" )   WHERE  (:MethodConst0 like '%'||"A"."SLBH"||'%') GROUP BY "A"."BDCZH","A"."BDCDYH","G"."ZL","C"."ZL","D"."JZMJ","F"."SYQMJ","E"."GYTDMJ","E"."FTTDMJ","C"."GHYT","D"."QLXZ","E"."QLXZ","A"."FJ"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass12_0.<BdcGeneralMrgeQdPrint>b__10         
+行　号：719         
+-----------------------------------------------------------
+时　间：2021/04/16 10:44:48.848         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "A"."DYFS" AS "DYLX" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM" , "A"."DJLX" AS "DJLX" , "A"."DJRQ" AS "DJRQ"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：453         
+-----------------------------------------------------------
+时　间：2021/04/16 10:47:14.276         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "A"."DYFS" AS "DYLX" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM" , "A"."DJLX" AS "DJLX" , "A"."DJRQ" AS "DJRQ"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：453         
+-----------------------------------------------------------
+时　间：2021/04/16 10:47:20.602         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/16 10:47:21.061         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/16 10:47:21.067         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/16 10:47:21.067         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/16 10:47:21.087         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------

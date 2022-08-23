@@ -1,0 +1,374 @@
+时　间：2022/05/23 08:56:44.551         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:66dfc6c4-ccb0-4d7b-9f04-9933c412f7b4,异常消息:English Message : Connection open error . ORA-12545: Network Transport: Unable to resolve connect hostname
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12545: Network Transport: Unable to resolve connect hostname.         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:01.509         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) CountTable          
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:02.130         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：SELECT * FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:02.966         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始1         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：647         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:02.966         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：房产户权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：652         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:02.969         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：房产证权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：804         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:02.969         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：宗地权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：890         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:02.969         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：5         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：992         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:02.969         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：7         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：992         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:03.065         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:efe9b0ac-128e-4dd1-bba7-ab16d889719e,异常消息:Length cannot be less than zero. (Parameter 'length')         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticeSelectHouse         
+行　号：51         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:27.353         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) CountTable          
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:27.916         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：SELECT * FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:44.328         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始1         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：647         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:59.227         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：房产户权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：652         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:59.227         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：房产证权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：804         
+-----------------------------------------------------------
+时　间：2022/05/23 08:58:59.227         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：宗地权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：890         
+-----------------------------------------------------------
+时　间：2022/05/23 08:59:05.904         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：5         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：992         
+-----------------------------------------------------------
+时　间：2022/05/23 08:59:53.333         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) CountTable          
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 08:59:54.136         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：SELECT * FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 08:59:54.891         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始1         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：647         
+-----------------------------------------------------------
+时　间：2022/05/23 08:59:54.891         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：房产户权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：652         
+-----------------------------------------------------------
+时　间：2022/05/23 08:59:54.891         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：房产证权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：804         
+-----------------------------------------------------------
+时　间：2022/05/23 08:59:54.891         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：宗地权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：890         
+-----------------------------------------------------------
+时　间：2022/05/23 08:59:58.345         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:0faf04b7-7dd2-4a69-8fa8-c5f0f01d13e5,异常消息:Length cannot be less than zero. (Parameter 'length')         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticeSelectHouse         
+行　号：51         
+-----------------------------------------------------------
+时　间：2022/05/23 09:00:10.475         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) CountTable          
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 09:00:11.019         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：SELECT * FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 09:00:11.597         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始1         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：647         
+-----------------------------------------------------------
+时　间：2022/05/23 09:00:11.597         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：房产户权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：652         
+-----------------------------------------------------------
+时　间：2022/05/23 09:00:11.597         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：房产证权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：804         
+-----------------------------------------------------------
+时　间：2022/05/23 09:00:11.597         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：宗地权属调查         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：890         
+-----------------------------------------------------------
+时　间：2022/05/23 09:04:07.370         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) CountTable          
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 09:04:08.240         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：SELECT * FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 09:05:17.168         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) CountTable          
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 09:05:17.996         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：SELECT * FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 09:05:18.849         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始1         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：647         
+-----------------------------------------------------------
+时　间：2022/05/23 09:05:31.916         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：5         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：992         
+-----------------------------------------------------------
+时　间：2022/05/23 09:05:48.244         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：7         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：992         
+-----------------------------------------------------------
+时　间：2022/05/23 09:08:19.115         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) CountTable          
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 09:08:19.971         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：SELECT * FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."TSTYBM" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."TSTYBM" = :TSTYBM7 )) OR ( "A"."ZL" = :ZL8 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/23 09:08:20.807         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始1         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：647         
+-----------------------------------------------------------
+时　间：2022/05/23 09:15:17.226         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始0         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：647         
+-----------------------------------------------------------
+时　间：2022/05/23 09:15:28.232         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:e450590f-ab21-4a59-8064-89366a3eed92,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticeSelectHouse         
+行　号：52         
+-----------------------------------------------------------
+时　间：2022/05/23 14:27:44.647         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:3a459a11-03fd-4df9-a0e8-313ea8ceb422,异常消息:English Message : Join FC needs to be the same as Where a
+Chinese Message : 多表查询存在别名不一致,请把Where中的a改成FC就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------
+时　间：2022/05/23 14:27:51.372         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:e4fea844-b5e7-4595-8b8a-e1334e263877,异常消息:English Message : Join FC needs to be the same as Where a
+Chinese Message : 多表查询存在别名不一致,请把Where中的a改成FC就可以了，特殊需求可以使用.Select((x,y)=>new{ id=x.id,name=y.name}).MergeTable().Orderby(xxx=>xxx.Id)功能将Select中的多表结果集变成单表，这样就可以不限制别名一样         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------
+时　间：2022/05/23 16:53:14.189         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始0         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：648         
+-----------------------------------------------------------
+时　间：2022/05/23 16:53:20.119         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:39c89927-11df-4ebf-bdc8-8ad0fabd4fda,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticeSelectHouse         
+行　号：52         
+-----------------------------------------------------------
+时　间：2022/05/23 17:44:43.904         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始1         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：651         
+-----------------------------------------------------------
+时　间：2022/05/23 17:44:43.963         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：商服用地,住宅用地         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：1028         
+-----------------------------------------------------------
+时　间：2022/05/23 17:44:43.963         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：住宅用地,商服用地         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：1062         
+-----------------------------------------------------------
+时　间：2022/05/23 17:46:14.004         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始1         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：651         
+-----------------------------------------------------------
+时　间：2022/05/23 17:47:21.567         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：开始1         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：651         
+-----------------------------------------------------------
+时　间：2022/05/23 17:47:45.352         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：商服用地,住宅用地         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：1028         
+-----------------------------------------------------------
+时　间：2022/05/23 17:47:45.352         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：住宅用地,商服用地         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices.NoticeSelectHouse         
+行　号：1062         
+-----------------------------------------------------------

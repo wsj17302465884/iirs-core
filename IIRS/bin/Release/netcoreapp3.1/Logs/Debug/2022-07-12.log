@@ -1,0 +1,14 @@
+时　间：2022/07/12 10:19:38.427         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：MrgeReleaseController.Post:【错误代码：993dc5d772df4f18b51d0181f0347439,原因:ToString (Format) is not supported, Use ToString().If time formatting can be used it.Date.Year+"-"+it.Data.Month+"-"+it.Date.Day 】         
+源信息：IIRS.Controllers.BDC.BdcPrintController.DyYgSqbPrintPrint         
+行　号：3337         
+-----------------------------------------------------------
+时　间：2022/07/12 10:20:40.223         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：MrgeReleaseController.Post:【错误代码：0550335b5e6a4c65a5280181f03548a8,原因:ToString (Format) is not supported, Use ToString().If time formatting can be used it.Date.Year+"-"+it.Data.Month+"-"+it.Date.Day 】         
+源信息：IIRS.Controllers.BDC.BdcPrintController.DyYgSqbPrintPrint         
+行　号：3337         
+-----------------------------------------------------------

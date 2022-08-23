@@ -1,0 +1,7 @@
+时　间：2021/01/25 15:19:03.082         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetTaxInfo:错误码:e76b0590-0ce4-4d32-8036-2b82579eb563,异常消息:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')         
+源信息：IIRS.Controllers.BDC.TransferController.GetTaxInfo         
+行　号：370         
+-----------------------------------------------------------

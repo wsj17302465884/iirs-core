@@ -1,0 +1,32 @@
+时　间：2021/03/26 11:07:46.699         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:6623e858-3087-4cb8-a794-f9db068d3632,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/03/26 11:07:54.396         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:dd701d02-4e3f-45f4-87ef-3e162439f754,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/03/26 11:08:01.807         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:7ec5bf0f-299a-4c96-86db-6ea378e5c289,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/03/26 11:08:17.903         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:b1797776-08e1-4877-b760-b84f2d9c1707,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------

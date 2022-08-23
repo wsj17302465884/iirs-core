@@ -1,0 +1,56 @@
+时　间：2022/05/18 15:16:34.388         
+级　别：Error         
+模　块：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware         
+消　息：An unhandled exception has occurred while executing the request.         
+源信息：Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException         
+行　号：0         
+-----------------------------------------------------------
+时　间：2022/05/18 15:24:03.789         
+级　别：Error         
+模　块：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware         
+消　息：An unhandled exception has occurred while executing the request.         
+源信息：Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException         
+行　号：0         
+-----------------------------------------------------------
+时　间：2022/05/18 15:48:01.432         
+级　别：Error         
+模　块：IIRS.Services.BdcGeneralMrgeServices         
+消　息：ORA-02291: 违反完整约束条件 (IIRS.REF04_08) - 未找到父项关键字         
+源信息：IIRS.Services.BdcGeneralMrgeServices.Mortgage         
+行　号：454         
+-----------------------------------------------------------
+时　间：2022/05/18 15:49:21.019         
+级　别：Error         
+模　块：IIRS.Services.BdcGeneralMrgeServices         
+消　息：ORA-02291: 违反完整约束条件 (IIRS.REF04_08) - 未找到父项关键字         
+源信息：IIRS.Services.BdcGeneralMrgeServices.Mortgage         
+行　号：454         
+-----------------------------------------------------------
+时　间：2022/05/18 15:52:22.566         
+级　别：Error         
+模　块：IIRS.Services.BdcGeneralMrgeServices         
+消　息：ORA-02291: 违反完整约束条件 (IIRS.REF04_08) - 未找到父项关键字         
+源信息：IIRS.Services.BdcGeneralMrgeServices.Mortgage         
+行　号：454         
+-----------------------------------------------------------
+时　间：2022/05/18 15:57:00.868         
+级　别：Error         
+模　块：IIRS.Services.BdcGeneralMrgeServices         
+消　息：ORA-00904: "XCZP": 标识符无效         
+源信息：IIRS.Services.BdcGeneralMrgeServices.Mortgage         
+行　号：515         
+-----------------------------------------------------------
+时　间：2022/05/18 15:57:30.797         
+级　别：Error         
+模　块：IIRS.Services.BdcGeneralMrgeServices         
+消　息：ORA-00904: "XCZP": 标识符无效         
+源信息：IIRS.Services.BdcGeneralMrgeServices.Mortgage         
+行　号：515         
+-----------------------------------------------------------
+时　间：2022/05/18 16:03:24.460         
+级　别：Error         
+模　块：IIRS.Services.BdcGeneralMrgeServices         
+消　息：ORA-00904: "SFCZYD": 标识符无效         
+源信息：IIRS.Services.BdcGeneralMrgeServices.Mortgage         
+行　号：516         
+-----------------------------------------------------------

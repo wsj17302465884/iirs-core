@@ -1,0 +1,1022 @@
+时　间：2021/02/19 10:41:03.966         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:a67af40f-a946-478e-8c19-78dac154d258,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/02/19 10:41:14.604         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:5493548c-07a8-4200-b6e4-29c873522fcd,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/02/19 10:41:23.903         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:2543b890-7ae4-42a5-86f4-bac5cb96cc0f,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/02/19 10:41:33.355         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:5cd73bcb-7cb8-4d2b-be40-180fc819ce1f,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/02/19 10:41:51.504         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:1be6012a-a892-466e-861f-5ef20e1e5ae9,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/02/19 10:42:46.916         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:5ca48f71-526f-4bf3-9cb8-2f35a6337c0f,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/02/19 10:44:01.176         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:2626cbb9-b322-4555-a4e3-13c496781558,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/02/19 10:48:49.750         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:48:49.833         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:48:49.836         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:48:49.836         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:51:00.694         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:31.468         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:31.468         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:31.468         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:31.468         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:40.818         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:40.819         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:40.819         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:40.819         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:57.645         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:57.954         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:57.954         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:57.954         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:53:57.954         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:54:54.475         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE  ("GID" IN ('3','4','6','5','7','8','9'))          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:37.828         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:38.113         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:38.113         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:38.117         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:38.148         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:52.057         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：错误码:7ea84aa9-825f-462a-8f34-c1cb0f689ca0,异常消息:ORA-12899: 列 "TAX"."TAX_EXISTING_HOME"."QSQSZYDX_DM" 的值太大 (实际值: 6, 最大值: 5)         
+源信息：IIRS.Controllers.BDC.TransferController.TaxPost         
+行　号：165         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:56.159         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:56.197         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:56.239         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:56.256         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:56.274         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:55:56.292         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:56:39.679         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:56:39.679         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:56:39.679         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:56:39.679         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.753         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "BANKAUTHORIZE"  
+           ("BID","DOCUMENTTYPE","DOCUMENTNUMBER","AUTHORIZATIONDATE","AUTHORIZATIONDEADLINE","STATUS","RIGHTNAME","BANKCODE","BANKNAME","MORTGAGETYPE","AUTHORIZERPERSON")
+     VALUES
+           (:BID,:DOCUMENTTYPE,:DOCUMENTNUMBER,:AUTHORIZATIONDATE,:AUTHORIZATIONDEADLINE,:STATUS,:rightname,:BankCode,:BankName,:Mortgagetype,:AUTHORIZERPERSON)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.768         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "REGISTRATION_INFO"  
+           ("XID","YWSLBH","HTH","DJZL","BDCZH","SLBH","ZL","QLRMC","ZJLB","ZJHM","ORG_ID","USER_ID","TEL","AUZ_ID","REMARK1","REMARK2","SJR","IS_ACTION_OK","NEXT_XID","SAVEDATAJSON","SAVEDATE","PDH")
+     VALUES
+           (:XID,:YWSLBH,:HTH,:DJZL,:BDCZH,:SLBH,:ZL,:QLRMC,:ZJLB,:ZJHM,:ORG_ID,:USER_ID,:TEL,:AUZ_ID,:REMARK1,:REMARK2,:SJR,:IS_ACTION_OK,:NEXT_XID,:SaveDataJson,:SAVEDATE,:PDH)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.777         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SYS_DATA_RECORDER"  
+           ("PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP")
+     VALUES
+           (:PK,:BUS_PK,:USER_ID,:USER_NAME,:SAVEDATAJSON,:REMARKS1,:REMARKS2,:REMARKS3,:REMARKS4,:REMARKS5,:IS_STOP)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.777         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "IFLOW_DO_ACTION"  
+           ("PK","FLOW_ID","AUZ_ID","CDATE","USER_NAME")
+     VALUES
+           (:PK,:FLOW_ID,:AUZ_ID,:CDATE,:USER_NAME)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.803         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SJD_INFO"  
+           ("SLBH","DJDL","DJXL","LCLX","LCBM","LCMC","ZL","SJR","SJSJ","CNSJ","QXDM","TZRXM","TZFS","TZRDH","TZRYDDH","TZRDZYJ","TZRTXDZ","CXMM","SJMC","SJLX","SJSL","YS","SFSYBZ","SFEWSJ","SFBCSJ","ZRKS","ZRR","YXJ","SJBZ","BCSM","FCSLH","FCDJLX","FCHID","BIZMSGID","JRYWBM","SBZT","SBXZCS","CERTINUM","CERTIINFO","SBSTZT","HTBH","JHZT","JYBH","PCH","AJZT","XCZP","PRJID","SHAREKEY","SHARETIME","SHARESTATE","QXKZ","CGZT","WWSQBH","WWYYBH","QYXS","GG_XMBH","SBCS","SBSJ","SBJG","HBSBZT","SBXZSJ","CHBH","ZXDZ","JHXTID","XID")
+     VALUES
+           (:SLBH,:DJDL,:DJXL,:LCLX,:LCBM,:LCMC,:ZL,:SJR,:SJSJ,:CNSJ,:QXDM,:TZRXM,:TZFS,:TZRDH,:TZRYDDH,:TZRDZYJ,:TZRTXDZ,:CXMM,:SJMC,:SJLX,:SJSL,:YS,:SFSYBZ,:SFEWSJ,:SFBCSJ,:ZRKS,:ZRR,:YXJ,:SJBZ,:BCSM,:FCSLH,:FCDJLX,:FCHID,:BIZMSGID,:JRYWBM,:SBZT,:SBXZCS,:CERTINUM,:CERTIINFO,:SBSTZT,:HTBH,:JHZT,:JYBH,:PCH,:AJZT,:XCZP,:PRJID,:SHAREKEY,:SHARETIME,:SHARESTATE,:QXKZ,:CGZT,:WWSQBH,:WWYYBH,:QYXS,:GG_XMBH,:SBCS,:SBSJ,:SBJG,:HBSBZT,:SBXZSJ,:CHBH,:ZXDZ,:JHXTID,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.821         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "DJB_INFO"  
+           ("SLBH","DJLX","DJYY","SQZSBS","SQFBCZ","SQRQ","SQNR","SQBZ","DLJGMC","DLRXM","DLRZJLX","DLRZJH","DLRZGZH","DLRDH","DLJGMC2","DLRXM2","DLRZJLX2","DLRZJH2","DLRZGZH2","DLRDH2","SPDW","SPRQ","SPBZ","BDCZH","SSJC","JGJC","FZND","ZSH","SZR","GYFS","GYFE","DJRQ","DBR","ZSR","FZJG","FZRQ","ZSLX","ZSXLH","DYCS","GDH","DAMJ","QT","FJ","XGZH","GLZH","BDCDYH","HDPCH","SZPCH","ZXDJDYBH","LIFECYCLE","LIFECYCLE1","SPDJNR","WZ","DZZSXLH","补录说明","ZHCL","GCLZH","CQLY","SQDJNR","QFQY","XID","SZQY")
+     VALUES
+           (:SLBH,:DJLX,:DJYY,:SQZSBS,:SQFBCZ,:SQRQ,:SQNR,:SQBZ,:DLJGMC,:DLRXM,:DLRZJLX,:DLRZJH,:DLRZGZH,:DLRDH,:DLJGMC2,:DLRXM2,:DLRZJLX2,:DLRZJH2,:DLRZGZH2,:DLRDH2,:SPDW,:SPRQ,:SPBZ,:BDCZH,:SSJC,:JGJC,:FZND,:ZSH,:SZR,:GYFS,:GYFE,:DJRQ,:DBR,:ZSR,:FZJG,:FZRQ,:ZSLX,:ZSXLH,:DYCS,:GDH,:DAMJ,:QT,:FJ,:XGZH,:GLZH,:BDCDYH,:HDPCH,:SZPCH,:ZXDJDYBH,:LIFECYCLE,:LIFECYCLE1,:SPDJNR,:WZ,:DZZSXLH,:补录说明,:ZHCL,:GCLZH,:CQLY,:SQDJNR,:QFQY,:xid,:SZQY)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.821         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SPB_INFO"  
+           ("SPBH","SLBH","SPDX","SPXH","SPYJ","SPR","SPRQ","SPRZGZH","SPJG","SPZT","SPTXR","XID")
+     VALUES
+           (:SPBH,:SLBH,:SPDX,:SPXH,:SPYJ,:SPR,:SPRQ,:SPRZGZH,:SPJG,:SPZT,:SPTXR,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.842         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SFD_INFO"  
+           ("SLBH","JFBH","XMMC","JFDW","TXDZ","DH","JFLX","JBR","JBRQ","JBYJ","SHR","SHYJ","SHRQ","YSJE","SSJE","SKR","SKRQ","SKYJ","SLR","DYZT","SFZT","HBDH","DYR","DYSJ","HBR","HBSJ","SFBZ","YYS","GRSDS","QS","TDZZS","FPH","HSJE","DYR1","DYSJ1","HSJE1","JZJF","XID")
+     VALUES
+           (:SLBH,:JFBH,:XMMC,:JFDW,:TXDZ,:DH,:JFLX,:JBR,:JBRQ,:JBYJ,:SHR,:SHYJ,:SHRQ,:YSJE,:SSJE,:SKR,:SKRQ,:SKYJ,:SLR,:DYZT,:SFZT,:HBDH,:DYR,:DYSJ,:HBR,:HBSJ,:SFBZ,:YYS,:GRSDS,:QS,:TDZZS,:FPH,:HSJE,:DYR1,:DYSJ1,:HSJE1,:JZJF,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.850         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SFD_FB_INFO"  
+           ("CWSFDXBBH","SLBH","QDXH","SFXM","JLDW","SL","SFBZ","HSJE","JMJE","JMYY","BZ","QDLX","XID")
+     VALUES
+           (:CWSFDXBBH,:SLBH,:QDXH,:SFXM,:JLDW,:SL,:SFBZ,:HSJE,:JMJE,:JMYY,:BZ,:QDLX,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.850         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "TSGL_INFO"  
+           ("GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","CSSJ","LIFECYCLE","XID")
+     VALUES
+           (:GLBM,:SLBH,:BDCLX,:TSTYBM,:BDCDYH,:DJZL,:CSSJ,:LIFECYCLE,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.850         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "XGDJGL_INFO"  
+           ("BGBM","ZSLBH","FSLBH","BGRQ","BGLX","XGZH","XGZLX","PID","XID")
+     VALUES
+           (:BGBM,:ZSLBH,:FSLBH,:BGRQ,:BGLX,:XGZH,:XGZLX,:PID,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.873         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "QL_XG_INFO"  
+           ("XTBH","SLBH","FW_QLLX","FW_QLLX_ZWM","FW_QLXZ","FW_QLXZ_ZWMS","FW_JZMJ","FW_CQLY","FW_TNJZMJ","FW_FTJZMJ","FW_YC_JZMJ","FW_YC_TNJZMJ","FW_YC_FTJZMJ","FW_FWGHYT","FW_FWGHYT_ZWM","QDFS","QDJG","PGJE","TD_QLLX","TD_QLLX_ZWM","TD_QLXZ","TD_QLXZ_ZWMS","TD_GYTDMJ","TD_DYTDMJ","TD_FTTDMJ","TD_JZZDMJ","TD_SYQX","TD_QSRQ","TD_ZZRQ","TD_TDYT","TD_TDYT_ZWMS","XID")
+     VALUES
+           (:XTBH,:SLBH,:FW_QLLX,:FW_QLLX_ZWM,:FW_QLXZ,:FW_QLXZ_ZWMS,:FW_JZMJ,:FW_CQLY,:FW_TNJZMJ,:FW_FTJZMJ,:FW_YC_JZMJ,:FW_YC_TNJZMJ,:FW_YC_FTJZMJ,:FW_FWGHYT,:FW_FWGHYT_ZWM,:QDFS,:QDJG,:PGJE,:TD_QLLX,:TD_QLLX_ZWM,:TD_QLXZ,:TD_QLXZ_ZWMS,:TD_GYTDMJ,:TD_DYTDMJ,:TD_FTTDMJ,:TD_JZZDMJ,:TD_SYQX,:TD_QSRQ,:TD_ZZRQ,:TD_TDYT,:TD_TDYT_ZWMS,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.883         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：BEGIN
+INSERT INTO "QLRGL_INFO"  ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+ SELECT N'c6a9ef6f-b37b-4822-add6-0177b8385db1' AS "GLBM",N'202102198011' AS "SLBH",N'202102198011' AS "YWBM",N'db9b730f-6b71-4cfb-a9ac-0177b8385db1' AS "QLRID",N'0' AS "IS_OWNER",NULL AS "GYFS",NULL AS "GYFE",NULL AS "SXH",N'权利人' AS "QLRLX",N'张三' AS "QLRMC",N'1231231231' AS "ZJHM",N'8' AS "ZJLB",N'统一社会信用代码证' AS "ZJLB_ZWM",NULL AS "DH",N'24729c17-5b91-4795-babc-0177b8385d5f' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'3639863a-dbf6-41b2-a9d7-0177b8385db2' AS "GLBM",N'202102198011' AS "SLBH",N'202102198011' AS "YWBM",N'06d9ff28-e0af-408b-8fc5-0177b8385db2' AS "QLRID",N'0' AS "IS_OWNER",NULL AS "GYFS",N'1' AS "GYFE",NULL AS "SXH",N'义务人' AS "QLRLX",N'李秀梅' AS "QLRMC",N'211011195710294720' AS "ZJHM",N'1' AS "ZJLB",N'身份证' AS "ZJLB_ZWM",NULL AS "DH",N'24729c17-5b91-4795-babc-0177b8385d5f' AS "XID" FROM DUAL 
+;
+
+END;         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:57:17.899         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：BEGIN
+INSERT INTO "PUB_ATT_FILE"  ("FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID")
+ SELECT N'ca947908b0fe4e08be8c0177b8385d47' AS "FILE_ID",N'd34dc592-871b-4aee-b107-0172b1ec629f' AS "GROUP_ID",N'不动产登记申请书' AS "GROUP_NAME",N'ca947908b0fe4e08be8c0177b8385d47.jpg' AS "FILE_NAME",N'第1页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202102198011' AS "BUS_PK",N'202102198011' AS "BAK_PK",N'1' AS "ODR",N'\upload\2021\02\19\202102198011\' AS "FILE_PATH",to_date('2021-02-19 10:57:17', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'24729c17-5b91-4795-babc-0177b8385d5f' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'78cc349711cb46f48cb90177b8385d4a' AS "FILE_ID",N'd34dc592-871b-4aee-b107-0172b1ec629f' AS "GROUP_ID",N'不动产登记申请书' AS "GROUP_NAME",N'78cc349711cb46f48cb90177b8385d4a.jpg' AS "FILE_NAME",N'第2页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202102198011' AS "BUS_PK",N'202102198011' AS "BAK_PK",N'2' AS "ODR",N'\upload\2021\02\19\202102198011\' AS "FILE_PATH",to_date('2021-02-19 10:57:17', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'24729c17-5b91-4795-babc-0177b8385d5f' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'd22db35efad14936aae40177b8385d4b' AS "FILE_ID",N'd34dc592-871b-4aee-b107-0172b1ec629f' AS "GROUP_ID",N'不动产登记申请书' AS "GROUP_NAME",N'd22db35efad14936aae40177b8385d4b.jpg' AS "FILE_NAME",N'第3页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202102198011' AS "BUS_PK",N'202102198011' AS "BAK_PK",N'3' AS "ODR",N'\upload\2021\02\19\202102198011\' AS "FILE_PATH",to_date('2021-02-19 10:57:17', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'24729c17-5b91-4795-babc-0177b8385d5f' AS "XID" FROM DUAL 
+;
+
+END;         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:59:10.918         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:59:10.966         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:59:11.018         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 10:59:11.160         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:00:01.354         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:00:01.416         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:00:01.499         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:01:42.273         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:02:36.909         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:02:36.909         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:02:36.909         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:02:36.925         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.422         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "BANKAUTHORIZE"  
+           ("BID","DOCUMENTTYPE","DOCUMENTNUMBER","AUTHORIZATIONDATE","AUTHORIZATIONDEADLINE","STATUS","RIGHTNAME","BANKCODE","BANKNAME","MORTGAGETYPE","AUTHORIZERPERSON")
+     VALUES
+           (:BID,:DOCUMENTTYPE,:DOCUMENTNUMBER,:AUTHORIZATIONDATE,:AUTHORIZATIONDEADLINE,:STATUS,:rightname,:BankCode,:BankName,:Mortgagetype,:AUTHORIZERPERSON)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.422         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "REGISTRATION_INFO"  
+           ("XID","YWSLBH","HTH","DJZL","BDCZH","SLBH","ZL","QLRMC","ZJLB","ZJHM","ORG_ID","USER_ID","TEL","AUZ_ID","REMARK1","REMARK2","SJR","IS_ACTION_OK","NEXT_XID","SAVEDATAJSON","SAVEDATE","PDH")
+     VALUES
+           (:XID,:YWSLBH,:HTH,:DJZL,:BDCZH,:SLBH,:ZL,:QLRMC,:ZJLB,:ZJHM,:ORG_ID,:USER_ID,:TEL,:AUZ_ID,:REMARK1,:REMARK2,:SJR,:IS_ACTION_OK,:NEXT_XID,:SaveDataJson,:SAVEDATE,:PDH)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.422         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SYS_DATA_RECORDER"  
+           ("PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP")
+     VALUES
+           (:PK,:BUS_PK,:USER_ID,:USER_NAME,:SAVEDATAJSON,:REMARKS1,:REMARKS2,:REMARKS3,:REMARKS4,:REMARKS5,:IS_STOP)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.431         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "IFLOW_DO_ACTION"  
+           ("PK","FLOW_ID","AUZ_ID","CDATE","USER_NAME")
+     VALUES
+           (:PK,:FLOW_ID,:AUZ_ID,:CDATE,:USER_NAME)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.431         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SJD_INFO"  
+           ("SLBH","DJDL","DJXL","LCLX","LCBM","LCMC","ZL","SJR","SJSJ","CNSJ","QXDM","TZRXM","TZFS","TZRDH","TZRYDDH","TZRDZYJ","TZRTXDZ","CXMM","SJMC","SJLX","SJSL","YS","SFSYBZ","SFEWSJ","SFBCSJ","ZRKS","ZRR","YXJ","SJBZ","BCSM","FCSLH","FCDJLX","FCHID","BIZMSGID","JRYWBM","SBZT","SBXZCS","CERTINUM","CERTIINFO","SBSTZT","HTBH","JHZT","JYBH","PCH","AJZT","XCZP","PRJID","SHAREKEY","SHARETIME","SHARESTATE","QXKZ","CGZT","WWSQBH","WWYYBH","QYXS","GG_XMBH","SBCS","SBSJ","SBJG","HBSBZT","SBXZSJ","CHBH","ZXDZ","JHXTID","XID")
+     VALUES
+           (:SLBH,:DJDL,:DJXL,:LCLX,:LCBM,:LCMC,:ZL,:SJR,:SJSJ,:CNSJ,:QXDM,:TZRXM,:TZFS,:TZRDH,:TZRYDDH,:TZRDZYJ,:TZRTXDZ,:CXMM,:SJMC,:SJLX,:SJSL,:YS,:SFSYBZ,:SFEWSJ,:SFBCSJ,:ZRKS,:ZRR,:YXJ,:SJBZ,:BCSM,:FCSLH,:FCDJLX,:FCHID,:BIZMSGID,:JRYWBM,:SBZT,:SBXZCS,:CERTINUM,:CERTIINFO,:SBSTZT,:HTBH,:JHZT,:JYBH,:PCH,:AJZT,:XCZP,:PRJID,:SHAREKEY,:SHARETIME,:SHARESTATE,:QXKZ,:CGZT,:WWSQBH,:WWYYBH,:QYXS,:GG_XMBH,:SBCS,:SBSJ,:SBJG,:HBSBZT,:SBXZSJ,:CHBH,:ZXDZ,:JHXTID,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.431         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "DJB_INFO"  
+           ("SLBH","DJLX","DJYY","SQZSBS","SQFBCZ","SQRQ","SQNR","SQBZ","DLJGMC","DLRXM","DLRZJLX","DLRZJH","DLRZGZH","DLRDH","DLJGMC2","DLRXM2","DLRZJLX2","DLRZJH2","DLRZGZH2","DLRDH2","SPDW","SPRQ","SPBZ","BDCZH","SSJC","JGJC","FZND","ZSH","SZR","GYFS","GYFE","DJRQ","DBR","ZSR","FZJG","FZRQ","ZSLX","ZSXLH","DYCS","GDH","DAMJ","QT","FJ","XGZH","GLZH","BDCDYH","HDPCH","SZPCH","ZXDJDYBH","LIFECYCLE","LIFECYCLE1","SPDJNR","WZ","DZZSXLH","补录说明","ZHCL","GCLZH","CQLY","SQDJNR","QFQY","XID","SZQY")
+     VALUES
+           (:SLBH,:DJLX,:DJYY,:SQZSBS,:SQFBCZ,:SQRQ,:SQNR,:SQBZ,:DLJGMC,:DLRXM,:DLRZJLX,:DLRZJH,:DLRZGZH,:DLRDH,:DLJGMC2,:DLRXM2,:DLRZJLX2,:DLRZJH2,:DLRZGZH2,:DLRDH2,:SPDW,:SPRQ,:SPBZ,:BDCZH,:SSJC,:JGJC,:FZND,:ZSH,:SZR,:GYFS,:GYFE,:DJRQ,:DBR,:ZSR,:FZJG,:FZRQ,:ZSLX,:ZSXLH,:DYCS,:GDH,:DAMJ,:QT,:FJ,:XGZH,:GLZH,:BDCDYH,:HDPCH,:SZPCH,:ZXDJDYBH,:LIFECYCLE,:LIFECYCLE1,:SPDJNR,:WZ,:DZZSXLH,:补录说明,:ZHCL,:GCLZH,:CQLY,:SQDJNR,:QFQY,:xid,:SZQY)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.431         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SPB_INFO"  
+           ("SPBH","SLBH","SPDX","SPXH","SPYJ","SPR","SPRQ","SPRZGZH","SPJG","SPZT","SPTXR","XID")
+     VALUES
+           (:SPBH,:SLBH,:SPDX,:SPXH,:SPYJ,:SPR,:SPRQ,:SPRZGZH,:SPJG,:SPZT,:SPTXR,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.431         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SFD_INFO"  
+           ("SLBH","JFBH","XMMC","JFDW","TXDZ","DH","JFLX","JBR","JBRQ","JBYJ","SHR","SHYJ","SHRQ","YSJE","SSJE","SKR","SKRQ","SKYJ","SLR","DYZT","SFZT","HBDH","DYR","DYSJ","HBR","HBSJ","SFBZ","YYS","GRSDS","QS","TDZZS","FPH","HSJE","DYR1","DYSJ1","HSJE1","JZJF","XID")
+     VALUES
+           (:SLBH,:JFBH,:XMMC,:JFDW,:TXDZ,:DH,:JFLX,:JBR,:JBRQ,:JBYJ,:SHR,:SHYJ,:SHRQ,:YSJE,:SSJE,:SKR,:SKRQ,:SKYJ,:SLR,:DYZT,:SFZT,:HBDH,:DYR,:DYSJ,:HBR,:HBSJ,:SFBZ,:YYS,:GRSDS,:QS,:TDZZS,:FPH,:HSJE,:DYR1,:DYSJ1,:HSJE1,:JZJF,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.447         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SFD_FB_INFO"  
+           ("CWSFDXBBH","SLBH","QDXH","SFXM","JLDW","SL","SFBZ","HSJE","JMJE","JMYY","BZ","QDLX","XID")
+     VALUES
+           (:CWSFDXBBH,:SLBH,:QDXH,:SFXM,:JLDW,:SL,:SFBZ,:HSJE,:JMJE,:JMYY,:BZ,:QDLX,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.447         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "TSGL_INFO"  
+           ("GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","CSSJ","LIFECYCLE","XID")
+     VALUES
+           (:GLBM,:SLBH,:BDCLX,:TSTYBM,:BDCDYH,:DJZL,:CSSJ,:LIFECYCLE,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.447         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "XGDJGL_INFO"  
+           ("BGBM","ZSLBH","FSLBH","BGRQ","BGLX","XGZH","XGZLX","PID","XID")
+     VALUES
+           (:BGBM,:ZSLBH,:FSLBH,:BGRQ,:BGLX,:XGZH,:XGZLX,:PID,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.447         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "QL_XG_INFO"  
+           ("XTBH","SLBH","FW_QLLX","FW_QLLX_ZWM","FW_QLXZ","FW_QLXZ_ZWMS","FW_JZMJ","FW_CQLY","FW_TNJZMJ","FW_FTJZMJ","FW_YC_JZMJ","FW_YC_TNJZMJ","FW_YC_FTJZMJ","FW_FWGHYT","FW_FWGHYT_ZWM","QDFS","QDJG","PGJE","TD_QLLX","TD_QLLX_ZWM","TD_QLXZ","TD_QLXZ_ZWMS","TD_GYTDMJ","TD_DYTDMJ","TD_FTTDMJ","TD_JZZDMJ","TD_SYQX","TD_QSRQ","TD_ZZRQ","TD_TDYT","TD_TDYT_ZWMS","XID")
+     VALUES
+           (:XTBH,:SLBH,:FW_QLLX,:FW_QLLX_ZWM,:FW_QLXZ,:FW_QLXZ_ZWMS,:FW_JZMJ,:FW_CQLY,:FW_TNJZMJ,:FW_FTJZMJ,:FW_YC_JZMJ,:FW_YC_TNJZMJ,:FW_YC_FTJZMJ,:FW_FWGHYT,:FW_FWGHYT_ZWM,:QDFS,:QDJG,:PGJE,:TD_QLLX,:TD_QLLX_ZWM,:TD_QLXZ,:TD_QLXZ_ZWMS,:TD_GYTDMJ,:TD_DYTDMJ,:TD_FTTDMJ,:TD_JZZDMJ,:TD_SYQX,:TD_QSRQ,:TD_ZZRQ,:TD_TDYT,:TD_TDYT_ZWMS,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.447         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：BEGIN
+INSERT INTO "QLRGL_INFO"  ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+ SELECT N'b7e3eda6-b28d-4e0e-8364-0177b83dd2dd' AS "GLBM",N'202102198015' AS "SLBH",N'202102198015' AS "YWBM",N'ae416a4a-61c7-48f5-80b3-0177b83dd2dd' AS "QLRID",N'0' AS "IS_OWNER",NULL AS "GYFS",NULL AS "GYFE",NULL AS "SXH",N'权利人' AS "QLRLX",N'张三' AS "QLRMC",N'3123123123' AS "ZJHM",N'8' AS "ZJLB",N'统一社会信用代码证' AS "ZJLB_ZWM",NULL AS "DH",N'44dcf5e4-2169-496f-9915-0177b83dd2b4' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'18b4b9c7-e2bc-49b9-a28a-0177b83dd2dd' AS "GLBM",N'202102198015' AS "SLBH",N'202102198015' AS "YWBM",N'0a743da8-3eb3-4a6f-86ea-0177b83dd2dd' AS "QLRID",N'0' AS "IS_OWNER",NULL AS "GYFS",N'1' AS "GYFE",NULL AS "SXH",N'义务人' AS "QLRLX",N'李秀梅' AS "QLRMC",N'211011195710294720' AS "ZJHM",N'1' AS "ZJLB",N'身份证' AS "ZJLB_ZWM",NULL AS "DH",N'44dcf5e4-2169-496f-9915-0177b83dd2b4' AS "XID" FROM DUAL 
+;
+
+END;         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.464         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：BEGIN
+INSERT INTO "PUB_ATT_FILE"  ("FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID")
+ SELECT N'98a575323ecc43e582c70177b83dd2b0' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'98a575323ecc43e582c70177b83dd2b0.jpg' AS "FILE_NAME",N'第1页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202102198015' AS "BUS_PK",N'202102198015' AS "BAK_PK",N'1' AS "ODR",N'\upload\2021\02\19\202102198015\' AS "FILE_PATH",to_date('2021-02-19 11:03:15', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'44dcf5e4-2169-496f-9915-0177b83dd2b4' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'ee9d70d7ff3d4b66b8ff0177b83dd2b2' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'ee9d70d7ff3d4b66b8ff0177b83dd2b2.jpg' AS "FILE_NAME",N'第2页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202102198015' AS "BUS_PK",N'202102198015' AS "BAK_PK",N'2' AS "ODR",N'\upload\2021\02\19\202102198015\' AS "FILE_PATH",to_date('2021-02-19 11:03:15', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'44dcf5e4-2169-496f-9915-0177b83dd2b4' AS "XID" FROM DUAL 
+;
+
+END;         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:03:15.604         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:04:29.566         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:04:29.566         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:04:29.582         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:04:36.326         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT SLBH_SEQNUM() FROM DUAL         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:04:36.524         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:05:11.514         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:05:11.514         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:05:11.514         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:05:11.514         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.004         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "BANKAUTHORIZE"  
+           ("BID","DOCUMENTTYPE","DOCUMENTNUMBER","AUTHORIZATIONDATE","AUTHORIZATIONDEADLINE","STATUS","RIGHTNAME","BANKCODE","BANKNAME","MORTGAGETYPE","AUTHORIZERPERSON")
+     VALUES
+           (:BID,:DOCUMENTTYPE,:DOCUMENTNUMBER,:AUTHORIZATIONDATE,:AUTHORIZATIONDEADLINE,:STATUS,:rightname,:BankCode,:BankName,:Mortgagetype,:AUTHORIZERPERSON)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.006         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "REGISTRATION_INFO"  
+           ("XID","YWSLBH","HTH","DJZL","BDCZH","SLBH","ZL","QLRMC","ZJLB","ZJHM","ORG_ID","USER_ID","TEL","AUZ_ID","REMARK1","REMARK2","SJR","IS_ACTION_OK","NEXT_XID","SAVEDATAJSON","SAVEDATE","PDH")
+     VALUES
+           (:XID,:YWSLBH,:HTH,:DJZL,:BDCZH,:SLBH,:ZL,:QLRMC,:ZJLB,:ZJHM,:ORG_ID,:USER_ID,:TEL,:AUZ_ID,:REMARK1,:REMARK2,:SJR,:IS_ACTION_OK,:NEXT_XID,:SaveDataJson,:SAVEDATE,:PDH)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.006         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SYS_DATA_RECORDER"  
+           ("PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP")
+     VALUES
+           (:PK,:BUS_PK,:USER_ID,:USER_NAME,:SAVEDATAJSON,:REMARKS1,:REMARKS2,:REMARKS3,:REMARKS4,:REMARKS5,:IS_STOP)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.006         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "IFLOW_DO_ACTION"  
+           ("PK","FLOW_ID","AUZ_ID","CDATE","USER_NAME")
+     VALUES
+           (:PK,:FLOW_ID,:AUZ_ID,:CDATE,:USER_NAME)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.006         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SJD_INFO"  
+           ("SLBH","DJDL","DJXL","LCLX","LCBM","LCMC","ZL","SJR","SJSJ","CNSJ","QXDM","TZRXM","TZFS","TZRDH","TZRYDDH","TZRDZYJ","TZRTXDZ","CXMM","SJMC","SJLX","SJSL","YS","SFSYBZ","SFEWSJ","SFBCSJ","ZRKS","ZRR","YXJ","SJBZ","BCSM","FCSLH","FCDJLX","FCHID","BIZMSGID","JRYWBM","SBZT","SBXZCS","CERTINUM","CERTIINFO","SBSTZT","HTBH","JHZT","JYBH","PCH","AJZT","XCZP","PRJID","SHAREKEY","SHARETIME","SHARESTATE","QXKZ","CGZT","WWSQBH","WWYYBH","QYXS","GG_XMBH","SBCS","SBSJ","SBJG","HBSBZT","SBXZSJ","CHBH","ZXDZ","JHXTID","XID")
+     VALUES
+           (:SLBH,:DJDL,:DJXL,:LCLX,:LCBM,:LCMC,:ZL,:SJR,:SJSJ,:CNSJ,:QXDM,:TZRXM,:TZFS,:TZRDH,:TZRYDDH,:TZRDZYJ,:TZRTXDZ,:CXMM,:SJMC,:SJLX,:SJSL,:YS,:SFSYBZ,:SFEWSJ,:SFBCSJ,:ZRKS,:ZRR,:YXJ,:SJBZ,:BCSM,:FCSLH,:FCDJLX,:FCHID,:BIZMSGID,:JRYWBM,:SBZT,:SBXZCS,:CERTINUM,:CERTIINFO,:SBSTZT,:HTBH,:JHZT,:JYBH,:PCH,:AJZT,:XCZP,:PRJID,:SHAREKEY,:SHARETIME,:SHARESTATE,:QXKZ,:CGZT,:WWSQBH,:WWYYBH,:QYXS,:GG_XMBH,:SBCS,:SBSJ,:SBJG,:HBSBZT,:SBXZSJ,:CHBH,:ZXDZ,:JHXTID,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.006         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "DJB_INFO"  
+           ("SLBH","DJLX","DJYY","SQZSBS","SQFBCZ","SQRQ","SQNR","SQBZ","DLJGMC","DLRXM","DLRZJLX","DLRZJH","DLRZGZH","DLRDH","DLJGMC2","DLRXM2","DLRZJLX2","DLRZJH2","DLRZGZH2","DLRDH2","SPDW","SPRQ","SPBZ","BDCZH","SSJC","JGJC","FZND","ZSH","SZR","GYFS","GYFE","DJRQ","DBR","ZSR","FZJG","FZRQ","ZSLX","ZSXLH","DYCS","GDH","DAMJ","QT","FJ","XGZH","GLZH","BDCDYH","HDPCH","SZPCH","ZXDJDYBH","LIFECYCLE","LIFECYCLE1","SPDJNR","WZ","DZZSXLH","补录说明","ZHCL","GCLZH","CQLY","SQDJNR","QFQY","XID","SZQY")
+     VALUES
+           (:SLBH,:DJLX,:DJYY,:SQZSBS,:SQFBCZ,:SQRQ,:SQNR,:SQBZ,:DLJGMC,:DLRXM,:DLRZJLX,:DLRZJH,:DLRZGZH,:DLRDH,:DLJGMC2,:DLRXM2,:DLRZJLX2,:DLRZJH2,:DLRZGZH2,:DLRDH2,:SPDW,:SPRQ,:SPBZ,:BDCZH,:SSJC,:JGJC,:FZND,:ZSH,:SZR,:GYFS,:GYFE,:DJRQ,:DBR,:ZSR,:FZJG,:FZRQ,:ZSLX,:ZSXLH,:DYCS,:GDH,:DAMJ,:QT,:FJ,:XGZH,:GLZH,:BDCDYH,:HDPCH,:SZPCH,:ZXDJDYBH,:LIFECYCLE,:LIFECYCLE1,:SPDJNR,:WZ,:DZZSXLH,:补录说明,:ZHCL,:GCLZH,:CQLY,:SQDJNR,:QFQY,:xid,:SZQY)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.024         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SPB_INFO"  
+           ("SPBH","SLBH","SPDX","SPXH","SPYJ","SPR","SPRQ","SPRZGZH","SPJG","SPZT","SPTXR","XID")
+     VALUES
+           (:SPBH,:SLBH,:SPDX,:SPXH,:SPYJ,:SPR,:SPRQ,:SPRZGZH,:SPJG,:SPZT,:SPTXR,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.024         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SFD_INFO"  
+           ("SLBH","JFBH","XMMC","JFDW","TXDZ","DH","JFLX","JBR","JBRQ","JBYJ","SHR","SHYJ","SHRQ","YSJE","SSJE","SKR","SKRQ","SKYJ","SLR","DYZT","SFZT","HBDH","DYR","DYSJ","HBR","HBSJ","SFBZ","YYS","GRSDS","QS","TDZZS","FPH","HSJE","DYR1","DYSJ1","HSJE1","JZJF","XID")
+     VALUES
+           (:SLBH,:JFBH,:XMMC,:JFDW,:TXDZ,:DH,:JFLX,:JBR,:JBRQ,:JBYJ,:SHR,:SHYJ,:SHRQ,:YSJE,:SSJE,:SKR,:SKRQ,:SKYJ,:SLR,:DYZT,:SFZT,:HBDH,:DYR,:DYSJ,:HBR,:HBSJ,:SFBZ,:YYS,:GRSDS,:QS,:TDZZS,:FPH,:HSJE,:DYR1,:DYSJ1,:HSJE1,:JZJF,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.024         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "SFD_FB_INFO"  
+           ("CWSFDXBBH","SLBH","QDXH","SFXM","JLDW","SL","SFBZ","HSJE","JMJE","JMYY","BZ","QDLX","XID")
+     VALUES
+           (:CWSFDXBBH,:SLBH,:QDXH,:SFXM,:JLDW,:SL,:SFBZ,:HSJE,:JMJE,:JMYY,:BZ,:QDLX,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.024         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "TSGL_INFO"  
+           ("GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","CSSJ","LIFECYCLE","XID")
+     VALUES
+           (:GLBM,:SLBH,:BDCLX,:TSTYBM,:BDCDYH,:DJZL,:CSSJ,:LIFECYCLE,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.024         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "XGDJGL_INFO"  
+           ("BGBM","ZSLBH","FSLBH","BGRQ","BGLX","XGZH","XGZLX","PID","XID")
+     VALUES
+           (:BGBM,:ZSLBH,:FSLBH,:BGRQ,:BGLX,:XGZH,:XGZLX,:PID,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.024         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：INSERT INTO "QL_XG_INFO"  
+           ("XTBH","SLBH","FW_QLLX","FW_QLLX_ZWM","FW_QLXZ","FW_QLXZ_ZWMS","FW_JZMJ","FW_CQLY","FW_TNJZMJ","FW_FTJZMJ","FW_YC_JZMJ","FW_YC_TNJZMJ","FW_YC_FTJZMJ","FW_FWGHYT","FW_FWGHYT_ZWM","QDFS","QDJG","PGJE","TD_QLLX","TD_QLLX_ZWM","TD_QLXZ","TD_QLXZ_ZWMS","TD_GYTDMJ","TD_DYTDMJ","TD_FTTDMJ","TD_JZZDMJ","TD_SYQX","TD_QSRQ","TD_ZZRQ","TD_TDYT","TD_TDYT_ZWMS","XID")
+     VALUES
+           (:XTBH,:SLBH,:FW_QLLX,:FW_QLLX_ZWM,:FW_QLXZ,:FW_QLXZ_ZWMS,:FW_JZMJ,:FW_CQLY,:FW_TNJZMJ,:FW_FTJZMJ,:FW_YC_JZMJ,:FW_YC_TNJZMJ,:FW_YC_FTJZMJ,:FW_FWGHYT,:FW_FWGHYT_ZWM,:QDFS,:QDJG,:PGJE,:TD_QLLX,:TD_QLLX_ZWM,:TD_QLXZ,:TD_QLXZ_ZWMS,:TD_GYTDMJ,:TD_DYTDMJ,:TD_FTTDMJ,:TD_JZZDMJ,:TD_SYQX,:TD_QSRQ,:TD_ZZRQ,:TD_TDYT,:TD_TDYT_ZWMS,:XID)          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.024         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：BEGIN
+INSERT INTO "QLRGL_INFO"  ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+ SELECT N'1356bcd1-8969-470b-9f8c-0177b8407cd3' AS "GLBM",N'202102198017' AS "SLBH",N'202102198017' AS "YWBM",N'a7a6ed8f-29e6-4dd1-bd94-0177b8407cd3' AS "QLRID",N'0' AS "IS_OWNER",NULL AS "GYFS",NULL AS "GYFE",NULL AS "SXH",N'权利人' AS "QLRLX",N'张三' AS "QLRMC",N'213123' AS "ZJHM",N'8' AS "ZJLB",N'统一社会信用代码证' AS "ZJLB_ZWM",NULL AS "DH",N'c3c23fbc-cb8b-4320-b35d-0177b8407cad' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'6aedcb3e-26dc-411a-b089-0177b8407cd3' AS "GLBM",N'202102198017' AS "SLBH",N'202102198017' AS "YWBM",N'8ddc6636-1584-4078-bea1-0177b8407cd3' AS "QLRID",N'0' AS "IS_OWNER",NULL AS "GYFS",N'1' AS "GYFE",NULL AS "SXH",N'义务人' AS "QLRLX",N'李秀梅' AS "QLRMC",N'211011195710294720' AS "ZJHM",N'1' AS "ZJLB",N'身份证' AS "ZJLB_ZWM",NULL AS "DH",N'c3c23fbc-cb8b-4320-b35d-0177b8407cad' AS "XID" FROM DUAL 
+;
+
+END;         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.046         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：BEGIN
+INSERT INTO "PUB_ATT_FILE"  ("FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID")
+ SELECT N'41f2857ce2cb4e49a4bc0177b8407ca6' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'41f2857ce2cb4e49a4bc0177b8407ca6.jpg' AS "FILE_NAME",N'第1页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202102198017' AS "BUS_PK",N'202102198017' AS "BAK_PK",N'1' AS "ODR",N'\upload\2021\02\19\202102198017\' AS "FILE_PATH",to_date('2021-02-19 11:06:09', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'c3c23fbc-cb8b-4320-b35d-0177b8407cad' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'90a6cbda75194db1b7640177b8407ca9' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'90a6cbda75194db1b7640177b8407ca9.jpg' AS "FILE_NAME",N'第2页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202102198017' AS "BUS_PK",N'202102198017' AS "BAK_PK",N'2' AS "ODR",N'\upload\2021\02\19\202102198017\' AS "FILE_PATH",to_date('2021-02-19 11:06:09', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'c3c23fbc-cb8b-4320-b35d-0177b8407cad' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'64f93fefa490442f88990177b8407cab' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'64f93fefa490442f88990177b8407cab.jpg' AS "FILE_NAME",N'第3页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202102198017' AS "BUS_PK",N'202102198017' AS "BAK_PK",N'3' AS "ODR",N'\upload\2021\02\19\202102198017\' AS "FILE_PATH",to_date('2021-02-19 11:06:09', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'c3c23fbc-cb8b-4320-b35d-0177b8407cad' AS "XID" FROM DUAL 
+;
+
+END;         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:10.186         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:16.887         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:16.887         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:16.897         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:16.897         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:16.897         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:40.956         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:40.956         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:40.961         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:40.991         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:06:40.991         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:08:11.579         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:08:11.579         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:08:11.579         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:08:11.585         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 11:08:11.585         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/19 16:06:35.333         
+级　别：Debug         
+模　块：IIRS.Controllers.ChangeMrgeController         
+消　息：ChangeMrgeController.GetLandHouseRightInfo:【错误代码：328a161492354cfc98e00177b9538845,原因:Object reference not set to an instance of an object.】         
+源信息：IIRS.Controllers.ChangeMrgeController.GetLandHouseRightInfo         
+行　号：127         
+-----------------------------------------------------------

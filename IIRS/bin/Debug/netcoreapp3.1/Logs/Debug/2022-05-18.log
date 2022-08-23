@@ -1,0 +1,221 @@
+时　间：2022/05/18 08:54:15.233         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:75bdaa60-dd5a-4f48-9379-a752f8ae4a34,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：93         
+-----------------------------------------------------------
+时　间：2022/05/18 14:51:08.965         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:4655c6ba-c92b-4947-8870-62f363db1415,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/18 14:52:18.015         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:48fdd0e6-292d-404e-b41c-318b12a6fbba,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/18 14:55:44.243         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:37d7f019-d58d-4279-9b02-b422b80bfdde,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/18 14:56:41.411         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:420a6944-7a79-4553-9b6c-3e3cf9bddba1,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/18 14:57:13.218         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:7ac814ee-93cf-4cf9-85ea-e765a5e8a3b8,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/18 14:58:55.325         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:c29dde68-9b75-4441-b921-a78361a81164,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/18 15:00:17.261         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:90b7ccd0-06e4-4646-9521-6e1d750ab394,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：113         
+-----------------------------------------------------------
+时　间：2022/05/18 15:11:10.253         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：49b34e19e3bd41b5aa620180d60197ad,原因:One or more errors occurred. (Object reference not set to an instance of an object.)】         
+源信息：IIRS.Controllers.BankGeneralMrgeController.Post         
+行　号：422         
+-----------------------------------------------------------
+时　间：2022/05/18 15:43:58.403         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:519738f2-8ce4-4d1a-9750-8e000b624287,异常消息:English Message : Connection open error . ORA-12545: Network Transport: Unable to resolve connect hostname
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12545: Network Transport: Unable to resolve connect hostname.         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetBusinessJudgment1         
+行　号：56         
+-----------------------------------------------------------
+时　间：2022/05/18 15:45:56.502         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：d530b609973e4a198a390180d6216d16,原因:One or more errors occurred. (Object reference not set to an instance of an object.)】         
+源信息：IIRS.Controllers.BankGeneralMrgeController.Post         
+行　号：0         
+-----------------------------------------------------------
+时　间：2022/05/18 15:48:01.497         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：12a206701aea40d2928e0180d6235558,原因:ORA-02291: 违反完整约束条件 (IIRS.REF04_08) - 未找到父项关键字】         
+源信息：IIRS.Controllers.BankGeneralMrgeController.Post         
+行　号：520         
+-----------------------------------------------------------
+时　间：2022/05/18 15:49:21.057         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：2ed1588ab55f4821aa790180d6248c20,原因:ORA-02291: 违反完整约束条件 (IIRS.REF04_08) - 未找到父项关键字】         
+源信息：IIRS.Controllers.BankGeneralMrgeController.Post         
+行　号：520         
+-----------------------------------------------------------
+时　间：2022/05/18 15:51:35.151         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:8ad51ee9-ff87-457b-bb0e-d01d854a0cfa,异常消息:English Message : Connection open error . ORA-12545: Network Transport: Unable to resolve connect hostname
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12545: Network Transport: Unable to resolve connect hostname.         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetBusinessJudgment1         
+行　号：56         
+-----------------------------------------------------------
+时　间：2022/05/18 15:52:22.593         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：ad60bae2785b45ce9de00180d6275140,原因:ORA-02291: 违反完整约束条件 (IIRS.REF04_08) - 未找到父项关键字】         
+源信息：IIRS.Controllers.BankGeneralMrgeController.Post         
+行　号：520         
+-----------------------------------------------------------
+时　间：2022/05/18 15:57:00.964         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：c20527083396476b86ce0180d62b90a4,原因:ORA-00904: "XCZP": 标识符无效】         
+源信息：IIRS.Controllers.BankGeneralMrgeController.Post         
+行　号：520         
+-----------------------------------------------------------
+时　间：2022/05/18 15:57:30.844         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：6b21797728a94032bd830180d62c055c,原因:ORA-00904: "XCZP": 标识符无效】         
+源信息：IIRS.Controllers.BankGeneralMrgeController.Post         
+行　号：520         
+-----------------------------------------------------------
+时　间：2022/05/18 16:03:24.509         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：85de368ce2a74b44a4a80180d6316add,原因:ORA-00904: "SFCZYD": 标识符无效】         
+源信息：IIRS.Controllers.BankGeneralMrgeController.Post         
+行　号：520         
+-----------------------------------------------------------
+时　间：2022/05/18 16:09:08.213         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2022/05/18 16:09:08.236         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A  ,"REGISTRATION_INFO"  B ,"QLRGL_INFO"  C ,"IFLOW_ACTION_GROUP"  D ,"IFLOW_ACTION"  E  WHERE (((( "A"."BID" = "B"."AUZ_ID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "E"."GROUP_ID" = "D"."GROUP_ID" )) AND ( "A"."STATUS" = "E"."FLOW_ID" ))  AND ((( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL )) AND ( "B"."IS_ACTION_OK" = :IS_ACTION_OK2 ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：64         
+-----------------------------------------------------------
+时　间：2022/05/18 16:09:08.565         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.AgencyTaskControllers         
+消　息：AgencyTaskControllers.GetAgencyTaskList错误码:a8a04d18-0210-4f11-a056-6ab968c2490b,异常消息:ORA-00904: "E"."VUE_NAME": 标识符无效         
+源信息：IIRS.Controllers.BDC.AgencyTaskControllers.GetAgencyTaskList         
+行　号：49         
+-----------------------------------------------------------
+时　间：2022/05/18 16:09:10.592         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT SLBH_SEQNUM() FROM DUAL         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：64         
+-----------------------------------------------------------
+时　间：2022/05/18 16:09:23.601         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2022/05/18 16:09:23.628         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2022/05/18 16:09:23.628         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2022/05/18 16:11:50.142         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2022/05/18 16:11:50.162         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A  ,"REGISTRATION_INFO"  B ,"QLRGL_INFO"  C ,"IFLOW_ACTION_GROUP"  D ,"IFLOW_ACTION"  E  WHERE (((( "A"."BID" = "B"."AUZ_ID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "E"."GROUP_ID" = "D"."GROUP_ID" )) AND ( "A"."STATUS" = "E"."FLOW_ID" ))  AND ((( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL )) AND ( "B"."IS_ACTION_OK" = :IS_ACTION_OK2 ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：64         
+-----------------------------------------------------------
+时　间：2022/05/18 16:11:50.471         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.AgencyTaskControllers         
+消　息：AgencyTaskControllers.GetAgencyTaskList错误码:00926ca0-508b-4e4e-ab63-71d27f034fab,异常消息:ORA-00904: "E"."VUE_NAME": 标识符无效         
+源信息：IIRS.Controllers.BDC.AgencyTaskControllers.GetAgencyTaskList         
+行　号：49         
+-----------------------------------------------------------
+时　间：2022/05/18 16:11:52.318         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2022/05/18 16:11:52.318         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2022/05/18 16:11:52.318         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------

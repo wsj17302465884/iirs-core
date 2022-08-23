@@ -1,0 +1,71 @@
+时　间：2022/05/20 09:00:31.999         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:3153b751-592a-4f6a-a6fd-a1f2ba088bba,异常消息:English Message : Connection open error . Network Transport: TCP transport address connect failure
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Network Transport: TCP transport address connect failure.         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByInternetSignInfo         
+行　号：101         
+-----------------------------------------------------------
+时　间：2022/05/20 09:02:12.162         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:79bbf6d5-3d9a-4dd5-9efe-b4cfa66759d6,异常消息:Length cannot be less than zero. (Parameter 'length')         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticeSelectHouse         
+行　号：51         
+-----------------------------------------------------------
+时　间：2022/05/20 09:03:13.993         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:5031f3b1-7ab7-40b5-b09b-39ffadd1f364,异常消息:Length cannot be less than zero. (Parameter 'length')         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticeSelectHouse         
+行　号：51         
+-----------------------------------------------------------
+时　间：2022/05/20 09:04:33.403         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:91569c96-b69d-429c-b204-b2402497c6b2,异常消息:Length cannot be less than zero. (Parameter 'length')         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticeSelectHouse         
+行　号：51         
+-----------------------------------------------------------
+时　间：2022/05/20 09:08:16.354         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:c75bb205-31c1-47a0-b3f4-c5f896d19775,异常消息:Length cannot be less than zero. (Parameter 'length')         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticeSelectHouse         
+行　号：51         
+-----------------------------------------------------------
+时　间：2022/05/20 09:42:55.137         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.NoticeRegistrationController         
+消　息：错误码:3656313b-6a8e-439e-b917-cd61765ac1f8,异常消息:Length cannot be less than zero. (Parameter 'length')         
+源信息：IIRS.Controllers.BDC.NoticeRegistrationController.NoticeSelectHouse         
+行　号：51         
+-----------------------------------------------------------
+时　间：2022/05/20 10:32:30.336         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."BDCDYH" = :BDCDYH7 )) OR ( "A"."ZL" = :ZL8 ))) CountTable          
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/20 10:32:30.809         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：SELECT * FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."BDCDYH" = :BDCDYH7 )) OR ( "A"."ZL" = :ZL8 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/20 10:32:46.875         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."BDCDYH" = :BDCDYH7 )) OR ( "A"."ZL" = :ZL8 ))) CountTable          
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------
+时　间：2022/05/20 10:32:47.151         
+级　别：Debug         
+模　块：IIRS.Services.BDC.NoticeRegistrationServices         
+消　息：SELECT * FROM (SELECT  "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."ZH" AS "ZH" , "A"."HH" AS "HH" , "A"."BDCDYH" AS "BDCDYH" , "A"."LSZTYBM" AS "LSZTYBM" , "A"."LSFWBH" AS "LSFWBH" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , "A"."TDYT" AS "TDYT" , "A"."TDYT" AS "TDYT_ZWM" , "A"."TDQLLX" AS "TDQLLX" , "A"."TDQLXZ" AS "TDQLXZ" , "A"."TDQLLX" AS "TDQLLX_ZWM" , "A"."TDQLXZ" AS "TDQLXZ_ZWM" , "C"."GHYT" AS "FCZ_GHYT" , "C"."GHYT" AS "FCZ_GHYT_ZWM" , "C"."TDQLLX" AS "FCZ_TDQLLX" , "C"."TDQLLX" AS "FCZ_TDQLLX_ZWM" , "C"."TDQLXZ" AS "FCZ_TDQLXZ" , "C"."TDQLXZ" AS "FCZ_TDQLXZ_ZWM" , "C"."TDYT" AS "ZD_TDYT_ZWM" , "B"."QLLX" AS "ZD_QLLX" , "B"."QLLX" AS "ZD_QLLX_ZWM" , "B"."QLXZ" AS "ZD_QLXZ" , "B"."QLXZ" AS "ZD_QLXZ_ZWM" , "B"."PZTDYT" AS "ZD_PZTDYT" , "B"."PZTDYT" AS "ZD_PZTDYT_ZWM" , "B"."SJTDYT" AS "ZD_SJTDYT" , "B"."SJTDYT" AS "ZD_SJTDYT_ZWM" , "A"."ZL" AS "ZL" , "A"."SJC" AS "SJC" , "A"."MYC" AS "MYC" , "A"."DYH" AS "DYH" , "A"."FJH" AS "FJH" , "A"."LJZH" AS "LJZH" , "A"."QDJG" AS "QDJG" , "A"."QDFS" AS "QDFS" , "A"."YCJZMJ" AS "YCJZMJ" , "A"."YCTNJZMJ" AS "YCTNJZMJ" , "A"."YCFTJZMJ" AS "YCFTJZMJ" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "A"."TDQSRQ" AS "TDQSRQ" , "A"."TDZZRQ" AS "TDZZRQ" , "A"."TDSYQX" AS "TDSYQX" , "A"."TDSYQR" AS "TDSYQR" , "A"."GYTDMJ" AS "GYTDMJ" , "A"."FTTDMJ" AS "FTTDMJ" , "A"."DYTDMJ" AS "DYTDMJ" , "A"."ZDMJ" AS "ZDMJ" , "B"."FZMJ" AS "FZMJ" , "B"."ZZRQ" AS "ZD_TDZZRQ" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )   WHERE  ("A"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((( "A"."LIFECYCLE" = :Const1 ) OR ( "A"."LIFECYCLE" IS NULL )) AND (( "B"."LIFECYCLE" = :Const3 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const5 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "A"."BDCDYH" = :BDCDYH7 )) OR ( "A"."ZL" = :ZL8 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.NoticeRegistrationServices+<>c__DisplayClass17_0.<NoticeSelectHouse>b__0         
+行　号：579         
+-----------------------------------------------------------

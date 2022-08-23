@@ -1,0 +1,694 @@
+时　间：2021/01/11 14:28:13.833         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 14:28:15.163         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 14:28:16.973         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 14:28:17.044         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 14:28:17.076         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE (((((("TSTYBM" IN ('HDC-181212093438-1R26274R59KI14N42R2')) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:03.621         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:04.672         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:06.422         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:06.422         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:06.440         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE ((((((1=2) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:07.823         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:07.831         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:07.831         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE ((((((1=2) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:10.599         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:10.599         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:10.609         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE ((((((1=2) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:20.770         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:21.821         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:23.506         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:23.512         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:23.512         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE ((((((1=2) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:29.870         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:29.877         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:29.877         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE ((((((1=2) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:30.347         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:30.347         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:30.347         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE ((((((1=2) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:31.140         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:31.140         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:20:31.140         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE ((((((1=2) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:21:39.107         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：错误码:15541339-05c1-4000-a3c0-63567f946c97,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BDC.TransferController.GetPaymentType         
+行　号：397         
+-----------------------------------------------------------
+时　间：2021/01/11 16:23:26.841         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:23:27.857         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:23:29.382         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:23:29.389         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:23:29.389         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE (((((("TSTYBM" IN ('HDC-181212093438-1R26274R59KI14N42R2')) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:25:46.626         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:25:47.614         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:25:49.142         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:25:49.142         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:25:49.142         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE (((((("TSTYBM" IN ('HDC-181212093438-1R26274R59KI14N42R2')) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:38:40.888         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:38:41.932         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:38:43.570         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:38:43.578         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:38:43.578         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE (((((("TSTYBM" IN ('HDC-181212093438-1R26274R59KI14N42R2')) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:50:01.642         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:50:02.726         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 16:50:04.717         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:50:04.717         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 16:50:04.736         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE (((((("TSTYBM" IN ('HDC-181212093438-1R26274R59KI14N42R2')) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 17:11:00.135         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 17:11:01.271         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 17:11:03.002         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 17:11:03.002         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 17:11:03.026         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE (((((("TSTYBM" IN ('HDC-181212093438-1R26274R59KI14N42R2')) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:08:52.232         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 19:08:53.376         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 19:08:55.087         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:08:55.095         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:08:55.110         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE (((((("TSTYBM" IN ('HDC-181212093438-1R26274R59KI14N42R2')) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:31:49.738         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 19:31:50.879         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 19:31:52.593         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:31:52.593         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:31:52.612         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE (((((("TSTYBM" IN ('HDC-181212093438-1R26274R59KI14N42R2')) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:38:18.191         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT"  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 19:38:19.256         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."TSTYBM" AS "TSTYBM" , "B"."FWBH" AS "FWBH" , "B"."ZH" AS "ZH" , "B"."LJZH" AS "LJZH" , "B"."XMMC" AS "XMMC" , "B"."ZCS" AS "ZCS" , "B"."DXCS" AS "DXCS" , "B"."DSCS" AS "DSCS" , "B"."FWJG" AS "FWJG" , "B"."GHYT" AS "GHYT" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "FC_Z_QSDC" B ON ( "A"."LSZTYBM" = "B"."TSTYBM" )  Left JOIN "DJ_TSGL" C ON ( "A"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_DJB" D ON ( "C"."SLBH" = "D"."SLBH" )  Left JOIN "DJ_SJD" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("D"."BDCDYH" like '%'||:MethodConst0||'%')   AND (( "C"."LIFECYCLE" = :Const1 ) OR ( "C"."LIFECYCLE" IS NULL ))GROUP BY "B"."TSTYBM","B"."FWBH","B"."ZH","B"."LJZH","B"."XMMC","B"."ZCS","B"."DXCS","B"."DSCS","B"."FWJG","B"."GHYT" ) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass23_0.<GetFc_zResult>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/01/11 19:38:21.606         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL"  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) CountTable          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:38:21.613         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT * FROM (SELECT  "A"."BDCDYH" AS "BDCDYH" , "A"."MYC" AS "MYC" , "E"."SLBH" AS "QZSLBH" , "A"."TSTYBM" AS "TSTYBM" , "A"."ZDTYBM" AS "ZDTYBM" , "A"."QLLX" AS "QLLX" , "A"."QLXZ" AS "QLXZ" , "A"."GHYT" AS "GHYT" , "A"."QLLX" AS "QLLX_ZWM" , "A"."QLXZ" AS "QLXZ_ZWM" , "A"."GHYT" AS "GHYT_ZWM" , NVL(A.CG, C.ZCS) AS "ZCS" , "A"."JZMJ" AS "JZMJ" , "A"."TNJZMJ" AS "TNJZMJ" , "A"."FTJZMJ" AS "FTJZMJ" , "B"."QSRQ" AS "TDQSRQ" , NVL(A.TDZZRQ, B.ZZRQ) AS "ZZRQ" , NVL(A.TDYT, B.PZTDYT) AS "TDYT" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ" , NVL(A.TDQLLX, B.QLLX) AS "TDLX" , NVL(A.TDYT, B.PZTDYT) AS "TDYT_ZWM" , NVL(A.TDQLXZ, B.QLXZ) AS "TDXZ_ZWM" , NVL(A.TDQLLX, B.QLLX) AS "TDLX_ZWM" , "A"."FJSM" AS "FJSM" , "B"."SM" AS "SM" , "B"."FZMJ" AS "ZDMJ" , "C"."FWJG" AS "FWJG" , "C"."FWJG" AS "FWJG_ZWM" , "A"."ZL" AS "ZL" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "FC_H_QSDC" A Left JOIN "ZD_QSDC" B ON ( "A"."ZDTYBM" = "B"."ZDTYBM" )  Left JOIN "FC_Z_QSDC" C ON ( "A"."LSZTYBM" = "C"."TSTYBM" )  Left JOIN "DJ_TSGL" D ON ( "A"."TSTYBM" = "D"."TSTYBM" )  Left JOIN "DJ_DJB" E ON ( "D"."SLBH" = "E"."SLBH" )   WHERE  ("E"."BDCDYH" like '%'||:MethodConst0||'%')   AND (((((((((( "C"."TSTYBM" = :TSTYBM1 ) AND ( "D"."DJZL" <> :DJZL2 )) AND ( "D"."DJZL" <> :DJZL3 )) AND ( "D"."DJZL" <> :DJZL4 )) AND ( "D"."DJZL" <> :DJZL5 )) AND (( "D"."LIFECYCLE" = :Const6 ) OR ( "D"."LIFECYCLE" IS NULL ))) AND (( "B"."LIFECYCLE" = :Const8 ) OR ( "B"."LIFECYCLE" IS NULL ))) AND (( "C"."LIFECYCLE" = :Const10 ) OR ( "C"."LIFECYCLE" IS NULL ))) AND ( "E"."SLBH" <> :SLBH12 )) AND ( "E"."SLBH" <> :SLBH13 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:38:21.627         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT  "TSTYBM" AS "TSTYBM" , WM_CONCAT(DISTINCT TO_CHAR(DJZL)) AS "ZT"  FROM "DJ_TSGL"  WHERE (((((("TSTYBM" IN ('HDC-181212093438-1R26274R59KI14N42R2')) AND(( "LIFECYCLE" = :Const1 ) OR ( "LIFECYCLE" IS NULL ))) AND ( "DJZL" <> :DJZL3 )) AND ( "DJZL" <> :DJZL4 )) AND ( "DJZL" <> :DJZL5 )) AND ( "DJZL" <> :DJZL6 ))GROUP BY "TSTYBM"          
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass25_0.<GetFc_hResult>b__0         
+行　号：350         
+-----------------------------------------------------------
+时　间：2021/01/11 19:49:52.638         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.QueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/01/11 19:55:03.313         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.QueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/01/11 19:55:08.081         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "C"."QLRLX" = :QLRLX0 ) AND ( "B"."SJR" = :SJR1 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:55:08.081         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "C"."QLRLX" = :QLRLX0 ) AND ( "B"."SJR" = :SJR1 ))) T WHERE RowIndex BETWEEN 1 AND 0         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:55:08.221         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.AgencyTaskControllers         
+消　息：错误码:b57c1b6e-7f85-48b7-99c7-6134e2648634,异常消息:Attempted to divide by zero.         
+源信息：IIRS.Controllers.BDC.AgencyTaskControllers.GetAgencyTaskList         
+行　号：52         
+-----------------------------------------------------------
+时　间：2021/01/11 19:55:18.926         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "C"."QLRLX" = :QLRLX0 ) AND ( "B"."SJR" = :SJR1 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:55:18.926         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "C"."QLRLX" = :QLRLX0 ) AND ( "B"."SJR" = :SJR1 ))) T WHERE RowIndex BETWEEN 1 AND 0         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:55:19.021         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.AgencyTaskControllers         
+消　息：错误码:603862a3-f3f9-4046-8b9b-fe908d309752,异常消息:Attempted to divide by zero.         
+源信息：IIRS.Controllers.BDC.AgencyTaskControllers.GetAgencyTaskList         
+行　号：52         
+-----------------------------------------------------------
+时　间：2021/01/11 19:56:28.588         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "C"."QLRLX" = :QLRLX0 ) AND ( "B"."SJR" = :SJR1 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:56:28.592         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "C"."QLRLX" = :QLRLX0 ) AND ( "B"."SJR" = :SJR1 ))) T WHERE RowIndex BETWEEN 1 AND 0         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:56:28.679         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.AgencyTaskControllers         
+消　息：错误码:ec35ee08-6e1c-4789-ba3d-2b783c2319d3,异常消息:Attempted to divide by zero.         
+源信息：IIRS.Controllers.BDC.AgencyTaskControllers.GetAgencyTaskList         
+行　号：52         
+-----------------------------------------------------------
+时　间：2021/01/11 19:56:33.024         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:56:33.029         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:56:38.438         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.QueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/01/11 19:56:38.514         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.BDC.QueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:38.859         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.QueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:38.859         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:38.938         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.QueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:41.097         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:41.097         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "C"."QLRLX" = :QLRLX0 ) AND ( "B"."SJR" = :SJR1 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:41.123         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:41.143         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "C"."QLRLX" = :QLRLX0 ) AND ( "B"."SJR" = :SJR1 ))) T WHERE RowIndex BETWEEN 1 AND 0         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:41.234         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:41.272         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.AgencyTaskControllers         
+消　息：错误码:19e2a19e-9c5e-4b87-9ed7-b603e4123046,异常消息:Attempted to divide by zero.         
+源信息：IIRS.Controllers.BDC.AgencyTaskControllers.GetAgencyTaskList         
+行　号：52         
+-----------------------------------------------------------
+时　间：2021/01/11 19:57:41.307         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:58:00.646         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:58:00.646         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) T WHERE RowIndex BETWEEN 1 AND 5         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/11 19:58:23.008         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------

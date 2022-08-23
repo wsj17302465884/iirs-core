@@ -1,0 +1,399 @@
+时　间：2021/04/12 15:08:38.204         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 15:08:47.860         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:08:48.122         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:08:48.122         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:08:48.130         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:12:24.939         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 15:12:30.363         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:12:30.531         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:12:30.544         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:12:30.553         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:15:46.225         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 15:15:52.884         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:15:53.079         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:15:53.085         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:15:53.085         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:45:58.759         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "A"."DYFS" AS "DYLX" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 15:46:03.001         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:46:03.034         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:46:03.034         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:46:03.034         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:46:03.055         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:47:30.945         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "A"."DYFS" AS "DYLX" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 15:47:36.528         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:47:36.586         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:47:36.586         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:47:36.586         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:47:36.610         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:49:37.450         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "A"."DYFS" AS "DYLX" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 15:49:37.455         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:49:37.455         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:49:37.455         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:49:37.455         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:49:37.455         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:51:25.018         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "A"."DYFS" AS "DYLX" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 15:51:26.764         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:51:26.825         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:51:26.825         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:51:26.835         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 15:51:26.850         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:05.492         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "A"."DYFS" AS "DYLX" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:05.492         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:05.492         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:05.538         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:05.538         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:05.538         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:16.307         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "A"."DYFS" AS "DYLX" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:16.307         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:16.317         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:16.317         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:16.317         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:02:16.332         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:03:19.040         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."SLBH" AS "SLBH" , "A"."XGZH" AS "XGZH" , "A"."BDCDYH" AS "BDCDYH" , "A"."BDBZZQSE" AS "BDBZQSE" , "A"."DYQX" AS "LXQX" , "A"."QT" AS "QT" , "A"."QLQSSJ" AS "QLQSRQ" , "A"."QLJSSJ" AS "QLJSRQ" , "A"."FJ" AS "FJ" , "A"."DJYY" AS "DJYY" , "C"."ZL" AS "ZL" , "A"."DYFS" AS "DYLX" , "C"."SJR" AS "SJR" , "C"."SJSJ" AS "SAVEDATE" , "D"."FW_JZMJ" AS "JZMJ" , "D"."TD_JZZDMJ" AS "TDMJ" , "D"."TD_DYTDMJ" AS "TDDYMJ" , "D"."TD_QLLX_ZWM" AS "QLLX" , "D"."TD_QLXZ_ZWMS" AS "QLXZ" , "D"."TD_TDYT_ZWMS" AS "TDYT" , "D"."FW_FWGHYT_ZWM" AS "GHYT" , "E"."BDCLX" AS "BDCLX" , "E"."TSTYBM" AS "TSTYBM"  FROM "DY_INFO" A  ,"REGISTRATION_INFO"  B ,"SJD_INFO"  C ,"QL_XG_INFO"  D ,"TSGL_INFO"  E  WHERE (((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" ))  AND (( "A"."XID" = :XID0 ) AND ( "B"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass10_0.<GeneralMrgeSqbPrint>b__0         
+行　号：370         
+-----------------------------------------------------------
+时　间：2021/04/12 16:03:22.093         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:03:22.150         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:03:22.150         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:03:22.150         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/04/12 16:03:22.174         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------

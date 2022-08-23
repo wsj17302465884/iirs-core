@@ -1,0 +1,126 @@
+时　间：2021/03/15 13:16:59.793         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:6d274374-588a-406b-b6fd-6b169288d082,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/03/15 13:17:03.375         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:532858d1-a519-4bb2-8285-75ea49956dd2,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/03/15 13:17:18.931         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:70695ec6-22e6-427b-b8e7-f23c4687beb4,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/03/15 13:17:28.861         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:aacb5efc-6b61-4bff-ae54-7b89b255e01c,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/03/15 13:20:11.334         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:4fdd8f2c-70c1-4750-9a96-786c7d4692ec,异常消息:ORA-00942: 表或视图不存在         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.GetBdcHourseInfo         
+行　号：62         
+-----------------------------------------------------------
+时　间：2021/03/15 13:24:07.247         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/15 13:24:49.050         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/15 13:25:12.166         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FLOW_ID","FLOW_NAME","GROUP_ID","VUE_URL","BANK_VUE_URL","VUE_NAME" FROM "IFLOW_ACTION"  WHERE ( "FLOW_ID" = :FLOW_ID0 )         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/15 13:34:53.638         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：09ec4990a3954e15a18f0178346146c6,原因:ORA-00001: 违反唯一约束条件 (IIRS.PK_SFD_INFO)】         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.Post         
+行　号：581         
+-----------------------------------------------------------
+时　间：2021/03/15 13:36:04.400         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/15 13:57:21.940         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/15 14:01:14.289         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/15 14:02:15.871         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/15 15:33:29.904         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1398         
+-----------------------------------------------------------
+时　间：2021/03/15 15:33:29.987         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1398         
+-----------------------------------------------------------
+时　间：2021/03/15 15:33:29.987         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1398         
+-----------------------------------------------------------
+时　间：2021/03/15 15:33:29.997         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1398         
+-----------------------------------------------------------
+时　间：2021/03/15 15:42:45.374         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT SLBH_SEQNUM() FROM DUAL         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1398         
+-----------------------------------------------------------

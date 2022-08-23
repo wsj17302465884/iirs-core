@@ -1,0 +1,310 @@
+时　间：2021/05/17 16:58:07.982         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetPaymentType:错误码:67def7f3-c486-4a39-a77e-f52f30686aaa,异常消息:English Message : Connection open error . ORA-12545: Network Transport: Unable to resolve connect hostname
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12545: Network Transport: Unable to resolve connect hostname.         
+源信息：IIRS.Controllers.BDC.TransferController.GetPaymentType         
+行　号：444         
+-----------------------------------------------------------
+时　间：2021/05/17 16:58:07.982         
+级　别：Debug         
+模　块：IIRS.Controllers.CommonController         
+消　息：CommonController.BizJsonDataQueryByXID:【错误代码：4838e9cf7b694a6ca76c0179798bfce9,原因:English Message : Connection open error . ORA-12545: Network Transport: Unable to resolve connect hostname
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12545: Network Transport: Unable to resolve connect hostname.】         
+源信息：IIRS.Controllers.CommonController.BizJsonDataQueryByXID         
+行　号：325         
+-----------------------------------------------------------
+时　间：2021/05/17 16:59:44.499         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:19beaf3b-fddd-4d16-9896-6074b5785bf3,异常消息:English Message : Connection open error . ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12514: TNS:listener does not currently know of service requested in connect descriptor.         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：94         
+-----------------------------------------------------------
+时　间：2021/05/17 18:11:34.363         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：错误码:c7b0af90-4769-4269-9038-cf4e415d809b,异常消息:English Message : Connection open error . ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12514: TNS:listener does not currently know of service requested in connect descriptor.         
+源信息：IIRS.Controllers.BankGeneralMrgeController.GetBdcHourseInfo         
+行　号：94         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:29.818         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:29.849         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:29.849         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:29.849         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:29.864         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:47.861         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:47.865         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:47.865         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:47.865         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:47.865         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:59.798         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:59.805         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:59.805         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:59.805         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:21:59.805         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:22:18.439         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:22:18.444         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:22:18.444         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:22:18.444         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:22:28.922         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:23:09.854         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "A"."SLBH" AS "SLBH" , "A"."SJR" AS "SJR" , "A"."ZL" AS "ZL" , "B"."SQRQ" AS "SJSJ" , "B"."CNSJ" AS "CNRQ" , "B"."XGZH" AS "XGZH" , "A"."LCMC" AS "DJLX" , "B"."DYFS" AS "DYFS"  FROM "SJD_INFO" A  ,"DY_INFO"  B  WHERE ( "A"."XID" = "B"."XID" )  AND ( "A"."XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:23:13.323         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:23:13.323         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:23:13.333         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:23:13.333         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:23:17.079         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:24:27.250         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:24:27.433         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:24:27.433         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:24:27.445         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:24:27.445         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/17 18:24:50.878         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "A"."BDCZH" AS "BDCZH" , "A"."BDCDYH" AS "BDCDYH" , NVL("G"."ZL","C"."ZL") AS "ZL" , NVL(NVL("D"."JZMJ","F"."SYQMJ"),"E"."GYTDMJ") AS "MJ" , "E"."FTTDMJ" AS "FTMJ" , "C"."GHYT" AS "YT" , "D"."QLXZ" AS "QLXZ" , "E"."QLXZ" AS "TDQLXZ" , "A"."FJ" AS "FJ" , WM_CONCAT(DISTINCT TO_CHAR(H.QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(H.ZJHM)) AS "ZJHM"  FROM "DJ_DJB" A Left JOIN "DJ_TSGL" B ON ( "A"."SLBH" = "B"."SLBH" )  Left JOIN "FC_H_QSDC" C ON ( "B"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "QL_FWXG" D ON ( "A"."SLBH" = "D"."SLBH" )  Left JOIN "QL_TDXG" E ON ( "A"."SLBH" = "E"."SLBH" )  Left JOIN "QL_SLXG" F ON ( "F"."SLBH" = "A"."SLBH" )  Left JOIN "DJ_SJD" G ON ( "A"."SLBH" = "G"."SLBH" )  Left JOIN "DJ_QLRGL" H ON ( "A"."SLBH" = "H"."SLBH" )   WHERE  (:MethodConst0 like '%'||"A"."SLBH"||'%') GROUP BY "A"."BDCZH","A"."BDCDYH","G"."ZL","C"."ZL","D"."JZMJ","F"."SYQMJ","E"."GYTDMJ","E"."FTTDMJ","C"."GHYT","D"."QLXZ","E"."QLXZ","A"."FJ"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass12_0.<BdcGeneralMrgeQdPrint>b__10         
+行　号：742         
+-----------------------------------------------------------
+时　间：2021/05/17 18:24:53.081         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：MrgeReleaseController.Post:【错误代码：ae22f8c800004ffb957e017979db6959,原因:English Message : Connection open error . ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12514: TNS:listener does not currently know of service requested in connect descriptor.】         
+源信息：IIRS.Controllers.BDC.BdcPrintController.BdcGeneralMrgeQdPrint         
+行　号：1786         
+-----------------------------------------------------------
+时　间：2021/05/17 18:25:22.504         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "A"."BDCZH" AS "BDCZH" , "A"."BDCDYH" AS "BDCDYH" , NVL("G"."ZL","C"."ZL") AS "ZL" , NVL(NVL("D"."JZMJ","F"."SYQMJ"),"E"."GYTDMJ") AS "MJ" , "E"."FTTDMJ" AS "FTMJ" , "C"."GHYT" AS "YT" , "D"."QLXZ" AS "QLXZ" , "E"."QLXZ" AS "TDQLXZ" , "A"."FJ" AS "FJ" , WM_CONCAT(DISTINCT TO_CHAR(H.QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(H.ZJHM)) AS "ZJHM"  FROM "DJ_DJB" A Left JOIN "DJ_TSGL" B ON ( "A"."SLBH" = "B"."SLBH" )  Left JOIN "FC_H_QSDC" C ON ( "B"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "QL_FWXG" D ON ( "A"."SLBH" = "D"."SLBH" )  Left JOIN "QL_TDXG" E ON ( "A"."SLBH" = "E"."SLBH" )  Left JOIN "QL_SLXG" F ON ( "F"."SLBH" = "A"."SLBH" )  Left JOIN "DJ_SJD" G ON ( "A"."SLBH" = "G"."SLBH" )  Left JOIN "DJ_QLRGL" H ON ( "A"."SLBH" = "H"."SLBH" )   WHERE  (:MethodConst0 like '%'||"A"."SLBH"||'%') GROUP BY "A"."BDCZH","A"."BDCDYH","G"."ZL","C"."ZL","D"."JZMJ","F"."SYQMJ","E"."GYTDMJ","E"."FTTDMJ","C"."GHYT","D"."QLXZ","E"."QLXZ","A"."FJ"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass12_0.<BdcGeneralMrgeQdPrint>b__10         
+行　号：742         
+-----------------------------------------------------------
+时　间：2021/05/17 18:25:39.046         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：MrgeReleaseController.Post:【错误代码：890461d01efb4ebdbb6d017979dc1ce6,原因:English Message : Connection open error . ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12514: TNS:listener does not currently know of service requested in connect descriptor.】         
+源信息：IIRS.Controllers.BDC.BdcPrintController.BdcGeneralMrgeQdPrint         
+行　号：1786         
+-----------------------------------------------------------
+时　间：2021/05/17 18:34:19.572         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：MrgeReleaseController.Post:【错误代码：7755b095424a41dabe13017979e40e34,原因:English Message : Connection open error . ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12514: TNS:listener does not currently know of service requested in connect descriptor.】         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2640         
+-----------------------------------------------------------
+时　间：2021/05/17 18:35:51.543         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：MrgeReleaseController.Post:【错误代码：f904178a020d471ab0a5017979e57577,原因:Object reference not set to an instance of an object.】         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/17 18:35:58.306         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：MrgeReleaseController.Post:【错误代码：ec29b6bb704442109b71017979e58fe1,原因:English Message : Connection open error . ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12514: TNS:listener does not currently know of service requested in connect descriptor.】         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/17 18:36:38.496         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：MrgeReleaseController.Post:【错误代码：e31ec478926841fca4af017979e62ce0,原因:English Message : Connection open error . ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：ORA-12514: TNS:listener does not currently know of service requested in connect descriptor.】         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：0         
+-----------------------------------------------------------

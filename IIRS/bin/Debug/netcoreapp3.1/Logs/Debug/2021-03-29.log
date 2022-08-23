@@ -1,0 +1,2119 @@
+时　间：2021/03/29 15:20:56.814         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 15:21:43.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：f40c5219b03c4f7f91ae01787cdc1e62,原因:The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.】         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.Post         
+行　号：390         
+-----------------------------------------------------------
+时　间：2021/03/29 15:21:44.803         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：23e901fdba164c0498c901787cdc2263,原因:The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.】         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.Post         
+行　号：390         
+-----------------------------------------------------------
+时　间：2021/03/29 15:22:00.702         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 15:22:29.975         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：e014550247c34af98a5501787cdcd2d7,原因:The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.】         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.Post         
+行　号：390         
+-----------------------------------------------------------
+时　间：2021/03/29 15:22:59.416         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 15:24:34.179         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：5d3170173e4e4563a41f01787cdeb7f3,原因:The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.】         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.Post         
+行　号：390         
+-----------------------------------------------------------
+时　间：2021/03/29 15:24:37.833         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：94c83c8bd3e04a24ab2301787cdec648,原因:The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.】         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.Post         
+行　号：390         
+-----------------------------------------------------------
+时　间：2021/03/29 15:24:37.882         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcGeneralMrgeController         
+消　息：MrgeReleaseController.Post:【错误代码：4e1a493af98c4f229ae201787cdec67a,原因:The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.】         
+源信息：IIRS.Controllers.BdcGeneralMrgeController.Post         
+行　号：390         
+-----------------------------------------------------------
+时　间：2021/03/29 15:24:37.908         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 15:24:37.928         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 15:24:38.978         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 15:25:29.096         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 15:25:29.096         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 15:25:41.320         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 15:25:54.687         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:12.200         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:20.440         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:20.746         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:23.288         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:23.669         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:23.669         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:23.707         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:29.986         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:30.020         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:36.559         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:36.567         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:36.741         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:36.890         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:37.145         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "PK","XID","FLOW_ID","USER_ID","USER_NAME","BTIIME","BACK_REMARK" FROM "IFLOW_ACTION_BACK"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:37.185         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","CDATE","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP" FROM "SYS_DATA_RECORDER"  WHERE ( "BUS_PK" = :BUS_PK0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:37.382         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 16:56:39.010         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetTaxInfo:错误码:0aed3982-90f8-4b86-a231-55831ec11b5b         
+源信息：IIRS.Controllers.BDC.TransferController.GetTaxInfo         
+行　号：377         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:27.051         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:36.674         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:38.327         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:38.388         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:39.239         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:39.248         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:44.206         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:44.297         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:44.297         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:46.827         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:46.860         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:51.797         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:51.827         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:51.827         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:51.859         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:51.886         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:51.892         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:52.387         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "FDIC_ID" IS NULL ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:52.395         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (("FDIC_ID" IN ('070820145933L24A3SQ3OY','070820150305ES5VNI1Y1S','070820150307507OATN6GL','070820150453626948R6U4','070820145255H8796087L2','070820145716K50I748Y3A','0708201455267C3OHJ2353','0708201509585S3612M498','070820151203U1HEKBGX25','170503164603S4O54M885V','170103143838HR7L710PB7','0708201507078458476N92','070820151533R7H53OUY9L','070820145624F0MJML837D','070820145401ESR8890UU1')) AND( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:52.453         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "PK","XID","FLOW_ID","USER_ID","USER_NAME","BTIIME","BACK_REMARK" FROM "IFLOW_ACTION_BACK"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:52.453         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (("FDIC_ID" IN ('1710251800593LI541H357','07082015030756OQCJ41K5','070820150453M7S0016Y5C','070820150454PSK2F64616','171025175635504KL25V65','17102518001182J70KN0LY','070820150453L554669O7P','0708201504546DJR75U8G9','07082015045426VD830BG7','070820150707466TY3K81H','171025175635IC57I5E52P','0708201507074Y78AJ4D3N','070820150707MMC52KBSOL','07082015070749NH72Y722','070820150707JDN7I28D9E','070820150707GU17O7C9EC','0708201507077Q3Q9PI4QF','07082015095919646UJ6K9','070820150959M40J0Y730L','070820150958X5A833L3UX','07082015095917G0WOCC6V','070820150959YO1EEGNO41','0708201509599OW7YY79CD','070820150959AA0L86KL5R','070820150959XDUMRR8460','07082015095927K74B7C99','0708201512034X0U86C1NC','070820151203VKSD2AE782','1710251802243TG5BDH6QP','180511161826DM8HJ4955B','0708201512030MJXPL0109','070820151203NPUMNVT3Q0','070820151203R6NH8RLGOJ','0708201512034DA090H359','070820151203HVY9939V5Q','200512110937G15038037O','0708201515336I7MBKT007','0708201515346KP55C9GX5','0708201515340GL9H96GBA','0708201515348TLQIFL08E','070820151534H1V7526T4I','180207105235K38TRL6N64','1707101438226347870GP9','070820145255WO62EOU38B','070820145402V3PJC05FN9','0708201454027N0RFA0QO3','07082014545943302HKSQ9','070820145459J2X8547E9H','070820145459434T52WOJH','070820145526BE6A80JBG6','070820145624HNRA28N173','070820145624854508DM65','070820145624Q3V5I3V575','070820145717U3030LBC23','070820145716I125528XET','070820145816P1JH0BFAXV','0708201458154RILN0F2WQ','170627105450030O7YFMH8','070820145815B1BC9DYVU2','0708201458160C9P3NLF4I','0708201459333DD95BJE3U','170828153932139M08LNNC','070820145934NYSYD85470','070820145933644C41311N','131220153721PN7GKH5GU6','070820150306Q11OFT2H20','070820150306C4IJ9MT567','07082015030666TA2QBQ11','190701150800E7B63F0AT1','1611211600401I5N9N041B','17062016503967QNDRI119','170925100553TAX76B33C2','070820150306KA58VJ3J7T','070820150306CE0261YJ84','0708201503077VTM3523I6','0708201503068053KLJS72','07082015030635X44W10G8','070820150307IYF82R2166','1512251205045S9S8BAHCJ','1708281548588O0UQW196K')) AND( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:52.453         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (("FDIC_ID" IN ('1906130913550Y5QQW48XG','1804241027526Q88265222','171019162809V311C02T8H','180410092137333387E882','190826092739XL2A7I8718')) AND( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:52.934         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetTaxInfo:错误码:627d1360-604c-4a21-8795-ab71d8d492bb         
+源信息：IIRS.Controllers.BDC.TransferController.GetTaxInfo         
+行　号：377         
+-----------------------------------------------------------
+时　间：2021/03/29 17:01:52.934         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:33.497         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:33.558         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:33.566         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:36.531         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:36.531         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:39.325         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT SLBH_SEQNUM() FROM DUAL         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:39.356         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:39.437         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:39.452         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:39.677         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","CDATE","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP" FROM "SYS_DATA_RECORDER"  WHERE ( "BUS_PK" = :BUS_PK0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:04:40.387         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetTaxInfo:错误码:cfb78e69-821f-43c1-9f57-1006b9ff0082         
+源信息：IIRS.Controllers.BDC.TransferController.GetTaxInfo         
+行　号：377         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:34.867         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:41.823         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT SLBH_SEQNUM() FROM DUAL         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:41.956         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:42.085         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:44.772         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:44.821         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:44.914         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:44.925         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:53.756         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:53.817         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:53.817         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:53.825         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:58.311         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:07:58.311         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:00.069         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT SLBH_SEQNUM() FROM DUAL         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:00.109         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:00.109         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:00.109         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:00.109         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:00.233         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:00.273         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:01.171         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetTaxInfo:错误码:06a005cd-e891-4bc2-a51d-482dccc2ea2e         
+源信息：IIRS.Controllers.BDC.TransferController.GetTaxInfo         
+行　号：377         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:01.171         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.609         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT  "B"."BID" AS "BID" , "B"."STATUS" AS "STATUS" , "A"."XID" AS "XID" , "A"."IS_ACTION_OK" AS "ISACTIONOK"  FROM "REGISTRATION_INFO" A  ,"BANKAUTHORIZE"  B  WHERE ( "A"."AUZ_ID" = "B"."BID" )  AND ( "A"."XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.663         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SFD_FB_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.663         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "QLRGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.672         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SJD_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.672         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "DJB_INFO" WHERE ( "XID" = :xid0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.672         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SPB_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.672         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SFD_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.686         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "TSGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.686         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "XGDJGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.686         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "QL_XG_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.686         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SYS_DATA_RECORDER" WHERE ( "BUS_PK" = :BUS_PK0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.686         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "PUB_ATT_FILE" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.701         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "PUB_ATT_FILE" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.701         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "PUB_ATT_FILE" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.742         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SFD_FB_INFO"  
+           ("CWSFDXBBH","SLBH","QDXH","SFXM","JLDW","SL","SFBZ","HSJE","JMJE","JMYY","BZ","QDLX","XID")
+     VALUES
+           (:CWSFDXBBH,:SLBH,:QDXH,:SFXM,:JLDW,:SL,:SFBZ,:HSJE,:JMJE,:JMYY,:BZ,:QDLX,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.760         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QLRGL_INFO"  
+           ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+     VALUES
+           (:GLBM,:SLBH,:YWBM,:QLRID,:IS_OWNER,:GYFS,:GYFE,:SXH,:QLRLX,:QLRMC,:ZJHM,:ZJLB,:ZJLB_ZWM,:DH,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.763         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QLRGL_INFO"  
+           ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+     VALUES
+           (:GLBM,:SLBH,:YWBM,:QLRID,:IS_OWNER,:GYFS,:GYFE,:SXH,:QLRLX,:QLRMC,:ZJHM,:ZJLB,:ZJLB_ZWM,:DH,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.779         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SJD_INFO"  
+           ("SLBH","DJDL","DJXL","LCLX","LCBM","LCMC","ZL","SJR","SJSJ","CNSJ","QXDM","TZRXM","TZFS","TZRDH","TZRYDDH","TZRDZYJ","TZRTXDZ","CXMM","SJMC","SJLX","SJSL","YS","SFSYBZ","SFEWSJ","SFBCSJ","ZRKS","ZRR","YXJ","SJBZ","BCSM","FCSLH","FCDJLX","FCHID","BIZMSGID","JRYWBM","SBZT","SBXZCS","CERTINUM","CERTIINFO","SBSTZT","HTBH","JHZT","JYBH","PCH","AJZT","XCZP","PRJID","SHAREKEY","SHARETIME","SHARESTATE","QXKZ","CGZT","WWSQBH","WWYYBH","QYXS","GG_XMBH","SBCS","SBSJ","SBJG","HBSBZT","SBXZSJ","CHBH","ZXDZ","JHXTID","XID")
+     VALUES
+           (:SLBH,:DJDL,:DJXL,:LCLX,:LCBM,:LCMC,:ZL,:SJR,:SJSJ,:CNSJ,:QXDM,:TZRXM,:TZFS,:TZRDH,:TZRYDDH,:TZRDZYJ,:TZRTXDZ,:CXMM,:SJMC,:SJLX,:SJSL,:YS,:SFSYBZ,:SFEWSJ,:SFBCSJ,:ZRKS,:ZRR,:YXJ,:SJBZ,:BCSM,:FCSLH,:FCDJLX,:FCHID,:BIZMSGID,:JRYWBM,:SBZT,:SBXZCS,:CERTINUM,:CERTIINFO,:SBSTZT,:HTBH,:JHZT,:JYBH,:PCH,:AJZT,:XCZP,:PRJID,:SHAREKEY,:SHARETIME,:SHARESTATE,:QXKZ,:CGZT,:WWSQBH,:WWYYBH,:QYXS,:GG_XMBH,:SBCS,:SBSJ,:SBJG,:HBSBZT,:SBXZSJ,:CHBH,:ZXDZ,:JHXTID,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.800         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "DJB_INFO"  
+           ("SLBH","DJLX","DJYY","SQZSBS","SQFBCZ","SQRQ","SQNR","SQBZ","DLJGMC","DLRXM","DLRZJLX","DLRZJH","DLRZGZH","DLRDH","DLJGMC2","DLRXM2","DLRZJLX2","DLRZJH2","DLRZGZH2","DLRDH2","SPDW","SPRQ","SPBZ","BDCZH","SSJC","JGJC","FZND","ZSH","SZR","GYFS","GYFE","DJRQ","DBR","ZSR","FZJG","FZRQ","ZSLX","ZSXLH","DYCS","GDH","DAMJ","QT","FJ","XGZH","GLZH","BDCDYH","HDPCH","SZPCH","ZXDJDYBH","LIFECYCLE","LIFECYCLE1","SPDJNR","WZ","DZZSXLH","补录说明","ZHCL","GCLZH","CQLY","SQDJNR","QFQY","XID","SZQY")
+     VALUES
+           (:SLBH,:DJLX,:DJYY,:SQZSBS,:SQFBCZ,:SQRQ,:SQNR,:SQBZ,:DLJGMC,:DLRXM,:DLRZJLX,:DLRZJH,:DLRZGZH,:DLRDH,:DLJGMC2,:DLRXM2,:DLRZJLX2,:DLRZJH2,:DLRZGZH2,:DLRDH2,:SPDW,:SPRQ,:SPBZ,:BDCZH,:SSJC,:JGJC,:FZND,:ZSH,:SZR,:GYFS,:GYFE,:DJRQ,:DBR,:ZSR,:FZJG,:FZRQ,:ZSLX,:ZSXLH,:DYCS,:GDH,:DAMJ,:QT,:FJ,:XGZH,:GLZH,:BDCDYH,:HDPCH,:SZPCH,:ZXDJDYBH,:LIFECYCLE,:LIFECYCLE1,:SPDJNR,:WZ,:DZZSXLH,:补录说明,:ZHCL,:GCLZH,:CQLY,:SQDJNR,:QFQY,:xid,:SZQY)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.800         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SPB_INFO"  
+           ("SPBH","SLBH","SPDX","SPXH","SPYJ","SPR","SPRQ","SPRZGZH","SPJG","SPZT","SPTXR","XID")
+     VALUES
+           (:SPBH,:SLBH,:SPDX,:SPXH,:SPYJ,:SPR,:SPRQ,:SPRZGZH,:SPJG,:SPZT,:SPTXR,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.826         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SFD_INFO"  
+           ("SLBH","JFBH","XMMC","JFDW","TXDZ","DH","JFLX","JBR","JBRQ","JBYJ","SHR","SHYJ","SHRQ","YSJE","SSJE","SKR","SKRQ","SKYJ","SLR","DYZT","SFZT","HBDH","DYR","DYSJ","HBR","HBSJ","SFBZ","YYS","GRSDS","QS","TDZZS","FPH","HSJE","DYR1","DYSJ1","HSJE1","JZJF","XID")
+     VALUES
+           (:SLBH,:JFBH,:XMMC,:JFDW,:TXDZ,:DH,:JFLX,:JBR,:JBRQ,:JBYJ,:SHR,:SHYJ,:SHRQ,:YSJE,:SSJE,:SKR,:SKRQ,:SKYJ,:SLR,:DYZT,:SFZT,:HBDH,:DYR,:DYSJ,:HBR,:HBSJ,:SFBZ,:YYS,:GRSDS,:QS,:TDZZS,:FPH,:HSJE,:DYR1,:DYSJ1,:HSJE1,:JZJF,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.826         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "TSGL_INFO"  
+           ("GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","CSSJ","LIFECYCLE","XID")
+     VALUES
+           (:GLBM,:SLBH,:BDCLX,:TSTYBM,:BDCDYH,:DJZL,:CSSJ,:LIFECYCLE,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.844         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "XGDJGL_INFO"  
+           ("BGBM","ZSLBH","FSLBH","BGRQ","BGLX","XGZH","XGZLX","PID","XID")
+     VALUES
+           (:BGBM,:ZSLBH,:FSLBH,:BGRQ,:BGLX,:XGZH,:XGZLX,:PID,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.856         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QL_XG_INFO"  
+           ("XTBH","SLBH","FW_QLLX","FW_QLLX_ZWM","FW_QLXZ","FW_QLXZ_ZWMS","FW_JZMJ","FW_CQLY","FW_TNJZMJ","FW_FTJZMJ","FW_YC_JZMJ","FW_YC_TNJZMJ","FW_YC_FTJZMJ","FW_FWGHYT","FW_FWGHYT_ZWM","QDFS","QDJG","PGJE","TD_QLLX","TD_QLLX_ZWM","TD_QLXZ","TD_QLXZ_ZWMS","TD_GYTDMJ","TD_DYTDMJ","TD_FTTDMJ","TD_JZZDMJ","TD_SYQX","TD_QSRQ","TD_ZZRQ","TD_TDYT","TD_TDYT_ZWMS","XID")
+     VALUES
+           (:XTBH,:SLBH,:FW_QLLX,:FW_QLLX_ZWM,:FW_QLXZ,:FW_QLXZ_ZWMS,:FW_JZMJ,:FW_CQLY,:FW_TNJZMJ,:FW_FTJZMJ,:FW_YC_JZMJ,:FW_YC_TNJZMJ,:FW_YC_FTJZMJ,:FW_FWGHYT,:FW_FWGHYT_ZWM,:QDFS,:QDJG,:PGJE,:TD_QLLX,:TD_QLLX_ZWM,:TD_QLXZ,:TD_QLXZ_ZWMS,:TD_GYTDMJ,:TD_DYTDMJ,:TD_FTTDMJ,:TD_JZZDMJ,:TD_SYQX,:TD_QSRQ,:TD_ZZRQ,:TD_TDYT,:TD_TDYT_ZWMS,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.856         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SYS_DATA_RECORDER"  
+           ("PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP")
+     VALUES
+           (:PK,:BUS_PK,:USER_ID,:USER_NAME,:SAVEDATAJSON,:REMARKS1,:REMARKS2,:REMARKS3,:REMARKS4,:REMARKS5,:IS_STOP)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:13.876         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：BEGIN
+INSERT INTO "PUB_ATT_FILE"  ("FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID")
+ SELECT N'4aa9889dbe274879a6e601787d3d9200' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'4aa9889dbe274879a6e601787d3d9200.jpg' AS "FILE_NAME",N'第1页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202103228004' AS "BUS_PK",N'202103228004' AS "BAK_PK",N'1' AS "ODR",N'\upload\2021\03\22\202103228004\' AS "FILE_PATH",to_date('2021-03-29 17:08:10', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'6137afef-7bd1-40b5-9592-01785955f526' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'2fd0e435ce5542cd9eed01787d3d9203' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'2fd0e435ce5542cd9eed01787d3d9203.jpg' AS "FILE_NAME",N'第2页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202103228004' AS "BUS_PK",N'202103228004' AS "BAK_PK",N'2' AS "ODR",N'\upload\2021\03\22\202103228004\' AS "FILE_PATH",to_date('2021-03-29 17:08:10', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'6137afef-7bd1-40b5-9592-01785955f526' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'1b31af1f888a456c840901787d3d9206' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'1b31af1f888a456c840901787d3d9206.jpg' AS "FILE_NAME",N'第3页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202103228004' AS "BUS_PK",N'202103228004' AS "BAK_PK",N'3' AS "ODR",N'\upload\2021\03\22\202103228004\' AS "FILE_PATH",to_date('2021-03-29 17:08:10', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'6137afef-7bd1-40b5-9592-01785955f526' AS "XID" FROM DUAL 
+;
+
+END;         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:14.562         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：UPDATE "REGISTRATION_INFO"  SET
+           "YWSLBH"=:YWSLBH,"HTH"=:HTH,"DJZL"=:DJZL,"BDCZH"=:BDCZH,"SLBH"=:SLBH,"ZL"=:ZL,"QLRMC"=:QLRMC,"ZJLB"=:ZJLB,"ZJHM"=:ZJHM,"ORG_ID"=:ORG_ID,"USER_ID"=:USER_ID,"TEL"=:TEL,"AUZ_ID"=:AUZ_ID,"REMARK1"=:REMARK1,"REMARK2"=:REMARK2,"SJR"=:SJR,"IS_ACTION_OK"=:IS_ACTION_OK,"NEXT_XID"=:NEXT_XID,"SAVEDATAJSON"=:SaveDataJson,"SAVEDATE"=:SAVEDATE,"PDH"=:PDH  WHERE "XID"=:XID         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:14.716         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:28.700         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:28.772         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:28.781         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:30.542         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:30.550         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:32.294         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:32.314         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:32.346         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:32.393         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:32.393         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:32.551         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "PK","XID","FLOW_ID","USER_ID","USER_NAME","BTIIME","BACK_REMARK" FROM "IFLOW_ACTION_BACK"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:33.274         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetTaxInfo:错误码:75aafea6-71b4-4f94-9a02-b115da488f5c         
+源信息：IIRS.Controllers.BDC.TransferController.GetTaxInfo         
+行　号：377         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:33.274         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.971         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT  "B"."BID" AS "BID" , "B"."STATUS" AS "STATUS" , "A"."XID" AS "XID" , "A"."IS_ACTION_OK" AS "ISACTIONOK"  FROM "REGISTRATION_INFO" A  ,"BANKAUTHORIZE"  B  WHERE ( "A"."AUZ_ID" = "B"."BID" )  AND ( "A"."XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.971         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SFD_FB_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.971         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "QLRGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.971         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SJD_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.983         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "DJB_INFO" WHERE ( "XID" = :xid0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.983         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SPB_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.983         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SFD_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.983         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "TSGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.983         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "XGDJGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.999         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "QL_XG_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.999         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SYS_DATA_RECORDER" WHERE ( "BUS_PK" = :BUS_PK0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.999         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "PUB_ATT_FILE" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.999         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "PUB_ATT_FILE" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:44.999         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SFD_FB_INFO"  
+           ("CWSFDXBBH","SLBH","QDXH","SFXM","JLDW","SL","SFBZ","HSJE","JMJE","JMYY","BZ","QDLX","XID")
+     VALUES
+           (:CWSFDXBBH,:SLBH,:QDXH,:SFXM,:JLDW,:SL,:SFBZ,:HSJE,:JMJE,:JMYY,:BZ,:QDLX,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.013         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QLRGL_INFO"  
+           ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+     VALUES
+           (:GLBM,:SLBH,:YWBM,:QLRID,:IS_OWNER,:GYFS,:GYFE,:SXH,:QLRLX,:QLRMC,:ZJHM,:ZJLB,:ZJLB_ZWM,:DH,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.013         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QLRGL_INFO"  
+           ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+     VALUES
+           (:GLBM,:SLBH,:YWBM,:QLRID,:IS_OWNER,:GYFS,:GYFE,:SXH,:QLRLX,:QLRMC,:ZJHM,:ZJLB,:ZJLB_ZWM,:DH,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.013         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SJD_INFO"  
+           ("SLBH","DJDL","DJXL","LCLX","LCBM","LCMC","ZL","SJR","SJSJ","CNSJ","QXDM","TZRXM","TZFS","TZRDH","TZRYDDH","TZRDZYJ","TZRTXDZ","CXMM","SJMC","SJLX","SJSL","YS","SFSYBZ","SFEWSJ","SFBCSJ","ZRKS","ZRR","YXJ","SJBZ","BCSM","FCSLH","FCDJLX","FCHID","BIZMSGID","JRYWBM","SBZT","SBXZCS","CERTINUM","CERTIINFO","SBSTZT","HTBH","JHZT","JYBH","PCH","AJZT","XCZP","PRJID","SHAREKEY","SHARETIME","SHARESTATE","QXKZ","CGZT","WWSQBH","WWYYBH","QYXS","GG_XMBH","SBCS","SBSJ","SBJG","HBSBZT","SBXZSJ","CHBH","ZXDZ","JHXTID","XID")
+     VALUES
+           (:SLBH,:DJDL,:DJXL,:LCLX,:LCBM,:LCMC,:ZL,:SJR,:SJSJ,:CNSJ,:QXDM,:TZRXM,:TZFS,:TZRDH,:TZRYDDH,:TZRDZYJ,:TZRTXDZ,:CXMM,:SJMC,:SJLX,:SJSL,:YS,:SFSYBZ,:SFEWSJ,:SFBCSJ,:ZRKS,:ZRR,:YXJ,:SJBZ,:BCSM,:FCSLH,:FCDJLX,:FCHID,:BIZMSGID,:JRYWBM,:SBZT,:SBXZCS,:CERTINUM,:CERTIINFO,:SBSTZT,:HTBH,:JHZT,:JYBH,:PCH,:AJZT,:XCZP,:PRJID,:SHAREKEY,:SHARETIME,:SHARESTATE,:QXKZ,:CGZT,:WWSQBH,:WWYYBH,:QYXS,:GG_XMBH,:SBCS,:SBSJ,:SBJG,:HBSBZT,:SBXZSJ,:CHBH,:ZXDZ,:JHXTID,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.013         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "DJB_INFO"  
+           ("SLBH","DJLX","DJYY","SQZSBS","SQFBCZ","SQRQ","SQNR","SQBZ","DLJGMC","DLRXM","DLRZJLX","DLRZJH","DLRZGZH","DLRDH","DLJGMC2","DLRXM2","DLRZJLX2","DLRZJH2","DLRZGZH2","DLRDH2","SPDW","SPRQ","SPBZ","BDCZH","SSJC","JGJC","FZND","ZSH","SZR","GYFS","GYFE","DJRQ","DBR","ZSR","FZJG","FZRQ","ZSLX","ZSXLH","DYCS","GDH","DAMJ","QT","FJ","XGZH","GLZH","BDCDYH","HDPCH","SZPCH","ZXDJDYBH","LIFECYCLE","LIFECYCLE1","SPDJNR","WZ","DZZSXLH","补录说明","ZHCL","GCLZH","CQLY","SQDJNR","QFQY","XID","SZQY")
+     VALUES
+           (:SLBH,:DJLX,:DJYY,:SQZSBS,:SQFBCZ,:SQRQ,:SQNR,:SQBZ,:DLJGMC,:DLRXM,:DLRZJLX,:DLRZJH,:DLRZGZH,:DLRDH,:DLJGMC2,:DLRXM2,:DLRZJLX2,:DLRZJH2,:DLRZGZH2,:DLRDH2,:SPDW,:SPRQ,:SPBZ,:BDCZH,:SSJC,:JGJC,:FZND,:ZSH,:SZR,:GYFS,:GYFE,:DJRQ,:DBR,:ZSR,:FZJG,:FZRQ,:ZSLX,:ZSXLH,:DYCS,:GDH,:DAMJ,:QT,:FJ,:XGZH,:GLZH,:BDCDYH,:HDPCH,:SZPCH,:ZXDJDYBH,:LIFECYCLE,:LIFECYCLE1,:SPDJNR,:WZ,:DZZSXLH,:补录说明,:ZHCL,:GCLZH,:CQLY,:SQDJNR,:QFQY,:xid,:SZQY)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.030         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SPB_INFO"  
+           ("SPBH","SLBH","SPDX","SPXH","SPYJ","SPR","SPRQ","SPRZGZH","SPJG","SPZT","SPTXR","XID")
+     VALUES
+           (:SPBH,:SLBH,:SPDX,:SPXH,:SPYJ,:SPR,:SPRQ,:SPRZGZH,:SPJG,:SPZT,:SPTXR,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.030         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SFD_INFO"  
+           ("SLBH","JFBH","XMMC","JFDW","TXDZ","DH","JFLX","JBR","JBRQ","JBYJ","SHR","SHYJ","SHRQ","YSJE","SSJE","SKR","SKRQ","SKYJ","SLR","DYZT","SFZT","HBDH","DYR","DYSJ","HBR","HBSJ","SFBZ","YYS","GRSDS","QS","TDZZS","FPH","HSJE","DYR1","DYSJ1","HSJE1","JZJF","XID")
+     VALUES
+           (:SLBH,:JFBH,:XMMC,:JFDW,:TXDZ,:DH,:JFLX,:JBR,:JBRQ,:JBYJ,:SHR,:SHYJ,:SHRQ,:YSJE,:SSJE,:SKR,:SKRQ,:SKYJ,:SLR,:DYZT,:SFZT,:HBDH,:DYR,:DYSJ,:HBR,:HBSJ,:SFBZ,:YYS,:GRSDS,:QS,:TDZZS,:FPH,:HSJE,:DYR1,:DYSJ1,:HSJE1,:JZJF,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.030         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "TSGL_INFO"  
+           ("GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","CSSJ","LIFECYCLE","XID")
+     VALUES
+           (:GLBM,:SLBH,:BDCLX,:TSTYBM,:BDCDYH,:DJZL,:CSSJ,:LIFECYCLE,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.030         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "XGDJGL_INFO"  
+           ("BGBM","ZSLBH","FSLBH","BGRQ","BGLX","XGZH","XGZLX","PID","XID")
+     VALUES
+           (:BGBM,:ZSLBH,:FSLBH,:BGRQ,:BGLX,:XGZH,:XGZLX,:PID,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.030         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QL_XG_INFO"  
+           ("XTBH","SLBH","FW_QLLX","FW_QLLX_ZWM","FW_QLXZ","FW_QLXZ_ZWMS","FW_JZMJ","FW_CQLY","FW_TNJZMJ","FW_FTJZMJ","FW_YC_JZMJ","FW_YC_TNJZMJ","FW_YC_FTJZMJ","FW_FWGHYT","FW_FWGHYT_ZWM","QDFS","QDJG","PGJE","TD_QLLX","TD_QLLX_ZWM","TD_QLXZ","TD_QLXZ_ZWMS","TD_GYTDMJ","TD_DYTDMJ","TD_FTTDMJ","TD_JZZDMJ","TD_SYQX","TD_QSRQ","TD_ZZRQ","TD_TDYT","TD_TDYT_ZWMS","XID")
+     VALUES
+           (:XTBH,:SLBH,:FW_QLLX,:FW_QLLX_ZWM,:FW_QLXZ,:FW_QLXZ_ZWMS,:FW_JZMJ,:FW_CQLY,:FW_TNJZMJ,:FW_FTJZMJ,:FW_YC_JZMJ,:FW_YC_TNJZMJ,:FW_YC_FTJZMJ,:FW_FWGHYT,:FW_FWGHYT_ZWM,:QDFS,:QDJG,:PGJE,:TD_QLLX,:TD_QLLX_ZWM,:TD_QLXZ,:TD_QLXZ_ZWMS,:TD_GYTDMJ,:TD_DYTDMJ,:TD_FTTDMJ,:TD_JZZDMJ,:TD_SYQX,:TD_QSRQ,:TD_ZZRQ,:TD_TDYT,:TD_TDYT_ZWMS,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.046         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SYS_DATA_RECORDER"  
+           ("PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP")
+     VALUES
+           (:PK,:BUS_PK,:USER_ID,:USER_NAME,:SAVEDATAJSON,:REMARKS1,:REMARKS2,:REMARKS3,:REMARKS4,:REMARKS5,:IS_STOP)          
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:45.046         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：BEGIN
+INSERT INTO "PUB_ATT_FILE"  ("FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID")
+ SELECT N'c9884f7e044e4d63990501787d3e0bfd' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'c9884f7e044e4d63990501787d3e0bfd.jpg' AS "FILE_NAME",N'第1页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202103228004' AS "BUS_PK",N'202103228004' AS "BAK_PK",N'1' AS "ODR",N'\upload\2021\03\22\202103228004\' AS "FILE_PATH",to_date('2021-03-29 17:08:41', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'6137afef-7bd1-40b5-9592-01785955f526' AS "XID" FROM DUAL 	
+UNION ALL 
+ SELECT N'18de8df626254339af9401787d3e0c08' AS "FILE_ID",N'117d6795-35fd-48d9-9a3a-0172b1ec629f' AS "GROUP_ID",N'银行合同' AS "GROUP_NAME",N'18de8df626254339af9401787d3e0c08.jpg' AS "FILE_NAME",N'第2页' AS "DISPLAY_NAME",N'jpg' AS "MEDIA_TYPE",N'202103228004' AS "BUS_PK",N'202103228004' AS "BAK_PK",N'2' AS "ODR",N'\upload\2021\03\22\202103228004\' AS "FILE_PATH",to_date('2021-03-29 17:08:41', 'YYYY-MM-DD HH24:MI:SS')  AS "CDATE",N'6137afef-7bd1-40b5-9592-01785955f526' AS "XID" FROM DUAL 
+;
+
+END;         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:08:56.497         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：UPDATE "REGISTRATION_INFO"  SET
+           "YWSLBH"=:YWSLBH,"HTH"=:HTH,"DJZL"=:DJZL,"BDCZH"=:BDCZH,"SLBH"=:SLBH,"ZL"=:ZL,"QLRMC"=:QLRMC,"ZJLB"=:ZJLB,"ZJHM"=:ZJHM,"ORG_ID"=:ORG_ID,"USER_ID"=:USER_ID,"TEL"=:TEL,"AUZ_ID"=:AUZ_ID,"REMARK1"=:REMARK1,"REMARK2"=:REMARK2,"SJR"=:SJR,"IS_ACTION_OK"=:IS_ACTION_OK,"NEXT_XID"=:NEXT_XID,"SAVEDATAJSON"=:SaveDataJson,"SAVEDATE"=:SAVEDATE,"PDH"=:PDH  WHERE "XID"=:XID         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:35.051         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:35.173         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:35.197         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:36.764         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:36.764         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:39.269         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:39.246         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:39.379         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:39.474         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:39.571         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:39.616         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","CDATE","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP" FROM "SYS_DATA_RECORDER"  WHERE ( "BUS_PK" = :BUS_PK0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:40.395         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetTaxInfo:错误码:4fcc4698-e11e-44d4-92bc-ba118006fb7b         
+源信息：IIRS.Controllers.BDC.TransferController.GetTaxInfo         
+行　号：377         
+-----------------------------------------------------------
+时　间：2021/03/29 17:10:40.395         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.674         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT  "B"."BID" AS "BID" , "B"."STATUS" AS "STATUS" , "A"."XID" AS "XID" , "A"."IS_ACTION_OK" AS "ISACTIONOK"  FROM "REGISTRATION_INFO" A  ,"BANKAUTHORIZE"  B  WHERE ( "A"."AUZ_ID" = "B"."BID" )  AND ( "A"."XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.715         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SFD_FB_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.719         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "QLRGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.719         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SJD_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.719         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "DJB_INFO" WHERE ( "XID" = :xid0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.719         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SPB_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.733         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SFD_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.733         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "TSGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.733         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "XGDJGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.733         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "QL_XG_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.733         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SYS_DATA_RECORDER" WHERE ( "BUS_PK" = :BUS_PK0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.781         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SFD_FB_INFO"  
+           ("CWSFDXBBH","SLBH","QDXH","SFXM","JLDW","SL","SFBZ","HSJE","JMJE","JMYY","BZ","QDLX","XID")
+     VALUES
+           (:CWSFDXBBH,:SLBH,:QDXH,:SFXM,:JLDW,:SL,:SFBZ,:HSJE,:JMJE,:JMYY,:BZ,:QDLX,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.802         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QLRGL_INFO"  
+           ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+     VALUES
+           (:GLBM,:SLBH,:YWBM,:QLRID,:IS_OWNER,:GYFS,:GYFE,:SXH,:QLRLX,:QLRMC,:ZJHM,:ZJLB,:ZJLB_ZWM,:DH,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.802         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QLRGL_INFO"  
+           ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+     VALUES
+           (:GLBM,:SLBH,:YWBM,:QLRID,:IS_OWNER,:GYFS,:GYFE,:SXH,:QLRLX,:QLRMC,:ZJHM,:ZJLB,:ZJLB_ZWM,:DH,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.823         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SJD_INFO"  
+           ("SLBH","DJDL","DJXL","LCLX","LCBM","LCMC","ZL","SJR","SJSJ","CNSJ","QXDM","TZRXM","TZFS","TZRDH","TZRYDDH","TZRDZYJ","TZRTXDZ","CXMM","SJMC","SJLX","SJSL","YS","SFSYBZ","SFEWSJ","SFBCSJ","ZRKS","ZRR","YXJ","SJBZ","BCSM","FCSLH","FCDJLX","FCHID","BIZMSGID","JRYWBM","SBZT","SBXZCS","CERTINUM","CERTIINFO","SBSTZT","HTBH","JHZT","JYBH","PCH","AJZT","XCZP","PRJID","SHAREKEY","SHARETIME","SHARESTATE","QXKZ","CGZT","WWSQBH","WWYYBH","QYXS","GG_XMBH","SBCS","SBSJ","SBJG","HBSBZT","SBXZSJ","CHBH","ZXDZ","JHXTID","XID")
+     VALUES
+           (:SLBH,:DJDL,:DJXL,:LCLX,:LCBM,:LCMC,:ZL,:SJR,:SJSJ,:CNSJ,:QXDM,:TZRXM,:TZFS,:TZRDH,:TZRYDDH,:TZRDZYJ,:TZRTXDZ,:CXMM,:SJMC,:SJLX,:SJSL,:YS,:SFSYBZ,:SFEWSJ,:SFBCSJ,:ZRKS,:ZRR,:YXJ,:SJBZ,:BCSM,:FCSLH,:FCDJLX,:FCHID,:BIZMSGID,:JRYWBM,:SBZT,:SBXZCS,:CERTINUM,:CERTIINFO,:SBSTZT,:HTBH,:JHZT,:JYBH,:PCH,:AJZT,:XCZP,:PRJID,:SHAREKEY,:SHARETIME,:SHARESTATE,:QXKZ,:CGZT,:WWSQBH,:WWYYBH,:QYXS,:GG_XMBH,:SBCS,:SBSJ,:SBJG,:HBSBZT,:SBXZSJ,:CHBH,:ZXDZ,:JHXTID,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.840         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "DJB_INFO"  
+           ("SLBH","DJLX","DJYY","SQZSBS","SQFBCZ","SQRQ","SQNR","SQBZ","DLJGMC","DLRXM","DLRZJLX","DLRZJH","DLRZGZH","DLRDH","DLJGMC2","DLRXM2","DLRZJLX2","DLRZJH2","DLRZGZH2","DLRDH2","SPDW","SPRQ","SPBZ","BDCZH","SSJC","JGJC","FZND","ZSH","SZR","GYFS","GYFE","DJRQ","DBR","ZSR","FZJG","FZRQ","ZSLX","ZSXLH","DYCS","GDH","DAMJ","QT","FJ","XGZH","GLZH","BDCDYH","HDPCH","SZPCH","ZXDJDYBH","LIFECYCLE","LIFECYCLE1","SPDJNR","WZ","DZZSXLH","补录说明","ZHCL","GCLZH","CQLY","SQDJNR","QFQY","XID","SZQY")
+     VALUES
+           (:SLBH,:DJLX,:DJYY,:SQZSBS,:SQFBCZ,:SQRQ,:SQNR,:SQBZ,:DLJGMC,:DLRXM,:DLRZJLX,:DLRZJH,:DLRZGZH,:DLRDH,:DLJGMC2,:DLRXM2,:DLRZJLX2,:DLRZJH2,:DLRZGZH2,:DLRDH2,:SPDW,:SPRQ,:SPBZ,:BDCZH,:SSJC,:JGJC,:FZND,:ZSH,:SZR,:GYFS,:GYFE,:DJRQ,:DBR,:ZSR,:FZJG,:FZRQ,:ZSLX,:ZSXLH,:DYCS,:GDH,:DAMJ,:QT,:FJ,:XGZH,:GLZH,:BDCDYH,:HDPCH,:SZPCH,:ZXDJDYBH,:LIFECYCLE,:LIFECYCLE1,:SPDJNR,:WZ,:DZZSXLH,:补录说明,:ZHCL,:GCLZH,:CQLY,:SQDJNR,:QFQY,:xid,:SZQY)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.840         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SPB_INFO"  
+           ("SPBH","SLBH","SPDX","SPXH","SPYJ","SPR","SPRQ","SPRZGZH","SPJG","SPZT","SPTXR","XID")
+     VALUES
+           (:SPBH,:SLBH,:SPDX,:SPXH,:SPYJ,:SPR,:SPRQ,:SPRZGZH,:SPJG,:SPZT,:SPTXR,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.863         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SFD_INFO"  
+           ("SLBH","JFBH","XMMC","JFDW","TXDZ","DH","JFLX","JBR","JBRQ","JBYJ","SHR","SHYJ","SHRQ","YSJE","SSJE","SKR","SKRQ","SKYJ","SLR","DYZT","SFZT","HBDH","DYR","DYSJ","HBR","HBSJ","SFBZ","YYS","GRSDS","QS","TDZZS","FPH","HSJE","DYR1","DYSJ1","HSJE1","JZJF","XID")
+     VALUES
+           (:SLBH,:JFBH,:XMMC,:JFDW,:TXDZ,:DH,:JFLX,:JBR,:JBRQ,:JBYJ,:SHR,:SHYJ,:SHRQ,:YSJE,:SSJE,:SKR,:SKRQ,:SKYJ,:SLR,:DYZT,:SFZT,:HBDH,:DYR,:DYSJ,:HBR,:HBSJ,:SFBZ,:YYS,:GRSDS,:QS,:TDZZS,:FPH,:HSJE,:DYR1,:DYSJ1,:HSJE1,:JZJF,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.874         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "TSGL_INFO"  
+           ("GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","CSSJ","LIFECYCLE","XID")
+     VALUES
+           (:GLBM,:SLBH,:BDCLX,:TSTYBM,:BDCDYH,:DJZL,:CSSJ,:LIFECYCLE,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.874         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "XGDJGL_INFO"  
+           ("BGBM","ZSLBH","FSLBH","BGRQ","BGLX","XGZH","XGZLX","PID","XID")
+     VALUES
+           (:BGBM,:ZSLBH,:FSLBH,:BGRQ,:BGLX,:XGZH,:XGZLX,:PID,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.898         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QL_XG_INFO"  
+           ("XTBH","SLBH","FW_QLLX","FW_QLLX_ZWM","FW_QLXZ","FW_QLXZ_ZWMS","FW_JZMJ","FW_CQLY","FW_TNJZMJ","FW_FTJZMJ","FW_YC_JZMJ","FW_YC_TNJZMJ","FW_YC_FTJZMJ","FW_FWGHYT","FW_FWGHYT_ZWM","QDFS","QDJG","PGJE","TD_QLLX","TD_QLLX_ZWM","TD_QLXZ","TD_QLXZ_ZWMS","TD_GYTDMJ","TD_DYTDMJ","TD_FTTDMJ","TD_JZZDMJ","TD_SYQX","TD_QSRQ","TD_ZZRQ","TD_TDYT","TD_TDYT_ZWMS","XID")
+     VALUES
+           (:XTBH,:SLBH,:FW_QLLX,:FW_QLLX_ZWM,:FW_QLXZ,:FW_QLXZ_ZWMS,:FW_JZMJ,:FW_CQLY,:FW_TNJZMJ,:FW_FTJZMJ,:FW_YC_JZMJ,:FW_YC_TNJZMJ,:FW_YC_FTJZMJ,:FW_FWGHYT,:FW_FWGHYT_ZWM,:QDFS,:QDJG,:PGJE,:TD_QLLX,:TD_QLLX_ZWM,:TD_QLXZ,:TD_QLXZ_ZWMS,:TD_GYTDMJ,:TD_DYTDMJ,:TD_FTTDMJ,:TD_JZZDMJ,:TD_SYQX,:TD_QSRQ,:TD_ZZRQ,:TD_TDYT,:TD_TDYT_ZWMS,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:08.907         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SYS_DATA_RECORDER"  
+           ("PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP")
+     VALUES
+           (:PK,:BUS_PK,:USER_ID,:USER_NAME,:SAVEDATAJSON,:REMARKS1,:REMARKS2,:REMARKS3,:REMARKS4,:REMARKS5,:IS_STOP)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:11:12.692         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：UPDATE "REGISTRATION_INFO"  SET
+           "YWSLBH"=:YWSLBH,"HTH"=:HTH,"DJZL"=:DJZL,"BDCZH"=:BDCZH,"SLBH"=:SLBH,"ZL"=:ZL,"QLRMC"=:QLRMC,"ZJLB"=:ZJLB,"ZJHM"=:ZJHM,"ORG_ID"=:ORG_ID,"USER_ID"=:USER_ID,"TEL"=:TEL,"AUZ_ID"=:AUZ_ID,"REMARK1"=:REMARK1,"REMARK2"=:REMARK2,"SJR"=:SJR,"IS_ACTION_OK"=:IS_ACTION_OK,"NEXT_XID"=:NEXT_XID,"SAVEDATAJSON"=:SaveDataJson,"SAVEDATE"=:SAVEDATE,"PDH"=:PDH  WHERE "XID"=:XID         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:22.892         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:26.344         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:26.504         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:26.869         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:26.874         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:26.874         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:26.938         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:27.294         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:27.294         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:29.060         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:29.060         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:31.961         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:32.121         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:32.476         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:33.365         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:33.423         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:33.478         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:33.555         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "FDIC_ID" IS NULL ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:33.571         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (("FDIC_ID" IN ('070820145933L24A3SQ3OY','070820150305ES5VNI1Y1S','070820150307507OATN6GL','070820150453626948R6U4','070820145255H8796087L2','070820145716K50I748Y3A','0708201455267C3OHJ2353','0708201509585S3612M498','070820151203U1HEKBGX25','170503164603S4O54M885V','170103143838HR7L710PB7','0708201507078458476N92','070820151533R7H53OUY9L','070820145624F0MJML837D','070820145401ESR8890UU1')) AND( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:33.592         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (("FDIC_ID" IN ('1710251800593LI541H357','07082015030756OQCJ41K5','070820150453M7S0016Y5C','070820150454PSK2F64616','171025175635504KL25V65','17102518001182J70KN0LY','070820150453L554669O7P','0708201504546DJR75U8G9','07082015045426VD830BG7','070820150707466TY3K81H','171025175635IC57I5E52P','0708201507074Y78AJ4D3N','070820150707MMC52KBSOL','07082015070749NH72Y722','070820150707JDN7I28D9E','070820150707GU17O7C9EC','0708201507077Q3Q9PI4QF','07082015095919646UJ6K9','070820150959M40J0Y730L','070820150958X5A833L3UX','07082015095917G0WOCC6V','070820150959YO1EEGNO41','0708201509599OW7YY79CD','070820150959AA0L86KL5R','070820150959XDUMRR8460','07082015095927K74B7C99','0708201512034X0U86C1NC','070820151203VKSD2AE782','1710251802243TG5BDH6QP','180511161826DM8HJ4955B','0708201512030MJXPL0109','070820151203NPUMNVT3Q0','070820151203R6NH8RLGOJ','0708201512034DA090H359','070820151203HVY9939V5Q','200512110937G15038037O','0708201515336I7MBKT007','0708201515346KP55C9GX5','0708201515340GL9H96GBA','0708201515348TLQIFL08E','070820151534H1V7526T4I','180207105235K38TRL6N64','1707101438226347870GP9','070820145255WO62EOU38B','070820145402V3PJC05FN9','0708201454027N0RFA0QO3','07082014545943302HKSQ9','070820145459J2X8547E9H','070820145459434T52WOJH','070820145526BE6A80JBG6','070820145624HNRA28N173','070820145624854508DM65','070820145624Q3V5I3V575','070820145717U3030LBC23','070820145716I125528XET','070820145816P1JH0BFAXV','0708201458154RILN0F2WQ','170627105450030O7YFMH8','070820145815B1BC9DYVU2','0708201458160C9P3NLF4I','0708201459333DD95BJE3U','170828153932139M08LNNC','070820145934NYSYD85470','070820145933644C41311N','131220153721PN7GKH5GU6','070820150306Q11OFT2H20','070820150306C4IJ9MT567','07082015030666TA2QBQ11','190701150800E7B63F0AT1','1611211600401I5N9N041B','17062016503967QNDRI119','170925100553TAX76B33C2','070820150306KA58VJ3J7T','070820150306CE0261YJ84','0708201503077VTM3523I6','0708201503068053KLJS72','07082015030635X44W10G8','070820150307IYF82R2166','1512251205045S9S8BAHCJ','1708281548588O0UQW196K')) AND( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:33.592         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (("FDIC_ID" IN ('1906130913550Y5QQW48XG','1804241027526Q88265222','171019162809V311C02T8H','180410092137333387E882','190826092739XL2A7I8718')) AND( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:33.668         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:33.892         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","CDATE","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP" FROM "SYS_DATA_RECORDER"  WHERE ( "BUS_PK" = :BUS_PK0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:19:34.224         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetTaxInfo:错误码:e29d6ef6-a2ee-4eba-afe0-be808c8efdd4         
+源信息：IIRS.Controllers.BDC.TransferController.GetTaxInfo         
+行　号：377         
+-----------------------------------------------------------
+时　间：2021/03/29 17:22:01.425         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:22:02.276         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:22:02.280         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:22:02.280         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:22:02.502         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:22:02.502         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:20.993         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:21.000         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:23.540         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:23.540         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:23.548         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:23.548         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:23.606         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:23.606         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:25.516         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:25.516         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.075         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.122         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.122         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT SLBH_SEQNUM() FROM DUAL         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.142         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.122         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.248         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.305         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.343         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "FDIC_ID" IS NULL ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.343         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (("FDIC_ID" IN ('070820145933L24A3SQ3OY','070820150305ES5VNI1Y1S','070820150307507OATN6GL','070820150453626948R6U4','070820145255H8796087L2','070820145716K50I748Y3A','0708201455267C3OHJ2353','0708201509585S3612M498','070820151203U1HEKBGX25','170503164603S4O54M885V','170103143838HR7L710PB7','0708201507078458476N92','070820151533R7H53OUY9L','070820145624F0MJML837D','070820145401ESR8890UU1')) AND( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.376         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (("FDIC_ID" IN ('1710251800593LI541H357','07082015030756OQCJ41K5','070820150453M7S0016Y5C','070820150454PSK2F64616','171025175635504KL25V65','17102518001182J70KN0LY','070820150453L554669O7P','0708201504546DJR75U8G9','07082015045426VD830BG7','070820150707466TY3K81H','171025175635IC57I5E52P','0708201507074Y78AJ4D3N','070820150707MMC52KBSOL','07082015070749NH72Y722','070820150707JDN7I28D9E','070820150707GU17O7C9EC','0708201507077Q3Q9PI4QF','07082015095919646UJ6K9','070820150959M40J0Y730L','070820150958X5A833L3UX','07082015095917G0WOCC6V','070820150959YO1EEGNO41','0708201509599OW7YY79CD','070820150959AA0L86KL5R','070820150959XDUMRR8460','07082015095927K74B7C99','0708201512034X0U86C1NC','070820151203VKSD2AE782','1710251802243TG5BDH6QP','180511161826DM8HJ4955B','0708201512030MJXPL0109','070820151203NPUMNVT3Q0','070820151203R6NH8RLGOJ','0708201512034DA090H359','070820151203HVY9939V5Q','200512110937G15038037O','0708201515336I7MBKT007','0708201515346KP55C9GX5','0708201515340GL9H96GBA','0708201515348TLQIFL08E','070820151534H1V7526T4I','180207105235K38TRL6N64','1707101438226347870GP9','070820145255WO62EOU38B','070820145402V3PJC05FN9','0708201454027N0RFA0QO3','07082014545943302HKSQ9','070820145459J2X8547E9H','070820145459434T52WOJH','070820145526BE6A80JBG6','070820145624HNRA28N173','070820145624854508DM65','070820145624Q3V5I3V575','070820145717U3030LBC23','070820145716I125528XET','070820145816P1JH0BFAXV','0708201458154RILN0F2WQ','170627105450030O7YFMH8','070820145815B1BC9DYVU2','0708201458160C9P3NLF4I','0708201459333DD95BJE3U','170828153932139M08LNNC','070820145934NYSYD85470','070820145933644C41311N','131220153721PN7GKH5GU6','070820150306Q11OFT2H20','070820150306C4IJ9MT567','07082015030666TA2QBQ11','190701150800E7B63F0AT1','1611211600401I5N9N041B','17062016503967QNDRI119','170925100553TAX76B33C2','070820150306KA58VJ3J7T','070820150306CE0261YJ84','0708201503077VTM3523I6','0708201503068053KLJS72','07082015030635X44W10G8','070820150307IYF82R2166','1512251205045S9S8BAHCJ','1708281548588O0UQW196K')) AND( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:27.401         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (("FDIC_ID" IN ('1906130913550Y5QQW48XG','1804241027526Q88265222','171019162809V311C02T8H','180410092137333387E882','190826092739XL2A7I8718')) AND( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:28.262         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.TransferController         
+消　息：TransferController.GetTaxInfo:错误码:ab44b297-6637-4b27-9830-48da3bc0f65a         
+源信息：IIRS.Controllers.BDC.TransferController.GetTaxInfo         
+行　号：377         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.339         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT  "B"."BID" AS "BID" , "B"."STATUS" AS "STATUS" , "A"."XID" AS "XID" , "A"."IS_ACTION_OK" AS "ISACTIONOK"  FROM "REGISTRATION_INFO" A  ,"BANKAUTHORIZE"  B  WHERE ( "A"."AUZ_ID" = "B"."BID" )  AND ( "A"."XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.381         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SFD_FB_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.381         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "QLRGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.389         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SJD_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.389         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "DJB_INFO" WHERE ( "XID" = :xid0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.389         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SPB_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.389         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SFD_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.389         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "TSGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.404         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "XGDJGL_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.404         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "QL_XG_INFO" WHERE ( "XID" = :XID0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.404         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：DELETE FROM "SYS_DATA_RECORDER" WHERE ( "BUS_PK" = :BUS_PK0 )          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.450         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SFD_FB_INFO"  
+           ("CWSFDXBBH","SLBH","QDXH","SFXM","JLDW","SL","SFBZ","HSJE","JMJE","JMYY","BZ","QDLX","XID")
+     VALUES
+           (:CWSFDXBBH,:SLBH,:QDXH,:SFXM,:JLDW,:SL,:SFBZ,:HSJE,:JMJE,:JMYY,:BZ,:QDLX,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.467         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QLRGL_INFO"  
+           ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+     VALUES
+           (:GLBM,:SLBH,:YWBM,:QLRID,:IS_OWNER,:GYFS,:GYFE,:SXH,:QLRLX,:QLRMC,:ZJHM,:ZJLB,:ZJLB_ZWM,:DH,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.467         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QLRGL_INFO"  
+           ("GLBM","SLBH","YWBM","QLRID","IS_OWNER","GYFS","GYFE","SXH","QLRLX","QLRMC","ZJHM","ZJLB","ZJLB_ZWM","DH","XID")
+     VALUES
+           (:GLBM,:SLBH,:YWBM,:QLRID,:IS_OWNER,:GYFS,:GYFE,:SXH,:QLRLX,:QLRMC,:ZJHM,:ZJLB,:ZJLB_ZWM,:DH,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.488         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SJD_INFO"  
+           ("SLBH","DJDL","DJXL","LCLX","LCBM","LCMC","ZL","SJR","SJSJ","CNSJ","QXDM","TZRXM","TZFS","TZRDH","TZRYDDH","TZRDZYJ","TZRTXDZ","CXMM","SJMC","SJLX","SJSL","YS","SFSYBZ","SFEWSJ","SFBCSJ","ZRKS","ZRR","YXJ","SJBZ","BCSM","FCSLH","FCDJLX","FCHID","BIZMSGID","JRYWBM","SBZT","SBXZCS","CERTINUM","CERTIINFO","SBSTZT","HTBH","JHZT","JYBH","PCH","AJZT","XCZP","PRJID","SHAREKEY","SHARETIME","SHARESTATE","QXKZ","CGZT","WWSQBH","WWYYBH","QYXS","GG_XMBH","SBCS","SBSJ","SBJG","HBSBZT","SBXZSJ","CHBH","ZXDZ","JHXTID","XID")
+     VALUES
+           (:SLBH,:DJDL,:DJXL,:LCLX,:LCBM,:LCMC,:ZL,:SJR,:SJSJ,:CNSJ,:QXDM,:TZRXM,:TZFS,:TZRDH,:TZRYDDH,:TZRDZYJ,:TZRTXDZ,:CXMM,:SJMC,:SJLX,:SJSL,:YS,:SFSYBZ,:SFEWSJ,:SFBCSJ,:ZRKS,:ZRR,:YXJ,:SJBZ,:BCSM,:FCSLH,:FCDJLX,:FCHID,:BIZMSGID,:JRYWBM,:SBZT,:SBXZCS,:CERTINUM,:CERTIINFO,:SBSTZT,:HTBH,:JHZT,:JYBH,:PCH,:AJZT,:XCZP,:PRJID,:SHAREKEY,:SHARETIME,:SHARESTATE,:QXKZ,:CGZT,:WWSQBH,:WWYYBH,:QYXS,:GG_XMBH,:SBCS,:SBSJ,:SBJG,:HBSBZT,:SBXZSJ,:CHBH,:ZXDZ,:JHXTID,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.507         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "DJB_INFO"  
+           ("SLBH","DJLX","DJYY","SQZSBS","SQFBCZ","SQRQ","SQNR","SQBZ","DLJGMC","DLRXM","DLRZJLX","DLRZJH","DLRZGZH","DLRDH","DLJGMC2","DLRXM2","DLRZJLX2","DLRZJH2","DLRZGZH2","DLRDH2","SPDW","SPRQ","SPBZ","BDCZH","SSJC","JGJC","FZND","ZSH","SZR","GYFS","GYFE","DJRQ","DBR","ZSR","FZJG","FZRQ","ZSLX","ZSXLH","DYCS","GDH","DAMJ","QT","FJ","XGZH","GLZH","BDCDYH","HDPCH","SZPCH","ZXDJDYBH","LIFECYCLE","LIFECYCLE1","SPDJNR","WZ","DZZSXLH","补录说明","ZHCL","GCLZH","CQLY","SQDJNR","QFQY","XID","SZQY")
+     VALUES
+           (:SLBH,:DJLX,:DJYY,:SQZSBS,:SQFBCZ,:SQRQ,:SQNR,:SQBZ,:DLJGMC,:DLRXM,:DLRZJLX,:DLRZJH,:DLRZGZH,:DLRDH,:DLJGMC2,:DLRXM2,:DLRZJLX2,:DLRZJH2,:DLRZGZH2,:DLRDH2,:SPDW,:SPRQ,:SPBZ,:BDCZH,:SSJC,:JGJC,:FZND,:ZSH,:SZR,:GYFS,:GYFE,:DJRQ,:DBR,:ZSR,:FZJG,:FZRQ,:ZSLX,:ZSXLH,:DYCS,:GDH,:DAMJ,:QT,:FJ,:XGZH,:GLZH,:BDCDYH,:HDPCH,:SZPCH,:ZXDJDYBH,:LIFECYCLE,:LIFECYCLE1,:SPDJNR,:WZ,:DZZSXLH,:补录说明,:ZHCL,:GCLZH,:CQLY,:SQDJNR,:QFQY,:xid,:SZQY)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.518         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SPB_INFO"  
+           ("SPBH","SLBH","SPDX","SPXH","SPYJ","SPR","SPRQ","SPRZGZH","SPJG","SPZT","SPTXR","XID")
+     VALUES
+           (:SPBH,:SLBH,:SPDX,:SPXH,:SPYJ,:SPR,:SPRQ,:SPRZGZH,:SPJG,:SPZT,:SPTXR,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.530         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SFD_INFO"  
+           ("SLBH","JFBH","XMMC","JFDW","TXDZ","DH","JFLX","JBR","JBRQ","JBYJ","SHR","SHYJ","SHRQ","YSJE","SSJE","SKR","SKRQ","SKYJ","SLR","DYZT","SFZT","HBDH","DYR","DYSJ","HBR","HBSJ","SFBZ","YYS","GRSDS","QS","TDZZS","FPH","HSJE","DYR1","DYSJ1","HSJE1","JZJF","XID")
+     VALUES
+           (:SLBH,:JFBH,:XMMC,:JFDW,:TXDZ,:DH,:JFLX,:JBR,:JBRQ,:JBYJ,:SHR,:SHYJ,:SHRQ,:YSJE,:SSJE,:SKR,:SKRQ,:SKYJ,:SLR,:DYZT,:SFZT,:HBDH,:DYR,:DYSJ,:HBR,:HBSJ,:SFBZ,:YYS,:GRSDS,:QS,:TDZZS,:FPH,:HSJE,:DYR1,:DYSJ1,:HSJE1,:JZJF,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.530         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "TSGL_INFO"  
+           ("GLBM","SLBH","BDCLX","TSTYBM","BDCDYH","DJZL","CSSJ","LIFECYCLE","XID")
+     VALUES
+           (:GLBM,:SLBH,:BDCLX,:TSTYBM,:BDCDYH,:DJZL,:CSSJ,:LIFECYCLE,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.546         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "XGDJGL_INFO"  
+           ("BGBM","ZSLBH","FSLBH","BGRQ","BGLX","XGZH","XGZLX","PID","XID")
+     VALUES
+           (:BGBM,:ZSLBH,:FSLBH,:BGRQ,:BGLX,:XGZH,:XGZLX,:PID,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.546         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "QL_XG_INFO"  
+           ("XTBH","SLBH","FW_QLLX","FW_QLLX_ZWM","FW_QLXZ","FW_QLXZ_ZWMS","FW_JZMJ","FW_CQLY","FW_TNJZMJ","FW_FTJZMJ","FW_YC_JZMJ","FW_YC_TNJZMJ","FW_YC_FTJZMJ","FW_FWGHYT","FW_FWGHYT_ZWM","QDFS","QDJG","PGJE","TD_QLLX","TD_QLLX_ZWM","TD_QLXZ","TD_QLXZ_ZWMS","TD_GYTDMJ","TD_DYTDMJ","TD_FTTDMJ","TD_JZZDMJ","TD_SYQX","TD_QSRQ","TD_ZZRQ","TD_TDYT","TD_TDYT_ZWMS","XID")
+     VALUES
+           (:XTBH,:SLBH,:FW_QLLX,:FW_QLLX_ZWM,:FW_QLXZ,:FW_QLXZ_ZWMS,:FW_JZMJ,:FW_CQLY,:FW_TNJZMJ,:FW_FTJZMJ,:FW_YC_JZMJ,:FW_YC_TNJZMJ,:FW_YC_FTJZMJ,:FW_FWGHYT,:FW_FWGHYT_ZWM,:QDFS,:QDJG,:PGJE,:TD_QLLX,:TD_QLLX_ZWM,:TD_QLXZ,:TD_QLXZ_ZWMS,:TD_GYTDMJ,:TD_DYTDMJ,:TD_FTTDMJ,:TD_JZZDMJ,:TD_SYQX,:TD_QSRQ,:TD_ZZRQ,:TD_TDYT,:TD_TDYT_ZWMS,:XID)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:23:35.565         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：INSERT INTO "SYS_DATA_RECORDER"  
+           ("PK","BUS_PK","USER_ID","USER_NAME","SAVEDATAJSON","REMARKS1","REMARKS2","REMARKS3","REMARKS4","REMARKS5","IS_STOP")
+     VALUES
+           (:PK,:BUS_PK,:USER_ID,:USER_NAME,:SAVEDATAJSON,:REMARKS1,:REMARKS2,:REMARKS3,:REMARKS4,:REMARKS5,:IS_STOP)          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:32.473         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：UPDATE "REGISTRATION_INFO"  SET
+           "IS_ACTION_OK"=:IS_ACTION_OK  WHERE ( "XID" = :XID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:34.918         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:36.485         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:36.546         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "IS_USED" = :IS_USED1 ))         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:48.995         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:48.995         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.BankQueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:48.997         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:48.997         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:49.040         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ( "GID" = :GID0 )         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:49.061         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:49.061         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:51.895         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/03/29 17:25:51.895         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME" ,ROW_NUMBER() OVER(ORDER BY "A"."AUTHORIZATIONDATE" DESC) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ( CAST("B"."DJZL" AS VARCHAR2(4000)) like '%'||:MethodConst0||'%')   AND (( "B"."USER_ID" = :USER_ID1 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------

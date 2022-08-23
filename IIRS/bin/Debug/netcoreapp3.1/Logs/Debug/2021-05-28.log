@@ -1,0 +1,42 @@
+时　间：2021/05/28 09:14:42.857         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcMrgeReleaseController         
+消　息：错误码:dbf1101a-086e-45f2-8651-43660bfa8ee8,异常消息:The method or operation is not implemented.         
+源信息：IIRS.Controllers.BankMrgeReleaseController.GetMrgeCertInfo         
+行　号：85         
+-----------------------------------------------------------
+时　间：2021/05/28 09:14:57.495         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcMrgeReleaseController         
+消　息：错误码:b8cfc749-e1ca-4395-b9c8-6c68d2227c40,异常消息:The method or operation is not implemented.         
+源信息：IIRS.Controllers.BankMrgeReleaseController.GetMrgeCertInfo         
+行　号：85         
+-----------------------------------------------------------
+时　间：2021/05/28 09:15:49.192         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcMrgeReleaseController         
+消　息：错误码:afe06aba-830a-4763-a957-13b170aedf1d,异常消息:The method or operation is not implemented.         
+源信息：IIRS.Controllers.BankMrgeReleaseController.GetMrgeCertInfo         
+行　号：85         
+-----------------------------------------------------------
+时　间：2021/05/28 09:16:15.378         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcMrgeReleaseController         
+消　息：错误码:08123be6-01de-42a7-99b6-15145f2271da,异常消息:The method or operation is not implemented.         
+源信息：IIRS.Controllers.BankMrgeReleaseController.GetMrgeCertInfo         
+行　号：85         
+-----------------------------------------------------------
+时　间：2021/05/28 09:16:34.001         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcMrgeReleaseController         
+消　息：错误码:778b1f58-3a56-4b80-bc58-077e42d252a8,异常消息:The method or operation is not implemented.         
+源信息：IIRS.Controllers.BankMrgeReleaseController.GetMrgeCertInfo         
+行　号：85         
+-----------------------------------------------------------
+时　间：2021/05/28 09:17:38.307         
+级　别：Debug         
+模　块：IIRS.Controllers.BdcMrgeReleaseController         
+消　息：错误码:5b6591f5-9020-4b40-b8ba-dfee73be36d9,异常消息:The method or operation is not implemented.         
+源信息：IIRS.Controllers.BankMrgeReleaseController.GetMrgeCertInfo         
+行　号：85         
+-----------------------------------------------------------

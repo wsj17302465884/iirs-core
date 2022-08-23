@@ -1,0 +1,9 @@
+﻿using IIRS.IRepository.Base;
+using IIRS.Models.EntityModel.IIRS;
+
+namespace IIRS.IRepository.IIRS
+{
+    public interface IZdQsdcInfoRepository : IBaseRepository<ZD_QSDC_INFO>
+    {
+    }
+}

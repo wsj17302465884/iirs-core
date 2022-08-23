@@ -1,0 +1,1102 @@
+时　间：2021/05/12 09:24:05.157         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 09:24:05.372         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 09:24:05.372         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 09:24:05.372         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 09:25:17.397         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息savePath:D:\IIRS.Core2021.04.28\IIRS.Core\IIRS\wwwroot\uploads\抵押注销审批表测试.pdf         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSpbPrint         
+行　号：2959         
+-----------------------------------------------------------
+时　间：2021/05/12 17:01:06.433         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:e0e689e0-be9a-4afd-a1bc-8baadf5bb6bd,异常消息:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2513         
+-----------------------------------------------------------
+时　间：2021/05/12 17:01:52.731         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:91b47536-e061-465f-9f10-33f807126902,异常消息:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2513         
+-----------------------------------------------------------
+时　间：2021/05/12 17:25:48.786         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:25:48.895         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:25:48.895         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:25:48.906         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:26:04.015         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:8fd32219-8e00-4c2e-88ef-739b153ab03c,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BDC.BdcPrintController.GetTransferSpbPrint         
+行　号：243         
+-----------------------------------------------------------
+时　间：2021/05/12 17:26:43.779         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:26:43.779         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:26:43.794         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:26:43.794         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:27:05.280         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:e3a532de-8a15-43d4-9e64-9d87d5646c4e,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BDC.BdcPrintController.GetTransferSpbPrint         
+行　号：243         
+-----------------------------------------------------------
+时　间：2021/05/12 17:28:03.128         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:28:03.315         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:28:03.315         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:28:03.326         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:31:22.222         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:31:22.222         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:31:22.237         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:31:22.237         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:36:24.524         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:7c8d1dfd-2be1-400e-8240-3f99cfb7bad5,异常消息:ORA-00979: 不是 GROUP BY 表达式         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:37:59.690         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:898089f4-6786-4b99-8efe-1cd1c1af4615,异常消息:ORA-00979: 不是 GROUP BY 表达式         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:39:13.812         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:39:13.812         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:39:13.812         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:39:13.830         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:39:51.695         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "A"."BDCZH" AS "BDCZH" , "A"."BDCDYH" AS "BDCDYH" , NVL("G"."ZL","C"."ZL") AS "ZL" , NVL(NVL("D"."JZMJ","F"."SYQMJ"),"E"."GYTDMJ") AS "MJ" , "E"."FTTDMJ" AS "FTMJ" , "C"."GHYT" AS "YT" , "D"."QLXZ" AS "QLXZ" , "E"."QLXZ" AS "TDQLXZ" , "A"."FJ" AS "FJ" , WM_CONCAT(DISTINCT TO_CHAR(H.QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(H.ZJHM)) AS "ZJHM"  FROM "DJ_DJB" A Left JOIN "DJ_TSGL" B ON ( "A"."SLBH" = "B"."SLBH" )  Left JOIN "FC_H_QSDC" C ON ( "B"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "QL_FWXG" D ON ( "A"."SLBH" = "D"."SLBH" )  Left JOIN "QL_TDXG" E ON ( "A"."SLBH" = "E"."SLBH" )  Left JOIN "QL_SLXG" F ON ( "F"."SLBH" = "A"."SLBH" )  Left JOIN "DJ_SJD" G ON ( "A"."SLBH" = "G"."SLBH" )  Left JOIN "DJ_QLRGL" H ON ( "A"."SLBH" = "H"."SLBH" )   WHERE  (:MethodConst0 like '%'||"A"."SLBH"||'%') GROUP BY "A"."BDCZH","A"."BDCDYH","G"."ZL","C"."ZL","D"."JZMJ","F"."SYQMJ","E"."GYTDMJ","E"."FTTDMJ","C"."GHYT","D"."QLXZ","E"."QLXZ","A"."FJ"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass12_0.<BdcGeneralMrgeQdPrint>b__10         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:46:03.153         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:7dda1ab0-9136-477c-9eda-f85182a2ecb8,异常消息:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:46:10.505         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:825e1c56-5a62-4dcf-969e-5b86f080522c,异常消息:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:47:51.669         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:cf7fcbeb-09a3-4d49-9254-c1656ecf4459,异常消息:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 17:48:38.248         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:48:38.429         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:48:38.429         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:48:38.441         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:48:45.280         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:093902e5-c9ce-46c6-9c8f-fd4e205ecd45,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2513         
+-----------------------------------------------------------
+时　间：2021/05/12 17:48:49.100         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:48:49.105         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:48:49.105         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 17:48:49.105         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:02:50.230         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:e06c1948-a125-4037-8232-edcd978c34eb,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2513         
+-----------------------------------------------------------
+时　间：2021/05/12 18:07:53.154         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:07:53.337         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:07:53.343         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:07:53.343         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:08:12.572         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:949a9992-87eb-4483-b424-f5bc5dd8f82c,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2513         
+-----------------------------------------------------------
+时　间：2021/05/12 18:08:17.196         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:08:17.202         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:08:17.202         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:08:17.202         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:10:18.143         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:12eacb17-7866-460c-a3f5-0b459c9075af,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2513         
+-----------------------------------------------------------
+时　间：2021/05/12 18:10:22.795         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:10:52.258         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:10:56.421         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:11:03.653         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:02.733         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:03.855         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:03.860         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:03.860         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:20.315         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:21.725         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息model:IIRS.Models.ViewModel.BDC.print.MrgeReleaseSqbVModel         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2514         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:21.725         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息TemplateFile:D:\IIRS.Core2021.04.28\IIRS.Core\IIRS\wwwroot\Template\MrgeReleaseSqbPrint.pdf         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2519         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:21.995         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息formWidget:System.Collections.Generic.List`1[System.Object]         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2524         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:21.995         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.087         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.091         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.091         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.111         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.111         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.111         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.111         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.111         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.111         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.111         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.121         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.165         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.169         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.169         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.169         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.169         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.169         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.169         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.169         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.184         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.184         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:15:22.184         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:08.532         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:fbcee3e2-ebdc-45fb-a034-bab608c1d913,异常消息:English Message : Connection open error . Network Transport: TCP transport address connect failure
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Network Transport: TCP transport address connect failure.         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2513         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.307         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.353         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.359         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.359         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.378         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.388         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息model:IIRS.Models.ViewModel.BDC.print.MrgeReleaseSqbVModel         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2514         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.388         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息TemplateFile:D:\IIRS.Core2021.04.28\IIRS.Core\IIRS\wwwroot\Template\MrgeReleaseSqbPrint.pdf         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2519         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.651         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息formWidget:System.Collections.Generic.List`1[System.Object]         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2524         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.651         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.746         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.746         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.746         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.771         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.771         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.771         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.771         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.771         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.778         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.792         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.792         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.792         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.792         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.832         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.832         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.832         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.840         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.840         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.840         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.840         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.840         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.840         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.840         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:18:11.856         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：打印信息print:Spire.Pdf.Widget.PdfTextBoxFieldWidget         
+源信息：IIRS.Controllers.BDC.BdcPrintController.MrgeReleaseSqbPrint         
+行　号：2528         
+-----------------------------------------------------------
+时　间：2021/05/12 18:59:12.544         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "A"."BDCZH" AS "BDCZH" , "A"."BDCDYH" AS "BDCDYH" , NVL("G"."ZL","C"."ZL") AS "ZL" , NVL(NVL("D"."JZMJ","F"."SYQMJ"),"E"."GYTDMJ") AS "MJ" , "E"."FTTDMJ" AS "FTMJ" , "C"."GHYT" AS "YT" , "D"."QLXZ" AS "QLXZ" , "E"."QLXZ" AS "TDQLXZ" , "A"."FJ" AS "FJ" , WM_CONCAT(DISTINCT TO_CHAR(H.QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(H.ZJHM)) AS "ZJHM"  FROM "DJ_DJB" A Left JOIN "DJ_TSGL" B ON ( "A"."SLBH" = "B"."SLBH" )  Left JOIN "FC_H_QSDC" C ON ( "B"."TSTYBM" = "C"."TSTYBM" )  Left JOIN "QL_FWXG" D ON ( "A"."SLBH" = "D"."SLBH" )  Left JOIN "QL_TDXG" E ON ( "A"."SLBH" = "E"."SLBH" )  Left JOIN "QL_SLXG" F ON ( "F"."SLBH" = "A"."SLBH" )  Left JOIN "DJ_SJD" G ON ( "A"."SLBH" = "G"."SLBH" )  Left JOIN "DJ_QLRGL" H ON ( "A"."SLBH" = "H"."SLBH" )   WHERE  (:MethodConst0 like '%'||"A"."SLBH"||'%') GROUP BY "A"."BDCZH","A"."BDCDYH","G"."ZL","C"."ZL","D"."JZMJ","F"."SYQMJ","E"."GYTDMJ","E"."FTTDMJ","C"."GHYT","D"."QLXZ","E"."QLXZ","A"."FJ"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass12_0.<BdcGeneralMrgeQdPrint>b__10         
+行　号：733         
+-----------------------------------------------------------
+时　间：2021/05/12 19:07:49.019         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 19:07:49.908         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 19:07:49.908         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 19:07:49.920         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：112         
+-----------------------------------------------------------
+时　间：2021/05/12 19:08:16.552         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:cabad222-244c-4832-ae7d-171b47cf81ed,异常消息:ORA-00979: 不是 GROUP BY 表达式         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：456         
+-----------------------------------------------------------
+时　间：2021/05/12 19:08:43.541         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:c2ea0dfa-589c-4be3-b694-dc60f694c338,异常消息:ORA-00979: 不是 GROUP BY 表达式         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：456         
+-----------------------------------------------------------
+时　间：2021/05/12 19:09:26.656         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:f33998f2-8a3b-43b6-8389-7c463c35b4df,异常消息:ORA-00979: 不是 GROUP BY 表达式         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：456         
+-----------------------------------------------------------
+时　间：2021/05/12 19:23:22.455         
+级　别：Debug         
+模　块：IIRS.Controllers.BDC.BdcPrintController         
+消　息：错误码:66f4b682-1651-436a-b0f2-9af1ee501330,异常消息:Object reference not set to an instance of an object.         
+源信息：IIRS.Controllers.BDC.BdcPrintController.TransferSjsjPrint         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 19:42:39.285         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 19:42:40.418         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 19:42:40.449         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/12 19:42:40.454         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：0         
+-----------------------------------------------------------

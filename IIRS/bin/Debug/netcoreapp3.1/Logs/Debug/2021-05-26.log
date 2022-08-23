@@ -1,0 +1,171 @@
+时　间：2021/05/26 09:22:59.372         
+级　别：Debug         
+模　块：IIRS.Services.ChartServices         
+消　息：SELECT  "B"."REALNAME" AS "REALNAME" , "D"."USER_ID" AS "USERID" , "D"."DJZL" AS "DJZL"  FROM "SYS_ORGANIZATION_TOP" A  ,"SYS_USERINFO"  B ,"SYS_USERORGANIZATION"  C ,"REGISTRATION_INFO"  D  WHERE (( "B"."ID" = "C"."USERID" ) AND ( "A"."ID" = :Id0 ))  AND (CAST("B"."ID" AS VARCHAR2(4000)) = "D"."USER_ID" )GROUP BY "B"."REALNAME","D"."USER_ID","D"."DJZL"          
+源信息：IIRS.Services.ChartServices+<>c__DisplayClass4_0.<GetDataCounts>b__0         
+行　号：50         
+-----------------------------------------------------------
+时　间：2021/05/26 09:23:20.574         
+级　别：Debug         
+模　块：IIRS.Services.ChartServices         
+消　息：SELECT "XID","YWSLBH","HTH","DJZL","BDCZH","SLBH","ZL","QLRMC","ZJLB","ZJHM","ORG_ID","USER_ID","TEL","AUZ_ID","REMARK1","REMARK2","SJR","IS_ACTION_OK","NEXT_XID","SAVEDATAJSON","SAVEDATE","PDH" FROM "REGISTRATION_INFO"  WHERE (( "SAVEDATE" > :SAVEDATE0 ) AND ( "SAVEDATE" > :SAVEDATE1 ))         
+源信息：IIRS.Services.ChartServices+<>c__DisplayClass4_0.<GetDataCounts>b__0         
+行　号：50         
+-----------------------------------------------------------
+时　间：2021/05/26 09:23:26.491         
+级　别：Debug         
+模　块：IIRS.Services.ChartServices         
+消　息：SELECT  "B"."REALNAME" AS "REALNAME" , "D"."USER_ID" AS "USERID" , "D"."DJZL" AS "DJZL"  FROM "SYS_ORGANIZATION_TOP" A  ,"SYS_USERINFO"  B ,"SYS_USERORGANIZATION"  C ,"REGISTRATION_INFO"  D  WHERE (( "B"."ID" = "C"."USERID" ) AND ( "A"."ID" = :Id0 ))  AND (CAST("B"."ID" AS VARCHAR2(4000)) = "D"."USER_ID" )GROUP BY "B"."REALNAME","D"."USER_ID","D"."DJZL"          
+源信息：IIRS.Services.ChartServices+<>c__DisplayClass4_0.<GetDataCounts>b__0         
+行　号：50         
+-----------------------------------------------------------
+时　间：2021/05/26 09:24:02.260         
+级　别：Debug         
+模　块：IIRS.Services.ChartServices         
+消　息：SELECT  "B"."REALNAME" AS "REALNAME" , "D"."USER_ID" AS "USERID" , "D"."DJZL" AS "DJZL"  FROM "SYS_ORGANIZATION_TOP" A  ,"SYS_USERINFO"  B ,"SYS_USERORGANIZATION"  C ,"REGISTRATION_INFO"  D  WHERE (( "B"."ID" = "C"."USERID" ) AND ( "A"."ID" = :Id0 ))  AND (CAST("B"."ID" AS VARCHAR2(4000)) = "D"."USER_ID" )GROUP BY "B"."REALNAME","D"."USER_ID","D"."DJZL"          
+源信息：IIRS.Services.ChartServices+<>c__DisplayClass4_0.<GetDataCounts>b__0         
+行　号：50         
+-----------------------------------------------------------
+时　间：2021/05/26 09:24:10.005         
+级　别：Debug         
+模　块：IIRS.Services.ChartServices         
+消　息：SELECT "XID","YWSLBH","HTH","DJZL","BDCZH","SLBH","ZL","QLRMC","ZJLB","ZJHM","ORG_ID","USER_ID","TEL","AUZ_ID","REMARK1","REMARK2","SJR","IS_ACTION_OK","NEXT_XID","SAVEDATAJSON","SAVEDATE","PDH" FROM "REGISTRATION_INFO"  WHERE ( "SAVEDATE" > :SAVEDATE0 )         
+源信息：IIRS.Services.ChartServices+<>c__DisplayClass4_0.<GetDataCounts>b__0         
+行　号：50         
+-----------------------------------------------------------
+时　间：2021/05/26 09:24:10.005         
+级　别：Debug         
+模　块：IIRS.Services.ChartServices         
+消　息：SELECT "XID","YWSLBH","HTH","DJZL","BDCZH","SLBH","ZL","QLRMC","ZJLB","ZJHM","ORG_ID","USER_ID","TEL","AUZ_ID","REMARK1","REMARK2","SJR","IS_ACTION_OK","NEXT_XID","SAVEDATAJSON","SAVEDATE","PDH" FROM "REGISTRATION_INFO"  WHERE (( "SAVEDATE" > :SAVEDATE0 ) AND ( "SAVEDATE" > :SAVEDATE1 ))         
+源信息：IIRS.Services.ChartServices+<>c__DisplayClass4_0.<GetDataCounts>b__0         
+行　号：50         
+-----------------------------------------------------------
+时　间：2021/05/26 10:16:34.386         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：f1ec9d0d60034a52b85c0179a675954d,原因:English Message : Connection open error . Network Transport: TCP transport address connect failure
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Network Transport: TCP transport address connect failure.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 10:16:36.385         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：3133943c5e4e4430900c0179a6759d20,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 10:16:38.275         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：c96eafa56e884773817c0179a675a483,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 10:17:05.608         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：8e35f546446e4982be6a0179a6760f48,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 10:17:53.339         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：8408c6e5f6a34fc995b70179a676c9bb,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 10:43:43.276         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：e55bda5cb9784d08ad4b0179a68e7029,原因:English Message : Connection open error . Network Transport: TCP transport address connect failure
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Network Transport: TCP transport address connect failure.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 11:35:56.493         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：ea462aa0e7fc44fb88c20179a6be3f49,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 11:39:07.493         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：97b1e06f28bf4a6091500179a6c12961,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 11:40:15.796         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：d047320d39384c25af7b0179a6c2342f,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 11:41:27.856         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：fb01522d0dcc4fdfa4040179a6c34dac,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 11:42:06.100         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：a454eaa009ad4b6cb8df0179a6c3e314,原因:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 12:07:39.758         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：40fca6cce4164e61b6960179a6db49e9,原因:English Message : Connection open error . Network Transport: TCP transport address connect failure
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Network Transport: TCP transport address connect failure.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 14:45:58.207         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：1a835d1d74f24088a9dc0179a76c393a,原因:Object reference not set to an instance of an object.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 14:46:01.480         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：06952795e52d4b3a95f50179a76c4608,原因:Object reference not set to an instance of an object.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 15:40:54.532         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：047011c6daec41fabbe40179a79e8580,原因:Object reference not set to an instance of an object.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：0         
+-----------------------------------------------------------
+时　间：2021/05/26 16:42:36.753         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：fdd5afbd48804b8da43b0179a7d7034e,原因:String '2021-05-00' was not recognized as a valid DateTime.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 16:42:46.489         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：79609e4496284af19afa0179a7d72959,原因:String '2021-05-00' was not recognized as a valid DateTime.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------
+时　间：2021/05/26 16:43:00.803         
+级　别：Debug         
+模　块：IIRS.Controllers.ChartController         
+消　息：MrgeReleaseController.Post:【错误代码：b8b43fb13ceb4a9caa6d0179a7d76143,原因:String '2021-05-00' was not recognized as a valid DateTime.】         
+源信息：IIRS.Controllers.ChartController.GetChartInfo         
+行　号：64         
+-----------------------------------------------------------

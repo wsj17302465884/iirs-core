@@ -1,0 +1,70 @@
+时　间：2021/02/24 09:28:58.966         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE (( "GID" = :GID0 ) AND ( "DNAME" = trim(:MethodConst1) ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/24 09:28:59.092         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/24 09:28:59.092         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "ITEMNOTE" = :itemNote0 ) AND ( "IS_USED" = :IS_USED1 )) AND ( "GID" = :GID2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/24 09:28:59.105         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT "DIC_ID","GID","DNAME","IS_USED","DEFINED_CODE","ODR","MARK","REAMRK","ITEMNOTE","FDIC_ID" FROM "SYS_DIC"  WHERE ((( "GID" = :GID0 ) AND ( "DNAME" IS NOT NULL )) AND ( "IS_USED" = :IS_USED2 ))         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/24 09:29:15.802         
+级　别：Debug         
+模　块：IIRS.Services.BDC.ConditionQueryServices         
+消　息：SELECT swhtbh_seqnum('SW') FROM DUAL         
+源信息：IIRS.Services.BDC.ConditionQueryServices+<>c__DisplayClass28_0.<GetTaxInfo>b__0         
+行　号：1387         
+-----------------------------------------------------------
+时　间：2021/02/24 09:29:49.729         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/24 09:29:49.740         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/24 09:29:49.772         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/24 09:29:49.772         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------
+时　间：2021/02/24 09:29:49.772         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  "GROUP_NAME" AS "GROUP_NAME" , COUNT("GROUP_NAME") AS "COUNT"  FROM "PUB_ATT_FILE"  WHERE ( "XID" = :XID0 )GROUP BY "GROUP_NAME"          
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass6_0.<GetPersonList>b__0         
+行　号：111         
+-----------------------------------------------------------

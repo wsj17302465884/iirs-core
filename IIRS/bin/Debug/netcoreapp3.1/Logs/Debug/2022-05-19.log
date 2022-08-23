@@ -1,0 +1,94 @@
+时　间：2022/05/19 14:33:36.101         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:a5716bbe-723c-4b1b-82cd-cca5062eb17f,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByInternetSignInfo         
+行　号：101         
+-----------------------------------------------------------
+时　间：2022/05/19 14:33:53.592         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:f8087b2f-a4a8-4103-826d-51db22e8aac4,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByInternetSignInfo         
+行　号：101         
+-----------------------------------------------------------
+时　间：2022/05/19 14:34:16.014         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:023a8071-aabf-4046-8a01-3e69b76cb67e,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByInternetSignInfo         
+行　号：101         
+-----------------------------------------------------------
+时　间：2022/05/19 14:39:05.048         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:4c864a6b-cdb7-4919-8641-48dfb2f32517,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByInternetSignInfo         
+行　号：101         
+-----------------------------------------------------------
+时　间：2022/05/19 14:42:49.979         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:ed32bf57-3981-49cc-bdcb-528cd6191be3,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByInternetSignInfo         
+行　号：101         
+-----------------------------------------------------------
+时　间：2022/05/19 15:56:13.807         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:1fe510fd-431d-45be-84d8-e84134d67ecf,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------
+时　间：2022/05/19 15:56:52.867         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:6fe2deb5-3b70-48e5-aab4-90ddc3d989f2,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------
+时　间：2022/05/19 15:56:59.409         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:91865d5e-5644-49b2-bb87-b88dece4957a,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------
+时　间：2022/05/19 15:57:05.019         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:dc61c8bf-42da-4cf5-b720-1e6787074c96,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------
+时　间：2022/05/19 15:57:18.285         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:84209aab-c889-4758-b173-ca146f0ddf82,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------
+时　间：2022/05/19 15:58:44.476         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:6ac62605-e33a-44a6-841a-9d8294dedf88,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：0         
+-----------------------------------------------------------
+时　间：2022/05/19 16:07:24.067         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:b7e7a9fd-89b1-4f55-9102-4434ef0a934f,异常消息:ORA-00911: 无效字符         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------
+时　间：2022/05/19 16:26:09.002         
+级　别：Debug         
+模　块：IIRS.Controllers.BusinessJudgmentController         
+消　息：错误码:40541276-1995-41c0-b032-a903c4a56846,异常消息:English Message : Connection open error . Network Transport: TCP transport address connect failure
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Network Transport: TCP transport address connect failure.         
+源信息：IIRS.Controllers.BusinessJudgmentController.GetAdvanceByHouseInfo         
+行　号：145         
+-----------------------------------------------------------

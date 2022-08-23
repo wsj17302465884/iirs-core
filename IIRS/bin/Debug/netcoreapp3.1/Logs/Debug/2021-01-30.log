@@ -1,0 +1,49 @@
+时　间：2021/01/30 11:08:28.526         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  DISTINCT  "A"."XID" AS "XID" , "A"."YWSLBH" AS "SLBH" , "A"."SLBH" AS "OLDSLBH" , "A"."USER_ID" AS "USERID" , "A"."SJR" AS "SJR" , "A"."IS_ACTION_OK" AS "ISACTIONOK" , "A"."SAVEDATE" AS "DJRQ" , "B"."DJYY" AS "DJYY" , "B"."BDCDYH" AS "BDCDYH" , "B"."XGZH" AS "OLD_BDCZH" , "C"."ZL" AS "ZL" , "D"."BDCLX" AS "BDCLX" , "E"."FW_JZMJ" AS "JZMJ" , "E"."FW_FWGHYT" AS "GHYT" , "E"."FW_FWGHYT_ZWM" AS "GHYT_ZWM" , "G"."GNAME" AS "DJZL" , "D"."TSTYBM" AS "TSTYBM"  FROM "REGISTRATION_INFO" A  ,"DJB_INFO"  B ,"SJD_INFO"  C ,"TSGL_INFO"  D ,"QL_XG_INFO"  E ,"IFLOW_ACTION"  F ,"IFLOW_ACTION_GROUP"  G  WHERE (((((( "A"."XID" = "B"."XID" ) AND ( "B"."XID" = "C"."XID" )) AND ( "C"."XID" = "D"."XID" )) AND ( "D"."XID" = "E"."XID" )) AND ( "A"."DJZL" = "F"."GROUP_ID" )) AND ( "F"."GROUP_ID" = "G"."GROUP_ID" ))  AND (( "A"."XID" = :XID0 ) AND ( "A"."NEXT_XID" IS NULL ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass4_0.<GetTransferSpbPrint>b__0         
+行　号：43         
+-----------------------------------------------------------
+时　间：2021/01/30 11:08:32.341         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass5_0.<GetPersonList>b__0         
+行　号：113         
+-----------------------------------------------------------
+时　间：2021/01/30 11:08:32.526         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass5_0.<GetPersonList>b__0         
+行　号：113         
+-----------------------------------------------------------
+时　间：2021/01/30 11:08:32.526         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass5_0.<GetPersonList>b__0         
+行　号：113         
+-----------------------------------------------------------
+时　间：2021/01/30 11:08:32.526         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BdcPrintServices         
+消　息：SELECT  WM_CONCAT(DISTINCT TO_CHAR(QLRMC)) AS "QLRMC" , WM_CONCAT(DISTINCT TO_CHAR(ZJHM)) AS "ZJHM" , WM_CONCAT(DISTINCT TO_CHAR(ZJLB_ZWM)) AS "ZJLB_ZWM"  FROM "QLRGL_INFO"  WHERE (( "QLRLX" = :QLRLX0 ) AND ( "XID" = :XID1 ))         
+源信息：IIRS.Services.BDC.BdcPrintServices+<>c__DisplayClass5_0.<GetPersonList>b__0         
+行　号：113         
+-----------------------------------------------------------
+时　间：2021/01/30 16:04:42.891         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------
+时　间：2021/01/30 16:05:05.805         
+级　别：Debug         
+模　块：IIRS.IServices.IDYServices         
+消　息：SELECT "FILE_ID","GROUP_ID","GROUP_NAME","FILE_NAME","DISPLAY_NAME","MEDIA_TYPE","BUS_PK","BAK_PK","ODR","FILE_PATH","CDATE","XID" FROM "PUB_ATT_FILE" it  WHERE (EXISTS ( SELECT * FROM "REGISTRATION_INFO" WHERE ((( "XID" = "IT"."XID" ) AND ( "NEXT_XID" IS NULL )) AND ( "SLBH" = :SLBH1 )) ))         
+源信息：IIRS.Services.DYServices+<>c__DisplayClass11_0.<UploadFileQuery>b__0         
+行　号：225         
+-----------------------------------------------------------

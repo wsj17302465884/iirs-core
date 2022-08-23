@@ -1,0 +1,126 @@
+时　间：2021/01/05 09:07:15.368         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP" ORDER BY GROUP_ID         
+源信息：IIRS.Services.AuthorizationServices.<GetIflowGroupList>b__11_0         
+行　号：519         
+-----------------------------------------------------------
+时　间：2021/01/05 09:07:23.057         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "ID","ISDELETED","LOGINNAME","LOGINPWD","REALNAME","STATUS","REMARK","TEL","LASTLOGINTIME","ERRORCOUNT" FROM "SYS_USERINFO"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.AuthorizationServices.<GetIflowGroupList>b__11_0         
+行　号：519         
+-----------------------------------------------------------
+时　间：2021/01/05 09:07:23.057         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "ID","ISDELETED","USERID","ORGID" FROM "SYS_USERORGANIZATION"  WHERE ( "USERID" = :UserId0 )         
+源信息：IIRS.Services.AuthorizationServices.<GetIflowGroupList>b__11_0         
+行　号：519         
+-----------------------------------------------------------
+时　间：2021/01/05 09:07:23.101         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP" ORDER BY GROUP_ID         
+源信息：IIRS.Services.AuthorizationServices.<GetIflowGroupList>b__11_0         
+行　号：519         
+-----------------------------------------------------------
+时　间：2021/01/05 09:07:23.101         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "ID","ISDELETED","PID","NAME","DESCRIPTION","CUSTOMCODE","CUSTOMCODE2","NAME_ABB" FROM "SYS_ORGANIZATION"  WHERE "ID" IN (:InPara0)           
+源信息：IIRS.Services.AuthorizationServices.<GetIflowGroupList>b__11_0         
+行　号：519         
+-----------------------------------------------------------
+时　间：2021/01/05 09:40:39.267         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP" ORDER BY GROUP_ID         
+源信息：IIRS.Services.AuthorizationServices.<GetIflowGroupList>b__11_0         
+行　号：519         
+-----------------------------------------------------------
+时　间：2021/01/05 10:19:06.418         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP" ORDER BY GROUP_ID         
+源信息：IIRS.Services.AuthorizationServices.<GetIflowGroupList>b__11_0         
+行　号：520         
+-----------------------------------------------------------
+时　间：2021/01/05 10:26:45.606         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "FLOW_ID","FLOW_NAME","GROUP_ID" FROM "IFLOW_ACTION"  WHERE ( "GROUP_ID" = :GROUP_ID0 )ORDER BY GROUP_ID         
+源信息：IIRS.Services.AuthorizationServices+<>c__DisplayClass12_0.<GetFlowNameByGid>b__0         
+行　号：530         
+-----------------------------------------------------------
+时　间：2021/01/05 14:01:30.533         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP"  WHERE "GROUP_ID" IN ('21','22','23','24')           
+源信息：IIRS.Services.BDC.QueryServices.<GetActionGroupList>b__3_0         
+行　号：36         
+-----------------------------------------------------------
+时　间：2021/01/05 14:02:23.606         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , TO_DATE("A"."AUTHORIZATIONDATE",'YYYY-MM-DD HH24:MI:SS') AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/05 14:02:26.221         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , TO_DATE("A"."AUTHORIZATIONDATE",'YYYY-MM-DD HH24:MI:SS') AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/05 14:02:55.286         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , TO_DATE("A"."AUTHORIZATIONDATE",'YYYY-MM-DD HH24:MI:SS') AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/05 14:12:34.378         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/05 14:12:40.939         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/05 14:12:51.585         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/05 14:12:53.702         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/05 14:14:57.758         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) CountTable          
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------
+时　间：2021/01/05 14:15:02.299         
+级　别：Debug         
+模　块：IIRS.Services.BDC.QueryServices         
+消　息：SELECT * FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , "C"."QLRMC" AS "QLRMC" , "D"."GNAME" AS "LCZL" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" ,ROW_NUMBER() OVER( ORDER BY sysdate ) AS RowIndex  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."YWSLBH" = "C"."SLBH" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE  ("B"."YWSLBH" like '%'||:MethodConst0||'%')   AND (( "C"."QLRLX" = :QLRLX1 ) AND ( "B"."SJR" = :SJR2 ))) T WHERE RowIndex BETWEEN 1 AND 20         
+源信息：IIRS.Services.BDC.QueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------

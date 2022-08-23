@@ -1,0 +1,7 @@
+时　间：2021/06/11 09:06:22.018         
+级　别：Error         
+模　块：Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware         
+消　息：An unhandled exception has occurred while executing the request.         
+源信息：Microsoft.AspNetCore.Diagnostics.DiagnosticsLoggerExtensions.UnhandledException         
+行　号：0         
+-----------------------------------------------------------

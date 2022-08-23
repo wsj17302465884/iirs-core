@@ -1,0 +1,77 @@
+时　间：2021/03/17 10:43:37.369         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP" ORDER BY GROUP_ID         
+源信息：IIRS.Services.AuthorizationServices.<GetIflowGroupList>b__11_0         
+行　号：520         
+-----------------------------------------------------------
+时　间：2021/03/17 10:43:44.694         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BID" AS "BID" , "A"."RIGHTNAME" AS "RIGHTNAME" , "A"."DOCUMENTTYPE" AS "DOCUMENTTYPE" , "A"."DOCUMENTNUMBER" AS "DOCUMENTNUMBER" , "A"."AUTHORIZATIONDATE" AS "AUTHORIZATIONDATE" , "A"."AUTHORIZATIONDEADLINE" AS "AUTHORIZATIONDEADLINE" , "A"."STATUS" AS "STATUS" , "C"."FLOW_NAME" AS "FLOWNAME" , "A"."BANKCODE" AS "BANKCODE" , "A"."BANKNAME" AS "BANKNAME"  FROM "BANKAUTHORIZE" a Inner JOIN "REGISTRATION_INFO" b ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "IFLOW_ACTION" c ON ( "A"."STATUS" = "C"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))) CountTable          
+源信息：IIRS.Services.AuthorizationServices+<>c__DisplayClass8_0.<GetAuthorizationListToPage>b__0         
+行　号：388         
+-----------------------------------------------------------
+时　间：2021/03/17 10:43:44.709         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT * FROM (SELECT  "A"."BID" AS "BID" , "A"."RIGHTNAME" AS "RIGHTNAME" , "A"."DOCUMENTTYPE" AS "DOCUMENTTYPE" , "A"."DOCUMENTNUMBER" AS "DOCUMENTNUMBER" , "A"."AUTHORIZATIONDATE" AS "AUTHORIZATIONDATE" , "A"."AUTHORIZATIONDEADLINE" AS "AUTHORIZATIONDEADLINE" , "A"."STATUS" AS "STATUS" , "C"."FLOW_NAME" AS "FLOWNAME" , "A"."BANKCODE" AS "BANKCODE" , "A"."BANKNAME" AS "BANKNAME" ,ROW_NUMBER() OVER(ORDER BY a.AUTHORIZATIONDATE desc) AS RowIndex  FROM "BANKAUTHORIZE" a Inner JOIN "REGISTRATION_INFO" b ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "IFLOW_ACTION" c ON ( "A"."STATUS" = "C"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.AuthorizationServices+<>c__DisplayClass8_0.<GetAuthorizationListToPage>b__0         
+行　号：388         
+-----------------------------------------------------------
+时　间：2021/03/17 10:44:06.488         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BID" AS "BID" , "A"."RIGHTNAME" AS "RIGHTNAME" , "A"."DOCUMENTTYPE" AS "DOCUMENTTYPE" , "A"."DOCUMENTNUMBER" AS "DOCUMENTNUMBER" , "A"."AUTHORIZATIONDATE" AS "AUTHORIZATIONDATE" , "A"."AUTHORIZATIONDEADLINE" AS "AUTHORIZATIONDEADLINE" , "A"."STATUS" AS "STATUS" , "C"."FLOW_NAME" AS "FLOWNAME" , "A"."BANKCODE" AS "BANKCODE" , "A"."BANKNAME" AS "BANKNAME"  FROM "BANKAUTHORIZE" a Inner JOIN "REGISTRATION_INFO" b ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "IFLOW_ACTION" c ON ( "A"."STATUS" = "C"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))) CountTable          
+源信息：IIRS.Services.AuthorizationServices+<>c__DisplayClass8_0.<GetAuthorizationListToPage>b__0         
+行　号：388         
+-----------------------------------------------------------
+时　间：2021/03/17 10:44:06.495         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT * FROM (SELECT  "A"."BID" AS "BID" , "A"."RIGHTNAME" AS "RIGHTNAME" , "A"."DOCUMENTTYPE" AS "DOCUMENTTYPE" , "A"."DOCUMENTNUMBER" AS "DOCUMENTNUMBER" , "A"."AUTHORIZATIONDATE" AS "AUTHORIZATIONDATE" , "A"."AUTHORIZATIONDEADLINE" AS "AUTHORIZATIONDEADLINE" , "A"."STATUS" AS "STATUS" , "C"."FLOW_NAME" AS "FLOWNAME" , "A"."BANKCODE" AS "BANKCODE" , "A"."BANKNAME" AS "BANKNAME" ,ROW_NUMBER() OVER(ORDER BY a.AUTHORIZATIONDATE desc) AS RowIndex  FROM "BANKAUTHORIZE" a Inner JOIN "REGISTRATION_INFO" b ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "IFLOW_ACTION" c ON ( "A"."STATUS" = "C"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.AuthorizationServices+<>c__DisplayClass8_0.<GetAuthorizationListToPage>b__0         
+行　号：388         
+-----------------------------------------------------------
+时　间：2021/03/17 10:44:07.320         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BID" AS "BID" , "A"."RIGHTNAME" AS "RIGHTNAME" , "A"."DOCUMENTTYPE" AS "DOCUMENTTYPE" , "A"."DOCUMENTNUMBER" AS "DOCUMENTNUMBER" , "A"."AUTHORIZATIONDATE" AS "AUTHORIZATIONDATE" , "A"."AUTHORIZATIONDEADLINE" AS "AUTHORIZATIONDEADLINE" , "A"."STATUS" AS "STATUS" , "C"."FLOW_NAME" AS "FLOWNAME" , "A"."BANKCODE" AS "BANKCODE" , "A"."BANKNAME" AS "BANKNAME"  FROM "BANKAUTHORIZE" a Inner JOIN "REGISTRATION_INFO" b ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "IFLOW_ACTION" c ON ( "A"."STATUS" = "C"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))) CountTable          
+源信息：IIRS.Services.AuthorizationServices+<>c__DisplayClass8_0.<GetAuthorizationListToPage>b__0         
+行　号：388         
+-----------------------------------------------------------
+时　间：2021/03/17 10:44:07.320         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT * FROM (SELECT  "A"."BID" AS "BID" , "A"."RIGHTNAME" AS "RIGHTNAME" , "A"."DOCUMENTTYPE" AS "DOCUMENTTYPE" , "A"."DOCUMENTNUMBER" AS "DOCUMENTNUMBER" , "A"."AUTHORIZATIONDATE" AS "AUTHORIZATIONDATE" , "A"."AUTHORIZATIONDEADLINE" AS "AUTHORIZATIONDEADLINE" , "A"."STATUS" AS "STATUS" , "C"."FLOW_NAME" AS "FLOWNAME" , "A"."BANKCODE" AS "BANKCODE" , "A"."BANKNAME" AS "BANKNAME" ,ROW_NUMBER() OVER(ORDER BY a.AUTHORIZATIONDATE desc) AS RowIndex  FROM "BANKAUTHORIZE" a Inner JOIN "REGISTRATION_INFO" b ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "IFLOW_ACTION" c ON ( "A"."STATUS" = "C"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.AuthorizationServices+<>c__DisplayClass8_0.<GetAuthorizationListToPage>b__0         
+行　号：388         
+-----------------------------------------------------------
+时　间：2021/03/17 10:45:25.219         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT "GROUP_ID","GNAME" FROM "IFLOW_ACTION_GROUP" ORDER BY GROUP_ID         
+源信息：IIRS.Services.AuthorizationServices.<GetIflowGroupList>b__11_0         
+行　号：520         
+-----------------------------------------------------------
+时　间：2021/03/17 10:45:35.118         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "A"."BID" AS "BID" , "A"."RIGHTNAME" AS "RIGHTNAME" , "A"."DOCUMENTTYPE" AS "DOCUMENTTYPE" , "A"."DOCUMENTNUMBER" AS "DOCUMENTNUMBER" , "A"."AUTHORIZATIONDATE" AS "AUTHORIZATIONDATE" , "A"."AUTHORIZATIONDEADLINE" AS "AUTHORIZATIONDEADLINE" , "A"."STATUS" AS "STATUS" , "C"."FLOW_NAME" AS "FLOWNAME" , "A"."BANKCODE" AS "BANKCODE" , "A"."BANKNAME" AS "BANKNAME"  FROM "BANKAUTHORIZE" a Inner JOIN "REGISTRATION_INFO" b ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "IFLOW_ACTION" c ON ( "A"."STATUS" = "C"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))) CountTable          
+源信息：IIRS.Services.AuthorizationServices+<>c__DisplayClass8_0.<GetAuthorizationListToPage>b__0         
+行　号：388         
+-----------------------------------------------------------
+时　间：2021/03/17 10:45:35.118         
+级　别：Debug         
+模　块：IIRS.Services.AuthorizationServices         
+消　息：SELECT * FROM (SELECT  "A"."BID" AS "BID" , "A"."RIGHTNAME" AS "RIGHTNAME" , "A"."DOCUMENTTYPE" AS "DOCUMENTTYPE" , "A"."DOCUMENTNUMBER" AS "DOCUMENTNUMBER" , "A"."AUTHORIZATIONDATE" AS "AUTHORIZATIONDATE" , "A"."AUTHORIZATIONDEADLINE" AS "AUTHORIZATIONDEADLINE" , "A"."STATUS" AS "STATUS" , "C"."FLOW_NAME" AS "FLOWNAME" , "A"."BANKCODE" AS "BANKCODE" , "A"."BANKNAME" AS "BANKNAME" ,ROW_NUMBER() OVER(ORDER BY a.AUTHORIZATIONDATE desc) AS RowIndex  FROM "BANKAUTHORIZE" a Inner JOIN "REGISTRATION_INFO" b ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "IFLOW_ACTION" c ON ( "A"."STATUS" = "C"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))) T WHERE RowIndex BETWEEN 1 AND 10         
+源信息：IIRS.Services.AuthorizationServices+<>c__DisplayClass8_0.<GetAuthorizationListToPage>b__0         
+行　号：388         
+-----------------------------------------------------------
+时　间：2021/03/17 10:47:00.960         
+级　别：Debug         
+模　块：IIRS.Services.BDC.BankQueryServices         
+消　息： SELECT COUNT(1) FROM (SELECT  "B"."YWSLBH" AS "SLBH" , "B"."XID" AS "XID" , WM_CONCAT(DISTINCT TO_CHAR(C.QLRMC)) AS "QLRMC" , "D"."GNAME" AS "LCZL" , "A"."STATUS" AS "STATUSID" , "E"."FLOW_NAME" AS "STATUS" , "A"."AUTHORIZATIONDATE" AS "DATETIME" , "B"."NEXT_XID" AS "NEXT_XID" , "B"."IS_ACTION_OK" AS "IS_ACTION_OK" , "E"."VUE_URL" AS "VUE_URL" , "E"."VUE_NAME" AS "VUE_NAME"  FROM "BANKAUTHORIZE" A Inner JOIN "REGISTRATION_INFO" B ON ( "A"."BID" = "B"."AUZ_ID" )  Inner JOIN "QLRGL_INFO" C ON ( "B"."XID" = "C"."XID" )  Inner JOIN "IFLOW_ACTION_GROUP" D ON ( "B"."DJZL" = "D"."GROUP_ID" )  Inner JOIN "IFLOW_ACTION" E ON ( "A"."STATUS" = "E"."FLOW_ID" )   WHERE (( "B"."USER_ID" = :USER_ID0 ) AND ( "B"."NEXT_XID" IS NULL ))GROUP BY "B"."YWSLBH","B"."XID","D"."GNAME","A"."STATUS","E"."FLOW_NAME","A"."AUTHORIZATIONDATE","B"."NEXT_XID","B"."IS_ACTION_OK","E"."VUE_URL","E"."VUE_NAME" ) CountTable          
+源信息：IIRS.Services.BDC.BankQueryServices+<>c__DisplayClass4_0.<GetAgencyTaskList>b__0         
+行　号：58         
+-----------------------------------------------------------

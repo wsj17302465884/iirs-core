@@ -1,0 +1,14 @@
+时　间：2022/08/22 09:27:07.050         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:5fe94838-2f08-43c5-9903-04dfc5a472ec,异常消息:One or more errors occurred. (ORA-00904: "ISDELETE": 标识符无效)         
+源信息：IIRS.Controllers.YueController.GetTimeValue         
+行　号：439         
+-----------------------------------------------------------
+时　间：2022/08/22 09:27:10.654         
+级　别：Debug         
+模　块：IIRS.Controllers.YueController         
+消　息：错误码:b59b1647-2903-4eb3-88ff-cb5fceff6cee,异常消息:One or more errors occurred. (ORA-00904: "ISDELETE": 标识符无效)         
+源信息：IIRS.Controllers.YueController.GetTimeValue         
+行　号：439         
+-----------------------------------------------------------

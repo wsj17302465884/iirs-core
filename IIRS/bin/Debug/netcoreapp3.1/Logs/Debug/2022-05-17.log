@@ -1,0 +1,16 @@
+时　间：2022/05/17 10:36:26.692         
+级　别：Debug         
+模　块：IIRS.Controllers.Bank.BankAdvanceTranController         
+消　息：错误码:301eca20-d513-46a5-9b18-c9ca86a97109,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.Bank.BankAdvanceTranController.GetBdcHourseInfo         
+行　号：98         
+-----------------------------------------------------------
+时　间：2022/05/17 10:37:40.784         
+级　别：Debug         
+模　块：IIRS.Controllers.Bank.BankAdvanceTranController         
+消　息：错误码:7552619f-d920-43bf-b8be-ca5efcff35d2,异常消息:English Message : Connection open error . Connection request timed out
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection request timed out.         
+源信息：IIRS.Controllers.Bank.BankAdvanceTranController.GetBdcHourseInfo         
+行　号：98         
+-----------------------------------------------------------
